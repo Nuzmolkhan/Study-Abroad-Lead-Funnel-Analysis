@@ -528,4 +528,4 @@ jupyter notebook notebooks/lead_funnel_analysis.ipynb
 
 ## Author
 
-**Nuzmol Islam Khan** — [LinkedIn](https://www.linkedin.com/in/mdnuzmol/) · [GitHub](https://github.com/Nuzmolkhan)) · [GitHub](https://github.com/Nuzmolkhan)
+**Nuzmol Islam Khan** — [LinkedIn](https://www.linkedin.com/in/mdnuzmol/) · [GitHub](https://github.com/Nuzmolkhan))
