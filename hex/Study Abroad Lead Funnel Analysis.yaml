@@ -1,0 +1,5665 @@
+schemaVersion: 3
+meta:
+  sourceVersionId: 019ffc79-0f9c-7178-b776-f34e42e03c9f # DO NOT CHANGE - Hex uses this to match up project versions when reimporting the file
+  description: Lead acquisition, conversion, and counselor performance analysis across 1,200 study-abroad leads (Jan 2025 – Jul 2026).
+  projectId: 019ff179-6dfc-725d-a743-c4ca9815e868 # DO NOT CHANGE - Unique ID of the project from which this file was generated
+  title: Study Abroad Lead Funnel Analysis
+  timezone: null
+  appTheme: SYS_PREF
+  codeLanguage: PYTHON
+  status: null
+  categories: []
+  castDecimalsDefault: true
+  hexType: PROJECT
+  allowExecutionReordering: true
+  prerunApp: false
+  autoRerunApp: true
+  cachePublishedAppState: true
+  logicQueryCacheTimeout: null
+  publishedQueryCacheTimeout: null
+  refreshStalePublishedApp: true
+  kernelImage: python312
+  kernelSize: medium
+projectAssets:
+  dataConnections: []
+  envVars: []
+  secrets: []
+sharedAssets:
+  secrets: []
+  vcsPackages: []
+  dataConnections: []
+  externalFileIntegrations: []
+cells:
+  - cellType: TEXT
+    cellId: 019ff1af-e634-7314-8414-96d7a5a864d6 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h3
+          children:
+            - text: Where are our highest-value customers coming from?
+        - type: p
+          children:
+            - text: "We'll use "
+              italic: true
+            - url: https://learn.hex.tech/docs/explore-data/cells/sql-cells/sql-cells-introduction
+              type: a
+              children:
+                - text: SQL
+                  italic: true
+            - text: " & "
+              italic: true
+            - url: https://learn.hex.tech/docs/explore-data/cells/python-cells
+              type: a
+              children:
+                - text: Python
+                  italic: true
+            - text: " to answer this question."
+              italic: true
+  - cellType: TEXT
+    cellId: 019ffac1-5a3e-77cb-8520-918659aa1c0b # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h1
+          children:
+            - text: Problem Statement
+        - type: codeblock
+          children:
+            - text: Mentors' Education's marketing and sales teams need visibility into which lead sources (channels), branches, and counselors are most effective at converting inquiries into enrollments, in order to allocate limited marketing budget and staff resources more efficiently. This analysis examines lead and conversion data across channels, branches, and counselors to identify high- and low-performing segments, uncover bottlenecks in the lead-to-enrollment funnel, and surface actionable, data-driven recommendations that support better resource allocation and process improvement across the organization.
+  - cellType: TEXT
+    cellId: 019ffaca-436f-70aa-bc1c-153f7688b9a3 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h1
+          children:
+            - text: Summary & Key Insights (based on the analysis)
+        - type: codeblock
+          children:
+            - text: |-
+                Overall Performance
+                Out of 1,200 leads generated between January 2025 and July 2026, 179 converted into enrollments — an overall conversion rate of 14.9%, while roughly a third of all leads (30.9%) were ultimately lost. This leaves meaningful room for improvement, particularly in how leads are sourced and followed up on.
+        - type: codeblock
+          children:
+            - text: |-
+                Channel Performance
+                Referral is by far the strongest-performing channel, converting at 30.5% — more than double the next-best channel and nearly three times the rate of Facebook Ads (10.3%), which is also the single largest source of leads by volume (361 leads). This creates a clear volume-versus-quality gap: the channel bringing in the most leads is also the least efficient at converting them. Grouping channels into paid versus organic sources reinforces this pattern — organic channels convert at 18.6% compared to 10.9% for paid channels, suggesting that current ad spend may not be delivering proportionate returns. Reallocating a portion of the Facebook Ads budget toward referral incentive programs or organic lead generation could improve overall efficiency without necessarily increasing total spend.
+        - type: codeblock
+          children:
+            - text: |-
+                Branch Performance
+                Chattogram leads in conversion rate (16.9%) despite being a mid-sized branch, while Kalabagan — the largest branch by lead volume (431 leads) — converts at a comparatively modest 16.0% and carries the highest lost-lead rate (33.2%). Sylhet, the smallest branch, has both the lowest conversion rate (11.7%) and the fastest average cycle time (29.7 days), indicating a smaller but faster-moving pipeline. These differences suggest branch-level factors — likely counselor capacity, lead quality, or local follow-up practices — are driving performance gaps that warrant closer investigation.
+        - type: codeblock
+          children:
+            - text: |-
+                Counselor Performance
+                Individual counselor performance varies meaningfully, with conversion rates ranging from 12.0% to 19.8% across the team. Mim and Tanvir stand out as top performers, converting nearly 20% and 18% of their leads respectively, while Rafi and Nusrat trail at around 12%. This spread points to an opportunity for structured knowledge-sharing — understanding what top performers do differently in follow-up cadence or communication could help lift performance across the wider team.
+        - type: codeblock
+          children:
+            - text: |-
+                Demand & Trend Patterns
+                The UK remains the most sought-after destination (354 leads), followed by Canada and Australia, giving a clear signal for where counselor expertise and marketing content should be concentrated. Monthly trends show noticeable volatility in conversion rate (ranging from roughly 9% to 23% month-to-month) without a strong seasonal pattern, suggesting conversion is currently driven more by lead quality and follow-up execution than by time of year.
+        - type: codeblock
+          children:
+            - text: Recommendations
+        - type: ol
+          children:
+            - type: li
+              children:
+                - type: lic
+                  children:
+                    - text: Shift incremental marketing budget from Facebook Ads toward referral-driving initiatives, given the near 3x gap in conversion efficiency.
+            - type: li
+              children:
+                - type: lic
+                  children:
+                    - text: Investigate Kalabagan's high lost-lead rate despite strong lead volume — likely a follow-up capacity or lead-quality issue rather than a demand issue.
+            - type: li
+              children:
+                - type: lic
+                  children:
+                    - text: Formalize best practices from top-converting counselors (Mim, Tanvir) into training material for the wider counseling team.
+            - type: li
+              children:
+                - type: lic
+                  children:
+                    - text: Continue prioritizing UK, Canada, and Australia-focused resources, given they account for over two-thirds of total demand.
+        - type: paragraph
+          children:
+            - text: ""
+  - cellType: TEXT
+    cellId: 019ff50c-611d-7506-bd53-bd1aa7c26126 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h3
+          children:
+            - text: "Data "
+            - bold: true
+              code: true
+              text: Importing
+  - cellType: CODE
+    cellId: 019ff1b0-687e-7708-87b3-7ff08fae40cf # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        import pandas as pd
+        raw_data = pd.read_csv('mentors_leads_dataset.csv')
+        df = raw_data
+  - cellType: TEXT
+    cellId: 019ff50d-2eb4-7452-b987-87e6a3f3ac40 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h3
+          children:
+            - text: "Dataset "
+            - code: true
+              text: Analyzing & Wrangling
+  - cellType: CODE
+    cellId: 019ff1b0-c66d-72c8-bf5d-b40f39852227 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df.shape
+  - cellType: CODE
+    cellId: 019ff1b0-e64b-7089-98fc-b4479f10acca # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df.info()
+  - cellType: CODE
+    cellId: 019ff1b1-0b3c-772e-b342-b3fbd49d1c99 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        df.created_date = pd.to_datetime(df.created_date)
+        df.last_update_date = pd.to_datetime(df.last_update_date)
+  - cellType: CODE
+    cellId: 019ff1b1-350b-71f0-b1dd-ed5cbcef58fe # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df.info()
+  - cellType: CODE
+    cellId: 019ff1b1-56cd-7590-8e95-e1ab1932108d # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df.isna().sum()
+  - cellType: CODE
+    cellId: 019ff1b1-80a1-702b-b47f-ab882385ea13 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df.info()
+  - cellType: CODE
+    cellId: 019ff1b1-9f2a-7301-8980-ad41efb33f84 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        cols = ['lead_id', 'branch', 'channel', 'country_interested', 'service_type', 'counselor', 'status']
+        for i in cols:
+            df[i] = df[i].str.strip().str.title()
+  - cellType: CODE
+    cellId: 019ff1b1-c304-7563-b475-10663e831034 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df.lead_id.duplicated().sum()
+  - cellType: CODE
+    cellId: 019ff1b1-ddf2-700f-99dd-371795c66439 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: "df.drop_duplicates(subset = 'lead_id', keep = 'first', inplace = True) "
+  - cellType: CODE
+    cellId: 019ff1b1-f816-778c-bdcb-7fb2ddc7ddce # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df.lead_id.duplicated().sum()
+  - cellType: CODE
+    cellId: 019ff46b-b01e-75f3-be5b-33185e67b6fd # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df.shape
+  - cellType: CODE
+    cellId: 019ff1b2-123e-76df-83fa-734ab07c80fb # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df.lead_id.value_counts()
+  - cellType: CODE
+    cellId: 019ff1b2-2e7a-7499-b215-e6343bfbaffa # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df['budget_range'] = df['budget_range'].fillna('Not provided')
+  - cellType: CODE
+    cellId: 019ff1b2-4a3e-76aa-9161-cf4e437ba2c8 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df.isna().sum()
+  - cellType: CODE
+    cellId: 019ff1b2-66bd-76ab-bb30-6914f50b6902 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df
+  - cellType: TEXT
+    cellId: 019ffa79-872f-76a7-a1ce-3680eafb8ada # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h4
+          children:
+            - text: "Outlier "
+            - code: true
+              text: Detection
+            - text: " & "
+            - code: true
+              text: Removal
+  - cellType: CODE
+    cellId: 019ffa79-b8e2-70ad-bfc4-1e52c8066d95 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df.describe()
+  - cellType: CODE
+    cellId: 019ffac2-6604-71d3-9d41-01827976440f # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df[df.follow_up_count<0]
+  - cellType: CODE
+    cellId: 019ffac4-b46c-7178-ac97-279c9ae89532 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        df['cycle_days'] = (df.last_update_date - df.created_date).dt.days
+        df[df.cycle_days<0]
+  - cellType: CODE
+    cellId: 019ffa7a-d2eb-74fe-baff-ee5c28077f3f # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df.info()
+  - cellType: EXPLORE
+    cellId: 019ffa8f-f09e-77ca-ade5-5252583b24cd # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Chart 23
+    config:
+      semanticProjectId: null
+      dataframe: df
+      colorMappings: {}
+      spec:
+        fields:
+          - id: 019ffa90-5e2f-766f-9372-77cf2ac8206d
+            bin:
+              count: 20
+            axis:
+              hideTitle: false
+            value: follow_up_count
+            channel: base-axis
+            dataType: FLOAT
+            seriesId: 019ffa8f-f09d-75cd-8d9f-16141e8995a3
+            fieldType: COLUMN
+            queryPath: []
+        details:
+          fields:
+            - value: lead_id
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: created_date
+              dataType: TIMESTAMP
+              fieldType: COLUMN
+              queryPath: []
+            - value: branch
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: channel
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: country_interested
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: service_type
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: counselor
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: budget_range
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: follow_up_count
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: status
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: last_update_date
+              dataType: TIMESTAMP
+              fieldType: COLUMN
+              queryPath: []
+            - value: cycle_days
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+          enabled: false
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffa8f-f09d-75cd-8d9f-16141e8995a3
+              type: histogram
+          settings:
+            legend:
+              position: right
+          orientation: vertical
+          seriesGroups:
+            - - 019ffa8f-f09d-75cd-8d9f-16141e8995a3
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+  - cellType: EXPLORE
+    cellId: 019ffa92-6fdd-768b-8954-52e6ea751f13 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      semanticProjectId: null
+      dataframe: df
+      colorMappings: {}
+      spec:
+        fields:
+          - id: 019ffa92-8ed7-704d-8a5a-f772962aefa5
+            bin:
+              count: 15
+            value: cycle_days
+            channel: base-axis
+            dataType: FLOAT
+            seriesId: 019ffa92-6fdd-768b-8954-417f8066e256
+            fieldType: COLUMN
+            queryPath: []
+        details:
+          fields:
+            - value: lead_id
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: created_date
+              dataType: TIMESTAMP
+              fieldType: COLUMN
+              queryPath: []
+            - value: branch
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: channel
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: country_interested
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: service_type
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: counselor
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: budget_range
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: follow_up_count
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: status
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: last_update_date
+              dataType: TIMESTAMP
+              fieldType: COLUMN
+              queryPath: []
+            - value: cycle_days
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+          enabled: false
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffa92-6fdd-768b-8954-417f8066e256
+              type: histogram
+          settings:
+            legend:
+              position: right
+          orientation: vertical
+          seriesGroups:
+            - - 019ffa92-6fdd-768b-8954-417f8066e256
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+  - cellType: CODE
+    cellId: 019ffa7b-b583-702f-bb29-7273db49b246 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        cols = ['follow_up_count', 'cycle_days']
+        for i in cols:
+            mean = df[i].mean()
+            std = df[i].std()
+            z_score = (df[i] - mean) / std
+            df[f'{i}_z_score'] = z_score
+        df.head()
+  - cellType: CODE
+    cellId: 019ffa8b-bb9a-753f-aefc-1271e1c99513 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: outlier_profile = df[(((df['follow_up_count_z_score'] > 3) | (df['follow_up_count_z_score'] > 3)) | ((df['cycle_days_z_score'] > 3) | (df['cycle_days_z_score'] > 3)))]
+  - cellType: CODE
+    cellId: 019ffab3-f16c-736a-b19e-17ac37c38037 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: outlier_profile
+  - cellType: CODE
+    cellId: 019ffab6-9246-72ac-998c-ce49e5e9a418 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        follow_max = outlier_profile.follow_up_count.max()
+        follow_min = outlier_profile.follow_up_count.min()
+        cycle_max = outlier_profile.cycle_days.max()
+        cycle_min = outlier_profile.cycle_days.min()
+        print(f"Follow up count: {follow_min} to {follow_max}")
+        print(f"Cycle days: {cycle_min} to {cycle_max}")
+  - cellType: TEXT
+    cellId: 019ffa94-3a74-757d-9109-459dd03e79a9 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h3
+          children:
+            - bold: true
+              text: "Comment: "
+        - type: h4
+          children:
+            - text: "No "
+            - code: true
+              text: outliers
+            - text: " Detected!"
+  - cellType: CODE
+    cellId: 019ffabc-683c-711a-97d2-3e5e64b53b80 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df.info()
+  - cellType: CODE
+    cellId: 019ffaba-276d-7279-bde4-93f74dda4968 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        df = df.drop(columns=['follow_up_count_z_score', 'cycle_days_z_score'], errors='ignore')
+        df.head()
+  - cellType: TEXT
+    cellId: 019ff517-408d-7481-8c7b-c9021269b15f # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h3
+          children:
+            - text: "Feature "
+            - code: true
+              text: Engineering
+  - cellType: CODE
+    cellId: 019ff513-d1dd-7004-9b80-471a216a8dc0 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        df['month'] = df['created_date'].dt.month_name()
+        df['year'] = df['created_date'].dt.year
+        df['quarter'] = df['created_date'].dt.quarter
+        df['day'] = df['created_date'].dt.day_name()
+        paid_channels = ['Google Ads', 'Facebook Ads']
+        df['channel_details'] = df.channel.map(lambda x: 'paid' if x in paid_channels else 'organic')
+        df
+  - cellType: TEXT
+    cellId: 019ff1b3-729f-76e2-9839-cf5da0da8472 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h3
+          children:
+            - text: "Data "
+            - code: true
+              text: Analyzing
+  - cellType: TEXT
+    cellId: 019ff50f-93fe-7419-b90f-5572921209e9 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h3
+          children:
+            - code: true
+              text: Channel
+            - text: " Performance analysis"
+  - cellType: TEXT
+    cellId: 019ff509-fc61-7247-8341-f3f60876d69c # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h4
+          children:
+            - text: "কোন "
+            - code: true
+              text: channel
+            - text: " থেকে সবচেয়ে বেশি "
+            - code: true
+              text: lead
+            - text: " আসছে? "
+  - cellType: SQL
+    cellId: 019ff1bd-41a7-71eb-911a-b81e0574ccc6 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        with total_leads_per_channel as(
+            select channel, count(lead_id) AS total_leads
+            from df
+            GROUP BY channel
+            order by total_leads DESC
+        )
+        select * from total_leads_per_channel
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: branch
+            renameTo: null
+            size: 94
+            wrapText: null
+            displayFormat: null
+          - originalName: channel
+            renameTo: null
+            size: 107
+            wrapText: null
+            displayFormat: null
+          - originalName: country_interested
+            renameTo: null
+            size: 154
+            wrapText: null
+            displayFormat: null
+          - originalName: created_date
+            renameTo: null
+            size: 156
+            wrapText: null
+            displayFormat: null
+          - originalName: lead_id
+            renameTo: null
+            size: 93
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 46
+            wrapText: null
+            displayFormat: null
+          - originalName: service_type
+            renameTo: null
+            size: 176
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 113
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: EXPLORE
+    cellId: 019ff1db-49b6-7370-aeec-0cc8efd578ed # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Facebook Ads supplies 30% of all leads (361)
+    config:
+      semanticProjectId: null
+      dataframe: dataframe
+      colorMappings:
+        Walk-In: "#54A24B"
+        Referral: "#E45756"
+        Google Ads: "#F58518"
+        Facebook Ads: "#4C78A8"
+        Website Form: "#EECA3B"
+        Seminar/Event: "#72B7B2"
+      spec:
+        fields:
+          - id: 019ff211-599d-73a0-9b5a-4f89e7a497f9
+            axis:
+              ticks: {}
+              hideTitle: true
+            sort:
+              mode: cross-axis-descending
+            title: Acquisition channel
+            value: channel
+            channel: color
+            dataType: VARCHAR
+            seriesId: 019ff1db-49b5-72eb-aabb-2716c621635b
+            fieldType: DIMENSION
+            queryPath: []
+            colorsBySeriesValues:
+              Walk-In: "#CBD5E1"
+              Referral: "#CBD5E1"
+              Google Ads: "#CBD5E1"
+              Facebook Ads: "#2563EB"
+              Website Form: "#CBD5E1"
+              Seminar/Event: "#CBD5E1"
+          - id: 019ffb0c-571f-7689-a77d-ce3107d7ea58
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+              labelAngle: 0
+            sort:
+              mode: cross-axis-descending
+            title: Acquisition channel
+            value: channel
+            channel: base-axis
+            dataType: VARCHAR
+            seriesId: 019ff1db-49b5-72eb-aabb-2716c621635b
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb0c-571f-7689-a77d-d01d0db286ef
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+            title: Total leads
+            value: total_leads
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ff1db-49b5-72eb-aabb-2716c621635b
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+            displayFormat:
+              format: NUMBER
+              currency: USD
+              columnType: NUMBER
+              showSeparators: true
+              numDecimalDigits: 0
+              abbreviateLargeNumbers: false
+          - id: 019ffb0c-5720-758d-83f2-2f29c441742c
+            value: total_leads
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ff1db-49b5-72eb-aabb-2716c621635b
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+        details:
+          fields:
+            - value: channel
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+          enabled: true
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ff1db-49b5-72eb-aabb-2716c621635b
+              text:
+                source: cross-axis
+                dataLabels:
+                  angle: 0
+                  color: "#334155"
+                  fontSize: 12
+                  position: outside-end
+              type: bar
+              opacity:
+                source: opacity
+                staticMode: true
+                staticValue: 1
+              barGrouped: false
+          settings:
+            font:
+              baseSize: 13
+            legend:
+              position: none
+          orientation: horizontal
+          seriesGroups:
+            - - 019ff1db-49b5-72eb-aabb-2716c621635b
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+  - cellType: TEXT
+    cellId: 019ff510-3f57-737b-bae9-775c37885788 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h3
+          children:
+            - text: Conversion_rate_per_channel
+        - type: ol
+          children:
+            - type: li
+              children:
+                - type: lic
+                  children:
+                    - text: "কোন "
+                    - bold: true
+                      code: true
+                      text: channel
+                    - text: "-এর "
+                    - bold: true
+                      code: true
+                      text: conversion rate
+                    - text: " সবচেয়ে বেশি? "
+            - type: li
+              children:
+                - type: lic
+                  children:
+                    - text: "কোন channel-এ "
+                    - bold: true
+                      code: true
+                      text: lead
+                    - text: " বেশি কিন্তু "
+                    - bold: true
+                      code: true
+                      text: conversion
+                    - text: " কম? "
+  - cellType: SQL
+    cellId: 019ff1d6-ae8a-7624-a2ad-21cb92d6e69d # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Conversion rate by channel
+    config:
+      source: |-
+        SELECT
+            channel,
+            COUNT(lead_id) AS total_leads,
+            COUNT(CASE WHEN status = 'Enrolled' THEN lead_id END) AS total_enrolled,
+            ROUND(
+                total_enrolled * 100.0
+                / total_leads,
+                2
+            ) AS conversion_rate_pct
+        FROM df
+        GROUP BY channel
+        ORDER BY conversion_rate_pct DESC
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: channel_details
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: channel
+            renameTo: null
+            size: 112
+            wrapText: null
+            displayFormat: null
+          - originalName: conversion_rate_pct
+            renameTo: null
+            size: 162
+            wrapText: null
+            displayFormat: null
+          - originalName: count(lead_id)
+            renameTo: null
+            size: 131
+            wrapText: null
+            displayFormat: null
+          - originalName: final_conversion_rate
+            renameTo: null
+            size: 168
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 39
+            wrapText: null
+            displayFormat: null
+          - originalName: total_enrolled
+            renameTo: null
+            size: 128
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 113
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: EXPLORE
+    cellId: 019ffa11-6ee2-77ed-a643-549d781a9a2a # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Referral converts 3x better than Facebook Ads (30.5% vs 10.3%)
+    config:
+      semanticProjectId: null
+      dataframe: channel_details
+      colorMappings:
+        Walk-In: "#F58518"
+        Referral: "#72B7B2"
+        Google Ads: "#54A24B"
+        Facebook Ads: "#EECA3B"
+        Website Form: "#4C78A8"
+        Seminar/Event: "#E45756"
+      spec:
+        fields:
+          - id: 019ffb08-1ccf-7163-8667-ac713c90dbf2
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+              labelAngle: 0
+            sort:
+              mode: cross-axis-descending
+            title: Channel
+            value: channel
+            channel: base-axis
+            dataType: VARCHAR
+            seriesId: 019ffa11-6ee2-77ed-a643-45f20162bbda
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb08-1ccf-7163-8667-b2b7fd3cdeb2
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+            title: Conversion rate %
+            value: conversion_rate_pct
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ffa11-6ee2-77ed-a643-45f20162bbda
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+            displayFormat:
+              format: NUMBER
+              currency: USD
+              columnType: NUMBER
+              showSeparators: false
+              numDecimalDigits: 1
+              abbreviateLargeNumbers: false
+          - id: 019ffb08-1cd0-76f6-bd5a-c930cf41036d
+            value: total_leads
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffa11-6ee2-77ed-a643-45f20162bbda
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+          - id: 019ffb08-1cd0-76f6-bd5a-cd8b9b59b70c
+            value: total_enrolled
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffa11-6ee2-77ed-a643-45f20162bbda
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+        details:
+          fields:
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: total_enrolled
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: channel
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+            - value: conversion_rate_pct
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+          enabled: true
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffa11-6ee2-77ed-a643-45f20162bbda
+              text:
+                source: cross-axis
+                dataLabels:
+                  position: outside-end
+              type: bar
+              barGrouped: false
+          settings:
+            legend:
+              position: none
+          orientation: horizontal
+          seriesGroups:
+            - - 019ffa11-6ee2-77ed-a643-45f20162bbda
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables:
+        - conversion_rate_per_channel
+      resultIncludeDetailColumns: true
+      height: null
+  - cellType: EXPLORE
+    cellId: 019ffa71-b853-752a-a2cb-571dce2aeaec # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Conversion rate vs total lead
+    config:
+      semanticProjectId: null
+      dataframe: conversion_rate_per_channel
+      colorMappings:
+        Walk-In: "#B279A2"
+        Referral: "#54A24B"
+        Google Ads: "#72B7B2"
+        total_leads: "#4C78A8"
+        Facebook Ads: "#E45756"
+        Website Form: "#FF9DA6"
+        Seminar/Event: "#EECA3B"
+        conversion_rate_pct: "#F58518"
+      spec:
+        fields:
+          - id: 019ffad3-a1bd-727b-b950-ec653a25b3f0
+            title: Y-Axis Field
+            value: CHART_FOLD_KEYS
+            channel: color
+            dataType: VARCHAR
+            seriesId: 019ffad2-bccf-77ed-bba8-c0ec5443510b
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffad3-f27b-72ea-af58-9f4e29a830e2
+            title: Y-Axis Field
+            value: CHART_FOLD_KEYS
+            channel: color
+            dataType: VARCHAR
+            seriesId: 019ffa71-b853-752a-a2cb-4789a502b401
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffa72-0977-77ac-ab59-bc5dbde1f149
+            value: channel
+            channel: base-axis
+            dataType: VARCHAR
+            seriesId: 019ffa71-b853-752a-a2cb-4789a502b401
+            fieldType: COLUMN
+            queryPath: []
+          - id: 019ffad2-e18a-768a-9e39-e1bf4d953b65
+            value: conversion_rate_pct
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ffad2-bccf-77ed-bba8-c0ec5443510b
+            fieldType: COLUMN
+            queryPath: []
+          - id: 019ffa72-1ecf-71dc-b452-ce680fec76ff
+            value: total_leads
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ffa71-b853-752a-a2cb-4789a502b401
+            fieldType: COLUMN
+            queryPath: []
+            aggregation: Sum
+        details:
+          fields:
+            - value: conversion_rate_pct
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: channel
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: total_enrolled
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+          enabled: false
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffa71-b853-752a-a2cb-4789a502b401
+              type: bar
+              barGrouped: false
+            - id: 019ffad2-bccf-77ed-bba8-c0ec5443510b
+              type: line
+              color:
+                source: color
+                staticValue: "#F58518"
+          settings:
+            legend:
+              position: right
+          orientation: vertical
+          seriesGroups:
+            - - 019ffa71-b853-752a-a2cb-4789a502b401
+              - 019ffad2-bccf-77ed-bba8-c0ec5443510b
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables:
+        - conversion_rate_vs_total_lead
+        - chart_result_line_2
+      resultIncludeDetailColumns: true
+      height: null
+  - cellType: TEXT
+    cellId: 019ffa0c-dad2-74ee-ac03-c4a3b0a9c4e2 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h4
+          children:
+            - text: "Top 3 "
+            - code: true
+              text: Channels
+  - cellType: SQL
+    cellId: 019ffa6d-598b-7383-8b91-162338fdad65 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Channel metrics
+    config:
+      source: |-
+        select
+            channel,
+            count(lead_id) as total_leads,
+            count(case when status = 'Enrolled' then lead_id end) as enrolled,
+            count(case when status = 'Lost' then lead_id end) as lost,
+            count(case when status in ('Enrolled', 'Lost') then lead_id end) as resolved,
+
+            round(count(case when status = 'Enrolled' then lead_id end) * 100.0
+                  / count(lead_id), 1) as conversion_rate_pct,
+
+            round(count(case when status = 'Enrolled' then lead_id end) * 100.0
+                  / count(case when status in ('Enrolled', 'Lost') then lead_id end), 1) as win_rate_pct,
+
+            round(count(case when status in ('Enrolled', 'Lost') then lead_id end) * 100.0
+                  / count(lead_id), 1) as resolution_rate_pct,
+
+            round(avg(case when status = 'Enrolled' then cycle_days end), 1) as avg_cycle_won,
+            round(avg(case when status = 'Lost' then cycle_days end), 1) as avg_cycle_lost,
+
+            round(sum(follow_up_count)
+                  /count(case when status = 'Enrolled' then lead_id end), 1) as followups_per_enrolment
+
+        from df
+        group by channel
+        order by win_rate_pct desc
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: channel_metrics
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: avg_cycle_lost
+            renameTo: null
+            size: 131
+            wrapText: null
+            displayFormat: null
+          - originalName: avg_cycle_won
+            renameTo: null
+            size: 133
+            wrapText: null
+            displayFormat: null
+          - originalName: channel
+            renameTo: null
+            size: 112
+            wrapText: null
+            displayFormat: null
+          - originalName: conversion_rate_pct
+            renameTo: null
+            size: 162
+            wrapText: null
+            displayFormat: null
+          - originalName: enrolled
+            renameTo: null
+            size: 96
+            wrapText: null
+            displayFormat: null
+          - originalName: followups_per_enrolment
+            renameTo: null
+            size: 230
+            wrapText: null
+            displayFormat: null
+          - originalName: lost
+            renameTo: null
+            size: 72
+            wrapText: null
+            displayFormat: null
+          - originalName: resolution_rate_pct
+            renameTo: null
+            size: 158
+            wrapText: null
+            displayFormat: null
+          - originalName: resolved
+            renameTo: null
+            size: 98
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 39
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 113
+            wrapText: null
+            displayFormat: null
+          - originalName: win_rate_pct
+            renameTo: null
+            size: 123
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: SQL
+    cellId: 019ffa6c-4c14-751d-a753-f00024e876a5 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Channel metric scored
+    config:
+      source: |-
+        with z as (
+            select
+                channel,
+                total_leads,
+                win_rate_pct,
+                resolution_rate_pct,
+                followups_per_enrolment,
+                (win_rate_pct - avg(win_rate_pct) over ())
+                    / nullif(stddev_samp(win_rate_pct) over (), 0) as z_win,
+                (resolution_rate_pct - avg(resolution_rate_pct) over ())
+                    / nullif(stddev_samp(resolution_rate_pct) over (), 0) as z_resolution,
+                (followups_per_enrolment - avg(followups_per_enrolment) over ())
+                    / nullif(stddev_samp(followups_per_enrolment) over (), 0) as z_effort
+            from channel_metrics
+        )
+        select
+            channel,
+            total_leads,
+            win_rate_pct,
+            resolution_rate_pct,
+            followups_per_enrolment,
+            round(z_win, 2) as z_win,
+            round(z_resolution, 2) as z_resolution,
+            round(-z_effort, 2) as z_effort_inverted,
+            round(0.5 * z_win + 0.2 * z_resolution - 0.3 * z_effort, 2) as channel_score
+        from z
+        order by channel_score desc
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: channel_metric_scored
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: channel
+            renameTo: null
+            size: 112
+            wrapText: null
+            displayFormat: null
+          - originalName: channel_score
+            renameTo: null
+            size: 131
+            wrapText: null
+            displayFormat: null
+          - originalName: followups_per_enrolment
+            renameTo: null
+            size: 190
+            wrapText: null
+            displayFormat: null
+          - originalName: resolution_rate_pct
+            renameTo: null
+            size: 158
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 39
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 113
+            wrapText: null
+            displayFormat: null
+          - originalName: win_rate_pct
+            renameTo: null
+            size: 123
+            wrapText: null
+            displayFormat: null
+          - originalName: z_effort_inverted
+            renameTo: null
+            size: 144
+            wrapText: null
+            displayFormat: null
+          - originalName: z_resolution
+            renameTo: null
+            size: 119
+            wrapText: null
+            displayFormat: null
+          - originalName: z_win
+            renameTo: null
+            size: 83
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: EXPLORE
+    cellId: 019ffad4-af6d-71d4-a7e8-2e2a926a334e # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: "Composite score: Referral stands alone, Facebook Ads last"
+    config:
+      semanticProjectId: null
+      dataframe: channel_metric_scored
+      colorMappings:
+        Walk-In: "#F58518"
+        Referral: "#72B7B2"
+        Google Ads: "#54A24B"
+        Facebook Ads: "#EECA3B"
+        Website Form: "#4C78A8"
+        Seminar/Event: "#E45756"
+      spec:
+        fields:
+          - id: 019ffb08-536d-74ac-86a8-04e6132a10d2
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+              labelAngle: 0
+            sort:
+              mode: cross-axis-descending
+            title: Channel
+            value: channel
+            channel: base-axis
+            dataType: VARCHAR
+            seriesId: 019ffad4-af6d-71d4-a7e8-1e62f6204405
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb08-536d-74ac-86a8-0b34ef35157f
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+            title: Composite score (z-weighted)
+            value: channel_score
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ffad4-af6d-71d4-a7e8-1e62f6204405
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+            displayFormat:
+              format: NUMBER
+              currency: USD
+              columnType: NUMBER
+              showSeparators: false
+              numDecimalDigits: 2
+              abbreviateLargeNumbers: false
+          - id: 019ffb08-536d-74ac-86a8-0d65c8060922
+            value: win_rate_pct
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffad4-af6d-71d4-a7e8-1e62f6204405
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+          - id: 019ffb08-536e-772e-a995-672134ccef92
+            value: resolution_rate_pct
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffad4-af6d-71d4-a7e8-1e62f6204405
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+          - id: 019ffb08-536e-772e-a995-6b183bfcb9a9
+            value: followups_per_enrolment
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffad4-af6d-71d4-a7e8-1e62f6204405
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+        details:
+          fields:
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: win_rate_pct
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: resolution_rate_pct
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: followups_per_enrolment
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: z_win
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: z_resolution
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: z_effort_inverted
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: channel
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+            - value: channel_score
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+          enabled: true
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffad4-af6d-71d4-a7e8-1e62f6204405
+              text:
+                source: cross-axis
+                dataLabels:
+                  position: outside-end
+              type: bar
+              barGrouped: false
+          settings:
+            legend:
+              position: none
+          orientation: horizontal
+          seriesGroups:
+            - - 019ffad4-af6d-71d4-a7e8-1e62f6204405
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+  - cellType: SQL
+    cellId: 019ffa6e-446c-73cf-be6b-e871c45b2714 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        select channel, channel_score
+        from channel_metric_scored
+        limit 3
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe_31
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: channel
+            renameTo: null
+            size: 112
+            wrapText: null
+            displayFormat: null
+          - originalName: channel_score
+            renameTo: null
+            size: 131
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 39
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: TEXT
+    cellId: 019ff51e-94b5-74df-98ae-1c69ed762088 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h4
+          children:
+            - code: true
+              text: Paid
+            - text: " vs "
+            - code: true
+              text: organic
+            - text: " channel-এ "
+            - code: true
+              text: পার্থক্য
+            - text: "? "
+  - cellType: SQL
+    cellId: 019ff51e-4ff6-77a8-a77d-05b37bd17b73 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        select channel_details, 
+        count(lead_id) as total_leads,
+        count(case when status = 'Enrolled' then lead_id end) as total_enrolled,
+        ROUND(
+                total_enrolled * 100.0
+                / total_leads,
+                2
+            ) as conversion_rate_pct
+        from df
+        group by channel_details
+        order by conversion_rate_pct desc
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe_20
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: channel_details
+            renameTo: null
+            size: 138
+            wrapText: null
+            displayFormat: null
+          - originalName: conversion_rate_pct
+            renameTo: null
+            size: 162
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 39
+            wrapText: null
+            displayFormat: null
+          - originalName: total_enrolled
+            renameTo: null
+            size: 127
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 113
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: EXPLORE
+    cellId: 019ffa0f-865c-73ca-b793-0978a9d654b9 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Organic converts 18.6% vs paid 10.9%
+    config:
+      semanticProjectId: null
+      dataframe: dataframe_20
+      colorMappings:
+        paid: "#F58518"
+        organic: "#4C78A8"
+      spec:
+        fields:
+          - id: 019ffb08-8782-7093-a1b3-7d908106e5ba
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+            title: Total leads
+            value: total_leads
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ffa0f-8659-72e5-8895-f02ff125d35f
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+            displayFormat:
+              format: NUMBER
+              currency: USD
+              columnType: NUMBER
+              showSeparators: true
+              numDecimalDigits: 0
+              abbreviateLargeNumbers: false
+          - id: 019ffb08-8782-7093-a1b3-80b12fe73bde
+            axis:
+              ticks: {}
+              hideTitle: false
+            sort:
+              mode: custom-order
+              customOrder:
+                - organic
+                - paid
+            title: Source type
+            value: channel_details
+            channel: color
+            dataType: VARCHAR
+            seriesId: 019ffa0f-8659-72e5-8895-f02ff125d35f
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb08-8782-7093-a1b3-8768272321d7
+            value: total_enrolled
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffa0f-8659-72e5-8895-f02ff125d35f
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+          - id: 019ffb08-8782-7093-a1b3-8972cfd700bc
+            value: conversion_rate_pct
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffa0f-8659-72e5-8895-f02ff125d35f
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+        details:
+          fields:
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: total_enrolled
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: channel_details
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+            - value: conversion_rate_pct
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+          enabled: true
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffa0f-8659-72e5-8895-f02ff125d35f
+              text:
+                source: cross-axis
+                dataLabels:
+                  position: inside-center
+              type: pie
+              color:
+                source: color
+          settings:
+            legend:
+              position: right
+          orientation: vertical
+          seriesGroups:
+            - - 019ffa0f-8659-72e5-8895-f02ff125d35f
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+  - cellType: TEXT
+    cellId: 019ff513-3b80-744b-bbc1-5a9500023c70 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h3
+          children:
+            - code: true
+              text: Branch
+            - text: " Performance analysis"
+  - cellType: TEXT
+    cellId: 019ff513-7514-713d-b56b-93a6bf2c01b4 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: paragraph
+          children:
+            - text: "কোন branch-এ "
+            - code: true
+              text: lead
+            - text: " বেশি, কোনটায় "
+            - code: true
+              text: conversion
+            - text: " বেশি? "
+  - cellType: SQL
+    cellId: 019ff206-7ddd-70c1-978d-07f83b4987f8 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        SELECT
+            branch,
+            COUNT(lead_id) AS total_leads,
+            COUNT(CASE WHEN status = 'Enrolled' THEN lead_id END) AS total_enrolled,
+            ROUND(
+                total_enrolled * 100.0
+                / total_leads,
+                2
+            ) AS conversion_rate_pct
+        FROM df
+        GROUP BY branch
+        ORDER BY conversion_rate_pct DESC
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe_7
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: branch
+            renameTo: null
+            size: 95
+            wrapText: null
+            displayFormat: null
+          - originalName: conversion_rate_pct
+            renameTo: null
+            size: 162
+            wrapText: null
+            displayFormat: null
+          - originalName: count(lead_id)
+            renameTo: null
+            size: 131
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 39
+            wrapText: null
+            displayFormat: null
+          - originalName: total_enrolled
+            renameTo: null
+            size: 127
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 113
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: EXPLORE
+    cellId: 019ffad8-28cd-760a-9ab6-324c402cafda # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Chattogram converts best (16.9%), Sylhet weakest (11.7%)
+    config:
+      semanticProjectId: null
+      dataframe: dataframe_7
+      colorMappings:
+        Sylhet: "#72B7B2"
+        Uttara: "#54A24B"
+        Dhanmondi: "#F58518"
+        Kalabagan: "#E45756"
+        Chattogram: "#4C78A8"
+        total_leads: "#EECA3B"
+      spec:
+        fields:
+          - id: 019ffb05-ecd6-72d5-a490-7f4a3b384ae5
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+              labelAngle: 0
+            sort:
+              mode: cross-axis-descending
+            title: Branch
+            value: branch
+            channel: base-axis
+            dataType: VARCHAR
+            seriesId: 019ffad8-28cd-760a-9ab6-2258ec9003e0
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb05-ecd7-7278-9ddf-62665855fe25
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+            title: Conversion rate %
+            value: conversion_rate_pct
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ffad8-28cd-760a-9ab6-2258ec9003e0
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+            displayFormat:
+              format: NUMBER
+              currency: USD
+              columnType: NUMBER
+              showSeparators: false
+              numDecimalDigits: 1
+              abbreviateLargeNumbers: false
+          - id: 019ffb05-ecd7-7278-9ddf-66e4ccffc5c2
+            value: total_leads
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffad8-28cd-760a-9ab6-2258ec9003e0
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+          - id: 019ffb05-ecd7-7278-9ddf-6842b591b4df
+            value: total_enrolled
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffad8-28cd-760a-9ab6-2258ec9003e0
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+        details:
+          fields:
+            - value: total_enrolled
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: branch
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+            - value: conversion_rate_pct
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+          enabled: true
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffad8-28cd-760a-9ab6-2258ec9003e0
+              text:
+                source: cross-axis
+                dataLabels:
+                  position: outside-end
+              type: bar
+              color:
+                source: color
+                staticValue: "#9CA3B4"
+              barGrouped: true
+          settings:
+            legend:
+              position: none
+          orientation: vertical
+          seriesGroups:
+            - - 019ffad8-28cd-760a-9ab6-2258ec9003e0
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+  - cellType: TEXT
+    cellId: 019ff51c-de0d-7145-ab13-d28760a682f7 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: paragraph
+          children:
+            - text: "কোন "
+            - code: true
+              text: branch
+            - text: "-এর "
+            - code: true
+              text: Lost
+            - text: " rate বেশি? "
+  - cellType: SQL
+    cellId: 019ff208-6153-7460-b1ee-d39dff7a1f9c # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        select branch,
+            COUNT(lead_id) AS total_leads,
+            count(case when status = 'Lost' then lead_id end) as total_lost_leads,
+            ROUND(
+                total_lost_leads * 100.0
+                / total_leads,
+                2
+            ) AS lost_rate_pct
+            from df
+            group by branch
+            order by lost_rate_pct DESC
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe_8
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: branch
+            renameTo: null
+            size: 94
+            wrapText: null
+            displayFormat: null
+          - originalName: lost_rate_pct
+            renameTo: null
+            size: 124
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 28
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 113
+            wrapText: null
+            displayFormat: null
+          - originalName: total_lost_leads
+            renameTo: null
+            size: 139
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: EXPLORE
+    cellId: 019ffadb-9aee-72a9-bb3b-ceac13904b39 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Kalabagan loses the most leads (33.2%)
+    config:
+      semanticProjectId: null
+      dataframe: dataframe_8
+      colorMappings: {}
+      spec:
+        fields:
+          - id: 019ffb06-30c4-702c-a581-a0f0afc082f9
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+              labelAngle: 0
+            sort:
+              mode: cross-axis-descending
+            title: Branch
+            value: branch
+            channel: base-axis
+            dataType: VARCHAR
+            seriesId: 019ffadb-9aee-72a9-bb3b-bf1a46f5e544
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb06-30c4-702c-a581-a40b3a446b19
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+            title: Lost rate %
+            value: lost_rate_pct
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ffadb-9aee-72a9-bb3b-bf1a46f5e544
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+            displayFormat:
+              format: NUMBER
+              currency: USD
+              columnType: NUMBER
+              showSeparators: false
+              numDecimalDigits: 1
+              abbreviateLargeNumbers: false
+          - id: 019ffb06-30c5-76fe-b6fd-a064c879c700
+            value: total_leads
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffadb-9aee-72a9-bb3b-bf1a46f5e544
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+          - id: 019ffb06-30c5-76fe-b6fd-a5512c1c08f2
+            value: total_lost_leads
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffadb-9aee-72a9-bb3b-bf1a46f5e544
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+        details:
+          fields:
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: total_lost_leads
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: branch
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+            - value: lost_rate_pct
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+          enabled: true
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffadb-9aee-72a9-bb3b-bf1a46f5e544
+              text:
+                source: cross-axis
+                dataLabels:
+                  position: outside-end
+              type: bar
+              color:
+                source: color
+                staticValue: "#AC2F33"
+              barGrouped: false
+          settings:
+            legend:
+              position: none
+          orientation: vertical
+          seriesGroups:
+            - - 019ffadb-9aee-72a9-bb3b-bf1a46f5e544
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+  - cellType: TEXT
+    cellId: 019ff51d-8674-73be-a565-207b92d19a95 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: paragraph
+          children:
+            - code: true
+              text: Branch
+            - text: " অনুযায়ী "
+            - code: true
+              text: average cycle_days
+            - text: "? "
+  - cellType: SQL
+    cellId: 019ff22b-fe45-704a-aa52-29440a4f11a6 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        select branch,
+            round(avg(cycle_days), 2) as average_cycle_days
+            from df
+            group by branch
+            order by average_cycle_days
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe_9
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: average_cycle_days
+            renameTo: null
+            size: 158
+            wrapText: null
+            displayFormat: null
+          - originalName: branch
+            renameTo: null
+            size: 95
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 39
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: EXPLORE
+    cellId: 019ffade-4e67-72eb-af34-2421a152278d # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Average cycle time is flat across branches (28–34 days)
+    config:
+      semanticProjectId: null
+      dataframe: dataframe_9
+      colorMappings:
+        Sylhet: "#F58518"
+        Uttara: "#4C78A8"
+        Dhanmondi: "#72B7B2"
+        Kalabagan: "#E45756"
+        Chattogram: "#54A24B"
+      spec:
+        fields:
+          - id: 019ffb06-6738-76ea-bcf6-8e30c091edb9
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+              labelAngle: 0
+            sort:
+              mode: cross-axis-descending
+            title: Branch
+            value: branch
+            channel: base-axis
+            dataType: VARCHAR
+            seriesId: 019ffade-4e67-72eb-af34-17535b03c9e1
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb06-6739-757e-b4fa-d9dbeda78676
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+            title: Average cycle days
+            value: average_cycle_days
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ffade-4e67-72eb-af34-17535b03c9e1
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+            displayFormat:
+              format: NUMBER
+              currency: USD
+              columnType: NUMBER
+              showSeparators: false
+              numDecimalDigits: 1
+              abbreviateLargeNumbers: false
+          - id: 019ffb06-6739-757e-b4fa-dd0ed437f825
+            value: average_cycle_days
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffade-4e67-72eb-af34-17535b03c9e1
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+        details:
+          fields:
+            - value: average_cycle_days
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+            - value: average_cycle_days
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+            - value: branch
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+          enabled: true
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffade-4e67-72eb-af34-17535b03c9e1
+              text:
+                source: cross-axis
+                dataLabels:
+                  position: outside-end
+                totalDataLabels:
+                  position: outside-end
+              type: bar
+              barGrouped: false
+          settings:
+            legend:
+              position: none
+          orientation: vertical
+          seriesGroups:
+            - - 019ffade-4e67-72eb-af34-17535b03c9e1
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+  - cellType: TEXT
+    cellId: 019ff51e-f41c-76fb-92af-8effa96bb34a # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h3
+          children:
+            - code: true
+              text: Counselor
+            - text: " Performance Analysis"
+  - cellType: TEXT
+    cellId: 019ff520-ec7d-73d4-b0e7-644277522702 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: ol
+          children:
+            - type: li
+              children:
+                - type: lic
+                  children:
+                    - text: "কোন counselor সবচেয়ে বেশি enroll করাতে পেরেছে? "
+            - type: li
+              children:
+                - type: lic
+                  children:
+                    - text: "কোন counselor-এর average cycle_days সবচেয়ে কম? "
+            - type: li
+              children:
+                - type: lic
+                  children:
+                    - text: 'Follow-up বেশি করলে conversion বাড়ে কিনা? hint: এটা group by না, এটা correlation/relationship দেখার বিষয়। দুইভাবে করা যায় — (a) follow_up_count-কে bucket/bin-এ ভাগ করো (যেমন 0-2, 3-5, 6+), তারপর প্রতি bucket-এ conversion rate বের করো, অথবা (b) সরাসরি follow_up_count আর "Enrolled কিনা (1/0)" এর মধ্যে correlation coefficient বের করো (pandas-এ .corr())।'
+  - cellType: SQL
+    cellId: 019ff234-9842-73c4-a72e-a9977c6182aa # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Counselor performance
+    config:
+      source: |-
+        with counselors_performance as(
+                select branch, counselor, 
+                count(lead_id) as total_counseling,
+                count(case when status = 'Enrolled' then lead_id end) as total_enrolled,
+                ROUND(
+                total_enrolled * 100.0
+                / total_counseling,
+                2
+            ) as conversion_rate_pct,
+                floor(avg(cycle_days)) as average_cycle_days
+                from df
+                group by branch, counselor
+                order by branch, conversion_rate_pct desc, average_cycle_days asc
+        )
+        select * from counselors_performance
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: counselors_performance
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: average_cycle_days
+            renameTo: null
+            size: 158
+            wrapText: null
+            displayFormat: null
+          - originalName: branch
+            renameTo: null
+            size: 95
+            wrapText: null
+            displayFormat: null
+          - originalName: conversion_rate_pct
+            renameTo: null
+            size: 162
+            wrapText: null
+            displayFormat: null
+          - originalName: counselor
+            renameTo: null
+            size: 106
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 39
+            wrapText: null
+            displayFormat: null
+          - originalName: total_counseling
+            renameTo: null
+            size: 141
+            wrapText: null
+            displayFormat: null
+          - originalName: total_enrolled
+            renameTo: null
+            size: 127
+            wrapText: null
+            displayFormat: null
+          - originalName: total_follow_up
+            renameTo: null
+            size: 136
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: EXPLORE
+    cellId: 019ffae0-9276-735a-af34-c9fafe551cfc # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Counselor conversion rates
+    config:
+      semanticProjectId: null
+      dataframe: counselors_performance
+      colorMappings: {}
+      spec:
+        fields: []
+        details:
+          fields:
+            - value: branch
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: counselor
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: total_counseling
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: total_enrolled
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: conversion_rate_pct
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: average_cycle_days
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+          enabled: true
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffae0-9275-7256-8526-ece4b6af5ada
+              type: bar
+          settings:
+            legend:
+              position: right
+          orientation: vertical
+          seriesGroups:
+            - - 019ffae0-9275-7256-8526-ece4b6af5ada
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+  - cellType: SQL
+    cellId: 019ffb01-1856-71b9-8084-db9a14b75fde # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Counselor ranking (branch + name)
+    config:
+      source: |-
+        select
+            branch || ' — ' || counselor as branch_counselor,
+            branch,
+            counselor,
+            total_counseling,
+            total_enrolled,
+            conversion_rate_pct
+        from counselors_performance
+        order by conversion_rate_pct desc
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: counselor_ranked
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: EXPLORE
+    cellId: 019ffafe-e157-7307-9d98-bdaa6761bf1e # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Counselor conversion rate, ranked (colored by branch)
+    config:
+      semanticProjectId: null
+      dataframe: counselor_ranked
+      colorMappings: {}
+      spec:
+        fields:
+          - id: 019ffb01-522d-7281-a2e4-04591a218460
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+              labelAngle: 0
+            sort:
+              mode: cross-axis-descending
+            title: Branch — counselor
+            value: branch_counselor
+            channel: base-axis
+            dataType: VARCHAR
+            seriesId: 019ffafe-e151-75b0-95b1-6c7709275081
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb01-522e-74d3-ac41-9323dee95974
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+            title: Conversion rate %
+            value: conversion_rate_pct
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ffafe-e151-75b0-95b1-6c7709275081
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+            displayFormat:
+              format: NUMBER
+              currency: USD
+              columnType: NUMBER
+              showSeparators: false
+              numDecimalDigits: 1
+              abbreviateLargeNumbers: false
+          - id: 019ffb01-522e-74d3-ac41-94cea308cf46
+            axis:
+              ticks: {}
+              hideTitle: false
+            sort:
+              mode: value-ascending
+            title: Branch
+            value: branch
+            channel: color
+            dataType: VARCHAR
+            seriesId: 019ffafe-e151-75b0-95b1-6c7709275081
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb01-522f-722a-a053-433b9b07ed22
+            value: total_counseling
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffafe-e151-75b0-95b1-6c7709275081
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+          - id: 019ffb01-522f-722a-a053-44d702606b74
+            value: total_enrolled
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffafe-e151-75b0-95b1-6c7709275081
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+        details:
+          fields:
+            - value: branch_counselor
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+            - value: conversion_rate_pct
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+            - value: branch
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+            - value: total_counseling
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+            - value: total_enrolled
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+          enabled: true
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffafe-e151-75b0-95b1-6c7709275081
+              text:
+                source: cross-axis
+                dataLabels:
+                  position: outside-end
+              type: bar
+              barGrouped: false
+          settings:
+            legend:
+              position: top
+          orientation: horizontal
+          seriesGroups:
+            - - 019ffafe-e151-75b0-95b1-6c7709275081
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+  - cellType: SQL
+    cellId: 019ffb01-7914-746f-8629-5ca5d1ce1423 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Top and bottom counselor per branch
+    config:
+      source: |-
+        with ranked as (
+            select
+                branch,
+                counselor,
+                total_counseling,
+                total_enrolled,
+                conversion_rate_pct,
+                row_number() over (partition by branch order by conversion_rate_pct desc) as rank_best,
+                row_number() over (partition by branch order by conversion_rate_pct asc) as rank_worst
+            from counselors_performance
+        )
+        select
+            branch,
+            counselor,
+            branch || ' — ' || counselor as branch_counselor,
+            case when rank_best = 1 then 'Top' else 'Bottom' end as performance_group,
+            total_counseling,
+            total_enrolled,
+            conversion_rate_pct
+        from ranked
+        where rank_best = 1 or rank_worst = 1
+        order by branch, conversion_rate_pct desc
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: top_bottom_per_branch
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: EXPLORE
+    cellId: 019ffb01-b335-7749-947a-92b84aeaeac9 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Best vs weakest counselor in each branch
+    config:
+      semanticProjectId: null
+      dataframe: top_bottom_per_branch
+      colorMappings: {}
+      spec:
+        fields:
+          - id: 019ffb01-b32f-72cd-bec0-d74d8b0ff676
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+              labelAngle: 0
+            sort:
+              mode: cross-axis-descending
+            title: Branch — counselor
+            value: branch_counselor
+            channel: base-axis
+            dataType: VARCHAR
+            seriesId: 019ffb01-b32d-730f-b181-c2fbc04f55bd
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb01-b330-7568-8328-6e336133d862
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+            title: Conversion rate %
+            value: conversion_rate_pct
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ffb01-b32d-730f-b181-c2fbc04f55bd
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+            displayFormat:
+              format: NUMBER
+              currency: USD
+              columnType: NUMBER
+              showSeparators: false
+              numDecimalDigits: 1
+              abbreviateLargeNumbers: false
+          - id: 019ffb01-b330-7568-8328-71e7d4c24008
+            axis:
+              ticks: {}
+              hideTitle: false
+            sort:
+              mode: custom-order
+              customOrder:
+                - Top
+                - Bottom
+            title: Group
+            value: performance_group
+            channel: color
+            dataType: VARCHAR
+            seriesId: 019ffb01-b32d-730f-b181-c2fbc04f55bd
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb01-b330-7568-8328-77fab8af2e16
+            value: total_counseling
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffb01-b32d-730f-b181-c2fbc04f55bd
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+          - id: 019ffb01-b330-7568-8328-7bfa3c8cc9c1
+            value: total_enrolled
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffb01-b32d-730f-b181-c2fbc04f55bd
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+        details:
+          fields:
+            - value: branch_counselor
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+            - value: conversion_rate_pct
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+            - value: performance_group
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+            - value: total_counseling
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+            - value: total_enrolled
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+          enabled: false
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffb01-b32d-730f-b181-c2fbc04f55bd
+              text:
+                source: cross-axis
+                dataLabels:
+                  position: outside-end
+              type: bar
+              barGrouped: true
+          settings:
+            legend:
+              position: top
+          orientation: horizontal
+          seriesGroups:
+            - - 019ffb01-b32d-730f-b181-c2fbc04f55bd
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+  - cellType: TEXT
+    cellId: 019ff55e-e886-7661-8d0c-92da787012c0 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: paragraph
+          children:
+            - code: true
+              text: Top counselors
+            - text: " based on "
+            - code: true
+              text: branch
+  - cellType: SQL
+    cellId: 019ff55f-5def-739a-8e9a-ccfa9754974d # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Top counselors
+    config:
+      source: |-
+        select branch, counselor, conversion_rate_pct
+        from counselors_performance
+        qualify conversion_rate_pct = max(conversion_rate_pct) over (partition by branch)
+        order by conversion_rate_pct desc
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: top_counselors
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: average_cycle_days
+            renameTo: null
+            size: 158
+            wrapText: null
+            displayFormat: null
+          - originalName: branch
+            renameTo: null
+            size: 95
+            wrapText: null
+            displayFormat: null
+          - originalName: conversion_rate_pct
+            renameTo: null
+            size: 162
+            wrapText: null
+            displayFormat: null
+          - originalName: counselor
+            renameTo: null
+            size: 105
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 46
+            wrapText: null
+            displayFormat: null
+          - originalName: total_counseling
+            renameTo: null
+            size: 141
+            wrapText: null
+            displayFormat: null
+          - originalName: total_enrolled
+            renameTo: null
+            size: 127
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: TEXT
+    cellId: 019ff576-6ad3-73ea-ab7e-5c8b1de3939a # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: paragraph
+          children:
+            - code: true
+              text: Bottom counselors
+            - text: " based on "
+            - code: true
+              text: branch
+  - cellType: SQL
+    cellId: 019ff56c-3e1f-7496-91a7-82a3a8bd488e # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Bottom counselors
+    config:
+      source: |-
+        select branch, counselor, conversion_rate_pct
+        from counselors_performance
+        qualify conversion_rate_pct = min(conversion_rate_pct) over (partition by branch)
+        order by conversion_rate_pct desc
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: bottom_counselors
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: branch
+            renameTo: null
+            size: 95
+            wrapText: null
+            displayFormat: null
+          - originalName: conversion_rate_pct
+            renameTo: null
+            size: 162
+            wrapText: null
+            displayFormat: null
+          - originalName: counselor
+            renameTo: null
+            size: 105
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 39
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: TEXT
+    cellId: 019ff522-cc46-73be-abb3-c99784bd65a6 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h3
+          children:
+            - code: true
+              text: Product/Demand
+            - text: " Insights"
+  - cellType: TEXT
+    cellId: 019ff523-17fe-73db-a232-ea07aa482be8 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: paragraph
+          children:
+            - text: "কোন দেশের "
+            - code: true
+              text: demand
+            - text: " সবচেয়ে বেশি? "
+  - cellType: SQL
+    cellId: 019ff470-2d04-7008-a06d-9ac174cc9329 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Leads by country
+    config:
+      source: |-
+        select country_interested, 
+            count(lead_id) as total_leads
+            from df
+            group by country_interested
+            order by total_leads desc
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe_12
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: country_interested
+            renameTo: null
+            size: 155
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 39
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 113
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: EXPLORE
+    cellId: 019ffae1-914d-763e-b88a-3098deb51541 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: UK is the largest destination market (354 leads, 30%)
+    config:
+      semanticProjectId: null
+      dataframe: dataframe_12
+      colorMappings:
+        Uk: "#54A24B"
+        Usa: "#EECA3B"
+        Canada: "#F58518"
+        Germany: "#E45756"
+        Malaysia: "#72B7B2"
+        Australia: "#4C78A8"
+      spec:
+        fields:
+          - id: 019ffb08-bbe9-7490-940f-7a653f0e8b81
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+              labelAngle: 0
+            sort:
+              mode: cross-axis-descending
+            title: Destination country
+            value: country_interested
+            channel: base-axis
+            dataType: VARCHAR
+            seriesId: 019ffae1-914d-763e-b88a-22e1e2896a04
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb08-bbea-7759-83fb-5a35e324a0df
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+            title: Total leads
+            value: total_leads
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ffae1-914d-763e-b88a-22e1e2896a04
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+            displayFormat:
+              format: NUMBER
+              currency: USD
+              columnType: NUMBER
+              showSeparators: true
+              numDecimalDigits: 0
+              abbreviateLargeNumbers: false
+          - id: 019ffb08-bbea-7759-83fb-5e55e673b838
+            value: total_leads
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffae1-914d-763e-b88a-22e1e2896a04
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+        details:
+          fields:
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+            - value: country_interested
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+          enabled: true
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffae1-914d-763e-b88a-22e1e2896a04
+              text:
+                source: cross-axis
+                dataLabels:
+                  position: outside-end
+              type: bar
+              barGrouped: false
+          settings:
+            legend:
+              position: none
+          orientation: horizontal
+          seriesGroups:
+            - - 019ffae1-914d-763e-b88a-22e1e2896a04
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+  - cellType: CODE
+    cellId: 019ff727-36a1-75bd-a56f-e93e32421fe6 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: df.status.unique()
+  - cellType: TEXT
+    cellId: 019ffab1-9e3c-72ad-bf45-7fd79f344bd9 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h4
+          children:
+            - text: "country "
+            - code: true
+              text: deep-dive query analysis
+  - cellType: SQL
+    cellId: 019ff724-6d2c-74f8-a4b6-0198b14e2257 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Country performance
+    config:
+      source: |2-
+            select country_interested,
+            count(lead_id) as total_leads,
+            count(case when status = 'Enrolled' then lead_id end) as total_enrolled,
+            count(case when status = 'Lost' then lead_id end) as total_lost,
+            count(case when status IN ('Visa Approved', 'Consultation Done', 'New',
+               'Application Submitted', 'Contacted') then lead_id end) as total_on_going,
+            ROUND(
+                total_enrolled * 100.0
+                / total_leads,
+                2
+            ) as conversion_rate_pct,
+            ROUND(
+                total_lost * 100.0
+                / total_leads,
+                2
+            ) as lost_rate_pct,
+            floor(avg(case when status = 'Enrolled' then cycle_days end)) as average_cycle_days
+            from df
+            group by country_interested
+            order by conversion_rate_pct desc
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe_27
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: average_cycle_days
+            renameTo: null
+            size: 158
+            wrapText: null
+            displayFormat: null
+          - originalName: conversion_rate_pct
+            renameTo: null
+            size: 162
+            wrapText: null
+            displayFormat: null
+          - originalName: country_interested
+            renameTo: null
+            size: 155
+            wrapText: null
+            displayFormat: null
+          - originalName: lost_rate_pct
+            renameTo: null
+            size: 124
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 39
+            wrapText: null
+            displayFormat: null
+          - originalName: total_enrolled
+            renameTo: null
+            size: 127
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 113
+            wrapText: null
+            displayFormat: null
+          - originalName: total_lost
+            renameTo: null
+            size: 103
+            wrapText: null
+            displayFormat: null
+          - originalName: total_on_going
+            renameTo: null
+            size: 133
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: EXPLORE
+    cellId: 019ffae2-fe4f-719e-9ab4-56461499a5d2 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Australia converts best (17%); Malaysia has the highest loss rate (37%)
+    config:
+      semanticProjectId: null
+      dataframe: dataframe_27
+      colorMappings:
+        total_lost: "#E45756"
+        total_leads: "#F58518"
+        total_enrolled: "#4C78A8"
+        total_on_going: "#72B7B2"
+      spec:
+        fields:
+          - id: 019ffb08-f26e-76f9-9a13-7706ac0b9554
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+              labelAngle: 0
+            sort:
+              mode: cross-axis-descending
+            title: Destination country
+            value: country_interested
+            channel: base-axis
+            dataType: VARCHAR
+            seriesId: 019ffae2-fe4f-719e-9ab4-47efe3cc8e69
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb08-f26e-76f9-9a13-79e71121e877
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+              multiFieldTitle: Rate %
+            value: conversion_rate_pct
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ffae2-fe4f-719e-9ab4-47efe3cc8e69
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+            displayFormat:
+              format: NUMBER
+              currency: USD
+              columnType: NUMBER
+              showSeparators: false
+              numDecimalDigits: 0
+              abbreviateLargeNumbers: false
+          - id: 019ffb08-f26f-77fb-ba3b-1b61937f9b55
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+              multiFieldTitle: Rate %
+            value: lost_rate_pct
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ffae2-fe4f-719e-9ab4-47efe3cc8e69
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+            displayFormat:
+              format: NUMBER
+              currency: USD
+              columnType: NUMBER
+              showSeparators: false
+              numDecimalDigits: 0
+              abbreviateLargeNumbers: false
+          - id: 019ffb08-f26f-77fb-ba3b-1d7391980599
+            axis:
+              ticks: {}
+            sort:
+              mode: custom-order
+              customOrder:
+                - conversion_rate_pct
+                - lost_rate_pct
+            value: CHART_FOLD_KEYS
+            channel: color
+            dataType: VARCHAR
+            seriesId: 019ffae2-fe4f-719e-9ab4-47efe3cc8e69
+            fieldType: COLUMN
+            queryPath: []
+          - id: 019ffb08-f26f-77fb-ba3b-22cd306620ee
+            axis:
+              ticks: {}
+            sort:
+              mode: custom-order
+              customOrder:
+                - conversion_rate_pct
+                - lost_rate_pct
+            value: CHART_FOLD_KEYS
+            channel: color
+            dataType: VARCHAR
+            seriesId: 019ffae2-fe4f-719e-9ab4-47efe3cc8e69
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb08-f270-7043-a4c2-1c5fa82ecde5
+            value: total_leads
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffae2-fe4f-719e-9ab4-47efe3cc8e69
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+          - id: 019ffb08-f270-7043-a4c2-22f0e8107991
+            value: total_on_going
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffae2-fe4f-719e-9ab4-47efe3cc8e69
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+        details:
+          fields:
+            - value: conversion_rate_pct
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: lost_rate_pct
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: average_cycle_days
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+            - value: country_interested
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+            - value: CHART_FOLD_KEYS
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+            - value: total_on_going
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+          enabled: true
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffae2-fe4f-719e-9ab4-47efe3cc8e69
+              text:
+                source: cross-axis
+                dataLabels:
+                  position: outside-end
+              type: bar
+              color:
+                source: color
+              barGrouped: true
+          settings:
+            legend:
+              position: top
+          orientation: horizontal
+          seriesGroups:
+            - - 019ffae2-fe4f-719e-9ab4-47efe3cc8e69
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+  - cellType: TEXT
+    cellId: 019ff525-f30d-732f-84e1-8a49a98446cb # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: paragraph
+          children:
+            - text: "কোন "
+            - code: true
+              text: service
+            - text: " সবচেয়ে জনপ্রিয়?"
+  - cellType: SQL
+    cellId: 019ff472-4859-71ea-a0fb-b1dfff084777 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Leads by service type
+    config:
+      source: |-
+        select service_type, 
+            count(lead_id) as total_leads from df
+            group by service_type
+            order by total_leads desc
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe_13
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: row-index-0
+            renameTo: null
+            size: 39
+            wrapText: null
+            displayFormat: null
+          - originalName: service_type
+            renameTo: null
+            size: 176
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 113
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: EXPLORE
+    cellId: 019ffae7-3cb6-7799-bb2e-3a184852da80 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Study Abroad Consultation drives 55% of all leads (662)
+    config:
+      semanticProjectId: null
+      dataframe: dataframe_13
+      colorMappings:
+        Language Course: "#E45756"
+        Visa Processing: "#4C78A8"
+        Ielts Preparation: "#72B7B2"
+        Study Abroad Consultation: "#F58518"
+      spec:
+        fields:
+          - id: 019ffb09-275a-749f-8eef-373fa6d8d249
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+              labelAngle: 0
+            sort:
+              mode: cross-axis-descending
+            title: Service type
+            value: service_type
+            channel: base-axis
+            dataType: VARCHAR
+            seriesId: 019ffae7-3cb5-73ff-abfe-97c4969d402f
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb09-275a-749f-8eef-381c18592126
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+            title: Total leads
+            value: total_leads
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ffae7-3cb5-73ff-abfe-97c4969d402f
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+            displayFormat:
+              format: NUMBER
+              currency: USD
+              columnType: NUMBER
+              showSeparators: true
+              numDecimalDigits: 0
+              abbreviateLargeNumbers: false
+          - id: 019ffb09-275b-7561-ac6d-0615914a336a
+            value: total_leads
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffae7-3cb5-73ff-abfe-97c4969d402f
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+        details:
+          fields:
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+            - value: service_type
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+          enabled: true
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffae7-3cb5-73ff-abfe-97c4969d402f
+              text:
+                source: cross-axis
+                dataLabels:
+                  position: outside-end
+              type: bar
+              color:
+                source: color
+                staticValue: "#9D755D"
+              barGrouped: false
+          settings:
+            legend:
+              position: none
+          orientation: horizontal
+          seriesGroups:
+            - - 019ffae7-3cb5-73ff-abfe-97c4969d402f
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+  - cellType: TEXT
+    cellId: 019ff525-7435-77fe-996a-4fae5a6b54d8 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: paragraph
+          children:
+            - code: true
+              text: Budget range
+            - text: " অনুযায়ী "
+            - code: true
+              text: conversion
+            - text: " আলাদা কিনা?"
+  - cellType: SQL
+    cellId: 019ff473-e11c-748d-9848-12a7fd8596e4 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Country × channel × budget (15+ leads)
+    config:
+      source: |-
+        select country_interested, channel, budget_range,
+            count(lead_id) as total_leads,
+            count(case when status = 'Enrolled' then lead_id end) as total_enrolled,
+            count(case when status = 'Lost' then lead_id end) as total_lost,
+            ROUND(
+                total_enrolled * 100.0
+                / total_leads,
+                2
+            ) as conversion_rate_pct,
+            floor(avg(cycle_days)) as average_cycle_days
+            from df
+            group by country_interested, channel, budget_range
+            having total_leads >= 15
+            order by country_interested, total_leads desc
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe_14
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: average_cycle_days
+            renameTo: null
+            size: 158
+            wrapText: null
+            displayFormat: null
+          - originalName: budget_range
+            renameTo: null
+            size: 128
+            wrapText: null
+            displayFormat: null
+          - originalName: channel
+            renameTo: null
+            size: 107
+            wrapText: null
+            displayFormat: null
+          - originalName: conversion_rate_pct
+            renameTo: null
+            size: 162
+            wrapText: null
+            displayFormat: null
+          - originalName: country_interested
+            renameTo: null
+            size: 155
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 39
+            wrapText: null
+            displayFormat: null
+          - originalName: total_enrolled
+            renameTo: null
+            size: 127
+            wrapText: null
+            displayFormat: null
+          - originalName: total_follow_up
+            renameTo: null
+            size: 136
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 113
+            wrapText: null
+            displayFormat: null
+          - originalName: total_lost
+            renameTo: null
+            size: 103
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: TEXT
+    cellId: 019ff52d-dd5e-73dd-a809-5b1727532ea9 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: paragraph
+          children:
+            - text: "কোন "
+            - code: true
+              text: country
+            - text: "-তে কোন "
+            - code: true
+              text: service
+            - text: " বেশি লাগে?"
+  - cellType: SQL
+    cellId: 019ff475-f489-7382-9e3c-9031c006b0cf # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        select country_interested, service_type, count(lead_id) as total_leads
+        from df
+        group by country_interested, service_type
+        order by country_interested, total_leads desc
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe_15
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: country_interested
+            renameTo: null
+            size: 155
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 46
+            wrapText: null
+            displayFormat: null
+          - originalName: service_type
+            renameTo: null
+            size: 176
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 113
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: EXPLORE
+    cellId: 019ffaeb-0b96-72a8-99e3-10352d06488c # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Country × service type matrix
+    config:
+      semanticProjectId: null
+      dataframe: dataframe_15
+      colorMappings: {}
+      spec:
+        fields:
+          - id: 019ffaeb-d4d2-7340-bf7c-f0d711972163
+            value: total_leads
+            channel: value
+            dataType: FLOAT
+            seriesId: 019ffaeb-0b95-772d-a3d9-09e7aa7d7934
+            fieldType: COLUMN
+            queryPath: []
+            aggregation: Sum
+          - id: 019ffaeb-4e3a-70d9-af2a-e4348bac393d
+            value: service_type
+            channel: column
+            dataType: VARCHAR
+            seriesId: 019ffaeb-0b95-772d-a3d9-09e7aa7d7934
+            fieldType: COLUMN
+            queryPath: []
+          - id: 019ffaeb-40ec-774b-9649-b5efb60df3ac
+            value: country_interested
+            channel: row
+            dataType: VARCHAR
+            seriesId: 019ffaeb-0b95-772d-a3d9-09e7aa7d7934
+            fieldType: COLUMN
+            queryPath: []
+        details:
+          fields:
+            - value: country_interested
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: service_type
+              dataType: VARCHAR
+              fieldType: COLUMN
+              queryPath: []
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: COLUMN
+              queryPath: []
+          enabled: false
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffaeb-0b95-772d-a3d9-09e7aa7d7934
+              type: bar
+          settings:
+            legend:
+              position: right
+          orientation: vertical
+          seriesGroups:
+            - - 019ffaeb-0b95-772d-a3d9-09e7aa7d7934
+        columnTotals: true
+        visualizationType: pivot-table
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering:
+          - ASC
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+  - cellType: TEXT
+    cellId: 019ff47c-3cb7-74d7-8c86-73e6038c3eb4 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h3
+          children:
+            - code: true
+              text: Funnel
+            - text: " Analysis"
+  - cellType: TEXT
+    cellId: 019ff52f-f716-72b3-b325-8c3169cd2e62 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: paragraph
+          children:
+            - text: "কোন "
+            - code: true
+              text: stage
+            - text: "-এ সবচেয়ে বেশি "
+            - code: true
+              text: drop
+            - text: " হচ্ছে?"
+  - cellType: SQL
+    cellId: 019ff52f-ea25-769f-82fa-ebdefad42fe3 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Leads by pipeline stage
+    config:
+      source: |
+        select count(case when status = 'New' then lead_id end) total_new_stage_leads,
+         count(case when status = 'Contacted' then lead_id end) total_Contacted_stage_leads,
+         count(case when status = 'Consultation Done' then lead_id end) total_Consultation_Done_stage_leads,
+         count(case when status = 'Application Submitted' then lead_id end) total_Application_Submitted_stage_leads,
+         count(case when status = 'Enrolled' then lead_id end) total_Enrolled_stage_leads,
+         count(case when status = 'Lost' then lead_id end) total_Lost_leads
+        from df
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe_21
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: row-index-0
+            renameTo: null
+            size: 28
+            wrapText: null
+            displayFormat: null
+          - originalName: total_Application_Submitted_stage_leads
+            renameTo: null
+            size: 278
+            wrapText: null
+            displayFormat: null
+          - originalName: total_Consultation_Done_stage_leads
+            renameTo: null
+            size: 256
+            wrapText: null
+            displayFormat: null
+          - originalName: total_Contacted_stage_leads
+            renameTo: null
+            size: 209
+            wrapText: null
+            displayFormat: null
+          - originalName: total_Enrolled_stage_leads
+            renameTo: null
+            size: 199
+            wrapText: null
+            displayFormat: null
+          - originalName: total_Lost_leads
+            renameTo: null
+            size: 142
+            wrapText: null
+            displayFormat: null
+          - originalName: total_new_stage_leads
+            renameTo: null
+            size: 177
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering:
+          - total_new_stage_leads
+          - total_Contacted_stage_leads
+          - total_Consultation_Done_stage_leads
+          - total_Application_Submitted_stage_leads
+          - total_Enrolled_stage_leads
+          - total_Lost_leads
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: METRIC
+    cellId: 019ffaf1-2d0d-735a-9067-32d50360a5e4 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Stage KPI New
+    config:
+      title: New
+      valueVariableName: dataframe_21
+      showComparison: false
+      comparisonType: VALUE
+      comparisonVariableName: null
+      comparisonFormat: null
+      comparisonLabel: ""
+      displayFormat:
+        format: NUMBER
+        currency: USD
+        nanFormat: —
+        columnType: NUMBER
+        showSeparators: true
+        numDecimalDigits: 0
+        abbreviateLargeNumbers: false
+      valueColumn: total_new_stage_leads
+      valueRowIndex: 0
+      valueAggregate: null
+      comparisonColumn: null
+      comparisonRowIndex: null
+      comparisonAggregate: null
+      valueResultVariable: null
+      comparisonResultVariable: null
+      outputResult: false
+  - cellType: METRIC
+    cellId: 019ffaf1-53bd-701a-b54c-891432586a3b # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Stage KPI Contacted
+    config:
+      title: Contacted
+      valueVariableName: dataframe_21
+      showComparison: false
+      comparisonType: VALUE
+      comparisonVariableName: null
+      comparisonFormat: null
+      comparisonLabel: ""
+      displayFormat:
+        format: NUMBER
+        currency: USD
+        nanFormat: —
+        columnType: NUMBER
+        showSeparators: true
+        numDecimalDigits: 0
+        abbreviateLargeNumbers: false
+      valueColumn: total_Contacted_stage_leads
+      valueRowIndex: 0
+      valueAggregate: null
+      comparisonColumn: null
+      comparisonRowIndex: null
+      comparisonAggregate: null
+      valueResultVariable: null
+      comparisonResultVariable: null
+      outputResult: false
+  - cellType: METRIC
+    cellId: 019ffaf1-7728-7619-a2fc-427fece030a7 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Stage KPI Consultation Done
+    config:
+      title: Consultation Done
+      valueVariableName: dataframe_21
+      showComparison: false
+      comparisonType: VALUE
+      comparisonVariableName: null
+      comparisonFormat: null
+      comparisonLabel: ""
+      displayFormat:
+        format: NUMBER
+        currency: USD
+        nanFormat: —
+        columnType: NUMBER
+        showSeparators: true
+        numDecimalDigits: 0
+        abbreviateLargeNumbers: false
+      valueColumn: total_Consultation_Done_stage_leads
+      valueRowIndex: 0
+      valueAggregate: null
+      comparisonColumn: null
+      comparisonRowIndex: null
+      comparisonAggregate: null
+      valueResultVariable: null
+      comparisonResultVariable: null
+      outputResult: false
+  - cellType: METRIC
+    cellId: 019ffaf1-a05c-7718-893d-2cbade15e835 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Stage KPI Application Submitted
+    config:
+      title: Application Submitted
+      valueVariableName: dataframe_21
+      showComparison: false
+      comparisonType: VALUE
+      comparisonVariableName: null
+      comparisonFormat: null
+      comparisonLabel: ""
+      displayFormat:
+        format: NUMBER
+        currency: USD
+        nanFormat: —
+        columnType: NUMBER
+        showSeparators: true
+        numDecimalDigits: 0
+        abbreviateLargeNumbers: false
+      valueColumn: total_Application_Submitted_stage_leads
+      valueRowIndex: 0
+      valueAggregate: null
+      comparisonColumn: null
+      comparisonRowIndex: null
+      comparisonAggregate: null
+      valueResultVariable: null
+      comparisonResultVariable: null
+      outputResult: false
+  - cellType: METRIC
+    cellId: 019ffaf1-c19f-71ec-acab-24a1653991ad # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Stage KPI Enrolled
+    config:
+      title: Enrolled
+      valueVariableName: dataframe_21
+      showComparison: false
+      comparisonType: VALUE
+      comparisonVariableName: null
+      comparisonFormat: null
+      comparisonLabel: ""
+      displayFormat:
+        format: NUMBER
+        currency: USD
+        nanFormat: —
+        columnType: NUMBER
+        showSeparators: true
+        numDecimalDigits: 0
+        abbreviateLargeNumbers: false
+      valueColumn: total_Enrolled_stage_leads
+      valueRowIndex: 0
+      valueAggregate: null
+      comparisonColumn: null
+      comparisonRowIndex: null
+      comparisonAggregate: null
+      valueResultVariable: null
+      comparisonResultVariable: null
+      outputResult: false
+  - cellType: METRIC
+    cellId: 019ffaf1-e221-7328-9477-20653871488c # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Stage KPI Lost
+    config:
+      title: Lost
+      valueVariableName: dataframe_21
+      showComparison: false
+      comparisonType: VALUE
+      comparisonVariableName: null
+      comparisonFormat: null
+      comparisonLabel: ""
+      displayFormat:
+        format: NUMBER
+        currency: USD
+        nanFormat: —
+        columnType: NUMBER
+        showSeparators: true
+        numDecimalDigits: 0
+        abbreviateLargeNumbers: false
+      valueColumn: total_Lost_leads
+      valueRowIndex: 0
+      valueAggregate: null
+      comparisonColumn: null
+      comparisonRowIndex: null
+      comparisonAggregate: null
+      valueResultVariable: null
+      comparisonResultVariable: null
+      outputResult: false
+  - cellType: TEXT
+    cellId: 019ff530-489e-700e-ad60-edae50ca51ad # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: paragraph
+          children:
+            - text: Overall
+            - code: true
+              text: " funnel conversion rate"
+            - text: "?"
+  - cellType: SQL
+    cellId: 019ff530-706e-741b-8ae3-3be6ff12ea5b # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: |-
+        select count(lead_id) as total_leads,
+        count(case when status = 'Enrolled' then lead_id end) as total_enrolled,
+        count(case when status = 'Lost' then lead_id end) as total_lost,
+        ROUND(
+                total_enrolled * 100.0
+                / total_leads,
+                2
+            ) as funnel_conversion_rate,
+        ROUND(
+                total_lost * 100.0
+                / total_leads,
+                2
+            ) as funnel_lost_rate,
+            round(avg(cycle_days),2) as average_cycle_days
+        from df
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe_22
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: average_cycle_days
+            renameTo: null
+            size: 158
+            wrapText: null
+            displayFormat: null
+          - originalName: funnel_conversion_rate
+            renameTo: null
+            size: 179
+            wrapText: null
+            displayFormat: null
+          - originalName: funnel_lost_rate
+            renameTo: null
+            size: 141
+            wrapText: null
+            displayFormat: null
+          - originalName: round(((total_enrolled / total_leads) * 100), 2)
+            renameTo: null
+            size: 300
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 39
+            wrapText: null
+            displayFormat: null
+          - originalName: total_enrolled
+            renameTo: null
+            size: 127
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 114
+            wrapText: null
+            displayFormat: null
+          - originalName: total_lost
+            renameTo: null
+            size: 103
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: METRIC
+    cellId: 019ff764-20cf-716a-9725-be331708cff2 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: KPI total leads
+    config:
+      title: Total leads
+      valueVariableName: dataframe_22
+      showComparison: false
+      comparisonType: VALUE
+      comparisonVariableName: null
+      comparisonFormat: null
+      comparisonLabel: ""
+      displayFormat:
+        format: NUMBER
+        currency: USD
+        nanFormat: —
+        columnType: NUMBER
+        showSeparators: true
+        numDecimalDigits: 0
+        abbreviateLargeNumbers: false
+      valueColumn: total_leads
+      valueRowIndex: 0
+      valueAggregate: null
+      comparisonColumn: null
+      comparisonRowIndex: null
+      comparisonAggregate: null
+      valueResultVariable: null
+      comparisonResultVariable: null
+      outputResult: false
+  - cellType: METRIC
+    cellId: 019ff764-4a20-73f9-854e-5a4bf807079b # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: KPI enrolled
+    config:
+      title: Enrolled
+      valueVariableName: dataframe_22
+      showComparison: false
+      comparisonType: VALUE
+      comparisonVariableName: null
+      comparisonFormat: null
+      comparisonLabel: ""
+      displayFormat:
+        format: NUMBER
+        currency: USD
+        nanFormat: —
+        columnType: NUMBER
+        showSeparators: true
+        numDecimalDigits: 0
+        abbreviateLargeNumbers: false
+      valueColumn: total_enrolled
+      valueRowIndex: 0
+      valueAggregate: null
+      comparisonColumn: null
+      comparisonRowIndex: null
+      comparisonAggregate: null
+      valueResultVariable: null
+      comparisonResultVariable: null
+      outputResult: false
+  - cellType: METRIC
+    cellId: 019ff764-6fd7-7519-8e0d-35ac996bf985 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: KPI conversion rate
+    config:
+      title: Conversion rate
+      valueVariableName: dataframe_22
+      showComparison: false
+      comparisonType: VALUE
+      comparisonVariableName: null
+      comparisonFormat: null
+      comparisonLabel: ""
+      displayFormat:
+        format: NUMBER
+        currency: USD
+        nanFormat: —
+        columnType: NUMBER
+        showSeparators: true
+        numDecimalDigits: 2
+        abbreviateLargeNumbers: false
+      valueColumn: funnel_conversion_rate
+      valueRowIndex: 0
+      valueAggregate: null
+      comparisonColumn: null
+      comparisonRowIndex: null
+      comparisonAggregate: null
+      valueResultVariable: null
+      comparisonResultVariable: null
+      outputResult: false
+  - cellType: METRIC
+    cellId: 019ff764-bddd-724c-919d-a940ccb4b6cc # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: KPI lost rate
+    config:
+      title: Lost rate
+      valueVariableName: dataframe_22
+      showComparison: false
+      comparisonType: VALUE
+      comparisonVariableName: null
+      comparisonFormat: null
+      comparisonLabel: ""
+      displayFormat:
+        format: NUMBER
+        currency: USD
+        nanFormat: —
+        columnType: NUMBER
+        showSeparators: true
+        numDecimalDigits: 2
+        abbreviateLargeNumbers: false
+      valueColumn: funnel_lost_rate
+      valueRowIndex: 0
+      valueAggregate: null
+      comparisonColumn: null
+      comparisonRowIndex: null
+      comparisonAggregate: null
+      valueResultVariable: null
+      comparisonResultVariable: null
+      outputResult: false
+  - cellType: METRIC
+    cellId: 019ffacd-9986-74ca-b7e9-df58b7d6b315 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: KPI average cycle days
+    config:
+      title: Average cycle days
+      valueVariableName: dataframe_22
+      showComparison: false
+      comparisonType: VALUE
+      comparisonVariableName: null
+      comparisonFormat: null
+      comparisonLabel: null
+      displayFormat:
+        format: NUMBER
+        currency: USD
+        columnType: NUMBER
+        showSeparators: true
+        numDecimalDigits: -1
+        abbreviateLargeNumbers: false
+      valueColumn: average_cycle_days
+      valueRowIndex: null
+      valueAggregate: Avg
+      comparisonColumn: null
+      comparisonRowIndex: null
+      comparisonAggregate: null
+      valueResultVariable: value
+      comparisonResultVariable: comparison_value
+      outputResult: true
+  - cellType: TEXT
+    cellId: 019ff532-afec-704c-8118-9166d2357cf6 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h3
+          children:
+            - code: true
+              text: Trend / Time
+            - text: -based Analysis
+  - cellType: TEXT
+    cellId: 019ff535-113c-74bf-aedc-db2bbca47480 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: ol
+          children:
+            - type: li
+              children:
+                - type: lic
+                  children:
+                    - text: "মাস অনুযায়ী "
+                    - code: true
+                      text: lead trend
+                    - text: "?"
+            - type: li
+              children:
+                - type: lic
+                  children:
+                    - text: "সময়ের সাথে "
+                    - code: true
+                      text: conversion rate
+                    - text: " বাড়ছে/কমছে?"
+            - type: li
+              children:
+                - type: lic
+                  children:
+                    - code: true
+                      text: Cycle_days
+                    - text: " সময়ের সাথে improve হচ্ছে কিনা?"
+  - cellType: SQL
+    cellId: 019ff478-eb85-751c-93ef-ed1d858222df # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Monthly lead counts
+    config:
+      source: |-
+        select
+            year,
+            month,
+            count(lead_id) as total_leads,
+            count(case when status = 'Enrolled' then lead_id end) as total_enrolled,
+            round(
+                ((total_enrolled * 100.0)/total_leads),2
+            ) as monthly_conversion_rate,
+            FLOOR(AVG(cycle_days)) AS average_cycle_days
+        from df
+        group by year, month, month(created_date)
+        order by year asc, month(created_date) asc
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe_16
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: average_cycle_days
+            renameTo: null
+            size: 158
+            wrapText: null
+            displayFormat: null
+          - originalName: created_date
+            renameTo: null
+            size: 156
+            wrapText: null
+            displayFormat: null
+          - originalName: cycle_days
+            renameTo: null
+            size: 158
+            wrapText: null
+            displayFormat: null
+          - originalName: lead_id
+            renameTo: null
+            size: 93
+            wrapText: null
+            displayFormat: null
+          - originalName: month
+            renameTo: null
+            size: 87
+            wrapText: null
+            displayFormat: null
+          - originalName: monthly_conversion_rate
+            renameTo: null
+            size: 188
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 46
+            wrapText: null
+            displayFormat: null
+          - originalName: total_enrolled
+            renameTo: null
+            size: 127
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 113
+            wrapText: null
+            displayFormat: null
+          - originalName: year
+            renameTo: null
+            size: 76
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: TEXT
+    cellId: 019ffaaf-1c3c-721f-b160-ed4c4169d368 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      richText:
+        - type: h4
+          children:
+            - text: "Branch and Channel based "
+            - code: true
+              text: conversion Analysis
+  - cellType: SQL
+    cellId: 019ff4a2-ad62-734f-99de-4c4010fd6455 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Branch × channel conversion
+    config:
+      source: |-
+        select  branch, channel, 
+        count(lead_id) as total_leads,
+        count(case when status = 'Enrolled' then lead_id end) as total_enrolled,
+        round(
+            ((total_enrolled*100.0)/total_leads), 2
+        ) as branch_channel_based_conversion_rate
+        from df
+        group by branch, channel
+        order by branch, branch_channel_based_conversion_rate desc
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe_18
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: branch
+            renameTo: null
+            size: 95
+            wrapText: null
+            displayFormat: null
+          - originalName: branch_channel_based_conversion_rate
+            renameTo: null
+            size: 271
+            wrapText: null
+            displayFormat: null
+          - originalName: channel
+            renameTo: null
+            size: 112
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 28
+            wrapText: null
+            displayFormat: null
+          - originalName: total_enrolled
+            renameTo: null
+            size: 127
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 113
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: SQL
+    cellId: 019ffa23-e09a-740d-b9b8-3da1d5a1375f # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: null
+    config:
+      source: ""
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: dataframe_29
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: row-index-0
+            renameTo: null
+            size: 28
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: SQL
+    cellId: 019ffaf6-5091-7225-a57b-7b45ca967460 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: Monthly leads by year
+    config:
+      source: |-
+        select
+            cast(year as varchar) as year_label,
+            month,
+            month(created_date) as month_num,
+            count(lead_id) as total_leads
+        from df
+        group by year_label, month, month_num
+        order by year_label, month_num
+      dataFrameCell: true
+      dataConnectionId: null
+      resultVariableName: monthly_by_year
+      useRichDisplay: true
+      enablePreview: true
+      sqlCellOutputType: PANDAS
+      useQueryMode: false
+      castDecimals: true
+      useNativeDates: true
+      outputFilteredResult: true
+      allowDuplicateColumns: false
+      tableDisplayConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties:
+          - originalName: month
+            renameTo: null
+            size: 92
+            wrapText: null
+            displayFormat: null
+          - originalName: month_num
+            renameTo: null
+            size: 118
+            wrapText: null
+            displayFormat: null
+          - originalName: row-index-0
+            renameTo: null
+            size: 46
+            wrapText: null
+            displayFormat: null
+          - originalName: total_leads
+            renameTo: null
+            size: 113
+            wrapText: null
+            displayFormat: null
+          - originalName: year_label
+            renameTo: null
+            size: 108
+            wrapText: null
+            displayFormat: null
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+  - cellType: EXPLORE
+    cellId: 019ffaf6-87ff-7628-81a2-e038ade53d37 # DO NOT CHANGE - Hex uses this to match up cells when reimporting the file, and detect any changes to existing cells
+    cellLabel: 2026 lead volume trails 2025 in every month through April
+    config:
+      semanticProjectId: null
+      dataframe: monthly_by_year
+      colorMappings:
+        "2025": "#4C78A8"
+        "2026": "#F58518"
+      spec:
+        fields:
+          - id: 019ffaf6-87fa-7749-82f2-f3613818e0d9
+            axis:
+              ticks: {}
+              hideTitle: false
+            sort:
+              mode: value-ascending
+            title: Year
+            value: year_label
+            channel: color
+            dataType: VARCHAR
+            seriesId: 019ffaf6-87f8-7728-a850-3456e12cacf7
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffaf6-87fb-73d8-8f66-76c137842363
+            value: total_leads
+            channel: tooltip
+            dataType: FLOAT
+            seriesId: 019ffaf6-87f8-7728-a850-3456e12cacf7
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+          - id: 019ffb0c-226c-715f-9a92-ee3ad3077d0e
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+              labelAngle: 45
+            sort:
+              mode: custom-order
+              customOrder:
+                - January
+                - February
+                - March
+                - April
+                - May
+                - June
+                - July
+                - August
+                - September
+                - October
+                - November
+                - December
+            title: Month of lead creation
+            value: month
+            channel: base-axis
+            dataType: VARCHAR
+            seriesId: 019ffaf6-87f8-7728-a850-3456e12cacf7
+            fieldType: DIMENSION
+            queryPath: []
+          - id: 019ffb0c-226d-7512-9e64-fcf2554b61b5
+            axis:
+              grid:
+                style: solid
+              ticks: {}
+              hideTitle: false
+            title: Leads created
+            value: total_leads
+            channel: cross-axis
+            dataType: FLOAT
+            seriesId: 019ffaf6-87f8-7728-a850-3456e12cacf7
+            fieldType: DIMENSION
+            queryPath: []
+            aggregation: Sum
+            displayFormat:
+              format: NUMBER
+              currency: USD
+              columnType: NUMBER
+              showSeparators: true
+              numDecimalDigits: 0
+              abbreviateLargeNumbers: false
+        details:
+          fields:
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+            - value: year_label
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+            - value: total_leads
+              dataType: FLOAT
+              fieldType: DIMENSION
+              queryPath: []
+            - value: month
+              dataType: VARCHAR
+              fieldType: DIMENSION
+              queryPath: []
+          enabled: true
+          showAllBaseTableDetailFields: true
+        viewType: visualization
+        rowTotals: true
+        chartConfig:
+          series:
+            - id: 019ffaf6-87f8-7728-a850-3456e12cacf7
+              text:
+                source: cross-axis
+                dataLabels:
+                  position: auto
+              type: line
+          settings:
+            legend:
+              position: top
+          orientation: vertical
+          seriesGroups:
+            - - 019ffaf6-87f8-7728-a850-3456e12cacf7
+        columnTotals: true
+        visualizationType: chart
+      displayTableConfig:
+        pageSize: 50
+        height: null
+        hideIcons: false
+        defaultColumnWidth: null
+        hideIndex: false
+        defaultSortColumn: null
+        defaultSortIndexColumn: null
+        defaultSortDirection: ASC
+        conditionalFormatting: null
+        calcs: null
+        filters: null
+        columnProperties: []
+        columnOrdering: null
+        customColumnOrdering: null
+        pinnedColumns: null
+        hiddenColumns: null
+        pinIndexColumns: false
+        showAggregations: false
+        columnAggregations: null
+      resultVariables: []
+      resultIncludeDetailColumns: false
+      height: null
+appLayout:
+  visibleMetadataFields:
+    - NAME
+    - DESCRIPTION
+    - AUTHOR
+    - LAST_RUN
+    - CATEGORIES
+    - STATUS
+    - TABLE_OF_CONTENTS
+    - LAST_EDITED
+  fullWidth: false
+  tabs:
+    - name: Overview
+      rows:
+        - columns:
+            - start: 0
+              end: 24
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ff764-20cf-716a-9725-be331708cff2
+                  sharedFilterId: null
+                  height: null
+                  showLabel: false
+                  explorable: null
+            - start: 24
+              end: 48
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ff764-4a20-73f9-854e-5a4bf807079b
+                  sharedFilterId: null
+                  height: null
+                  showLabel: false
+                  explorable: null
+            - start: 48
+              end: 72
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ff764-6fd7-7519-8e0d-35ac996bf985
+                  sharedFilterId: null
+                  height: null
+                  showLabel: false
+                  explorable: null
+            - start: 72
+              end: 96
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ff764-bddd-724c-919d-a940ccb4b6cc
+                  sharedFilterId: null
+                  height: null
+                  showLabel: false
+                  explorable: null
+            - start: 96
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffacd-9986-74ca-b7e9-df58b7d6b315
+                  sharedFilterId: null
+                  height: null
+                  showLabel: false
+                  explorable: null
+        - columns:
+            - start: 0
+              end: 60
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffaf6-87ff-7628-81a2-e038ade53d37
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+            - start: 60
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ff1db-49b6-7370-aeec-0cc8efd578ed
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+        - columns:
+            - start: 0
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ff478-eb85-751c-93ef-ed1d858222df
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: true
+    - name: Pipeline
+      rows:
+        - columns:
+            - start: 0
+              end: 40
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffaf1-2d0d-735a-9067-32d50360a5e4
+                  sharedFilterId: null
+                  height: null
+                  showLabel: false
+                  explorable: null
+            - start: 40
+              end: 80
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffaf1-53bd-701a-b54c-891432586a3b
+                  sharedFilterId: null
+                  height: null
+                  showLabel: false
+                  explorable: null
+            - start: 80
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffaf1-7728-7619-a2fc-427fece030a7
+                  sharedFilterId: null
+                  height: null
+                  showLabel: false
+                  explorable: null
+        - columns:
+            - start: 0
+              end: 40
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffaf1-a05c-7718-893d-2cbade15e835
+                  sharedFilterId: null
+                  height: null
+                  showLabel: false
+                  explorable: null
+            - start: 40
+              end: 80
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffaf1-c19f-71ec-acab-24a1653991ad
+                  sharedFilterId: null
+                  height: null
+                  showLabel: false
+                  explorable: null
+            - start: 80
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffaf1-e221-7328-9477-20653871488c
+                  sharedFilterId: null
+                  height: null
+                  showLabel: false
+                  explorable: null
+        - columns:
+            - start: 0
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ff52f-ea25-769f-82fa-ebdefad42fe3
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: true
+    - name: Channels
+      rows:
+        - columns:
+            - start: 0
+              end: 60
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffa11-6ee2-77ed-a643-549d781a9a2a
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+            - start: 60
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffa71-b853-752a-a2cb-571dce2aeaec
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+        - columns:
+            - start: 0
+              end: 60
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffad4-af6d-71d4-a7e8-2e2a926a334e
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+            - start: 60
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffa0f-865c-73ca-b793-0978a9d654b9
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+        - columns:
+            - start: 0
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffa6d-598b-7383-8b91-162338fdad65
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: true
+        - columns:
+            - start: 0
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffa6c-4c14-751d-a753-f00024e876a5
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: true
+    - name: Branches
+      rows:
+        - columns:
+            - start: 0
+              end: 60
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffad8-28cd-760a-9ab6-324c402cafda
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+            - start: 60
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffadb-9aee-72a9-bb3b-ceac13904b39
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+        - columns:
+            - start: 0
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffade-4e67-72eb-af34-2421a152278d
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+        - columns:
+            - start: 0
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ff4a2-ad62-734f-99de-4c4010fd6455
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: true
+    - name: Counselors
+      rows:
+        - columns:
+            - start: 0
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffafe-e157-7307-9d98-bdaa6761bf1e
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+        - columns:
+            - start: 0
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffb01-b335-7749-947a-92b84aeaeac9
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+        - columns:
+            - start: 0
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffae0-9276-735a-af34-c9fafe551cfc
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+        - columns:
+            - start: 0
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ff234-9842-73c4-a72e-a9977c6182aa
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: true
+        - columns:
+            - start: 0
+              end: 60
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ff55f-5def-739a-8e9a-ccfa9754974d
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: true
+            - start: 60
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ff56c-3e1f-7496-91a7-82a3a8bd488e
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: true
+    - name: Markets
+      rows:
+        - columns:
+            - start: 0
+              end: 60
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffae1-914d-763e-b88a-3098deb51541
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+            - start: 60
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffae7-3cb6-7799-bb2e-3a184852da80
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+        - columns:
+            - start: 0
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffae2-fe4f-719e-9ab4-56461499a5d2
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+        - columns:
+            - start: 0
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ffaeb-0b96-72a8-99e3-10352d06488c
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: null
+        - columns:
+            - start: 0
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ff724-6d2c-74f8-a4b6-0198b14e2257
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: true
+        - columns:
+            - start: 0
+              end: 120
+              elements:
+                - showSource: false
+                  hideOutput: false
+                  type: CELL
+                  cellId: 019ff473-e11c-748d-9848-12a7fd8596e4
+                  sharedFilterId: null
+                  height: null
+                  showLabel: true
+                  explorable: true
+sharedFilters: []

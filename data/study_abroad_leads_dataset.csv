@@ -1,0 +1,1216 @@
+lead_id,created_date,branch,channel,country_interested,service_type,counselor,budget_range,follow_up_count,status,last_update_date,cycle_days
+LD00001,2025-02-21,Uttara,Website Form,USA,Study Abroad Consultation,Priya,20+ Lakh,3,Lost,2025-03-04,11
+LD00002,2026-06-18,Kalabagan,Referral,UK,Visa Processing,Nusrat,10-20 Lakh,4,Visa Approved,2026-07-31,100
+LD00003,2025-07-31,Kalabagan,Google Ads,Canada,Study Abroad Consultation,Arafat,<5 Lakh,3,Consultation Done,2025-08-01,1
+LD00004,2025-06-29,Kalabagan,Walk-in,UK,Study Abroad Consultation,Priya,10-20 Lakh,5,Enrolled,2025-07-14,15
+LD00005,2025-02-15,Dhanmondi,Referral,Australia,Study Abroad Consultation,Priya,<5 Lakh,2,New,2025-03-03,16
+LD00006,2025-02-03,Dhanmondi,Website Form,Australia,Study Abroad Consultation,Tanvir,<5 Lakh,0,Enrolled,2025-06-07,124
+LD00007,2026-06-03,Kalabagan,Walk-in,Canada,Study Abroad Consultation,Mim,5-10 Lakh,2,Enrolled,2026-07-31,60
+LD00008,2026-07-09,Sylhet,Website Form,USA,Study Abroad Consultation,Priya,<5 Lakh,3,Lost,2026-07-26,17
+LD00009,2025-10-11,Uttara,Referral,Australia,IELTS Preparation,Priya,<5 Lakh,1,Application Submitted,2026-01-23,104
+LD00010,2025-03-25,Sylhet,Referral,Canada,IELTS Preparation,Tanvir,20+ Lakh,2,Application Submitted,2025-04-12,18
+LD00011,2026-04-11,Kalabagan,Referral,Canada,Study Abroad Consultation,Nusrat,10-20 Lakh,3,Lost,2026-04-19,8
+LD00012,2025-06-11,Kalabagan,Seminar/Event,UK,Study Abroad Consultation,Rafi,5-10 Lakh,5,Consultation Done,2025-06-22,11
+LD00013,2026-07-13,Chattogram,Walk-in,Germany,Visa Processing,Arafat,5-10 Lakh,4,New,2026-07-13,0
+LD00014,2026-06-24,Kalabagan,Facebook Ads,Australia,Visa Processing,Rafi,5-10 Lakh,4,Lost,2026-07-06,12
+LD00015,2025-06-20,Dhanmondi,Referral,UK,Visa Processing,Mim,10-20 Lakh,2,Contacted,2025-07-09,19
+LD00016,2025-06-23,Kalabagan ,Seminar/Event,UK,IELTS Preparation,Nusrat,<5 Lakh,3,Consultation Done,2025-07-05,12
+LD00017,2026-01-18,Chattogram,Website Form,UK,Study Abroad Consultation,Rafi,10-20 Lakh,4,Consultation Done,2026-01-23,5
+LD00018,2025-09-19,Chattogram,Facebook Ads,UK,IELTS Preparation,Tanvir,10-20 Lakh,1,New,2025-09-21,2
+LD00019,2025-11-08,Kalabagan,Facebook Ads,UK,IELTS Preparation,Rafi,10-20 Lakh,4,Enrolled,2026-01-28,81
+LD00020,2025-04-15,Uttara,Facebook Ads,Canada,Study Abroad Consultation,Arafat,10-20 Lakh,1,Consultation Done,2025-04-17,2
+LD00021,2025-11-30,Dhanmondi,Website Form,UK,Study Abroad Consultation,Priya,5-10 Lakh,4,Enrolled,2026-02-11,73
+LD00022,2025-10-03,Uttara,Google Ads,Canada,IELTS Preparation,Nusrat,20+ Lakh,5,Contacted,2025-10-08,5
+LD00023,2025-01-21,Dhanmondi,Website Form,UK,IELTS Preparation,Nusrat,<5 Lakh,3,Consultation Done,2025-01-29,8
+LD00024,2025-12-08,Kalabagan,Referral,UK,IELTS Preparation,Nusrat,5-10 Lakh,5,Lost,2025-12-19,11
+LD00025,2026-02-20,Dhanmondi,Google Ads,USA,IELTS Preparation,Rafi,5-10 Lakh,4,Visa Approved,2026-03-18,26
+LD00026,2026-06-24,Dhanmondi ,Seminar/Event,USA,Study Abroad Consultation,Rafi,20+ Lakh,4,Enrolled,2026-07-31,65
+LD00027,2025-02-25,Chattogram,Facebook Ads,Canada,Study Abroad Consultation,Mim,5-10 Lakh,5,New,2025-03-10,13
+LD00028,2026-07-30,Chattogram,Facebook Ads,UK,Study Abroad Consultation,Priya,<5 Lakh,2,Enrolled,2026-07-31,119
+LD00029,2026-07-09,Chattogram,Facebook Ads,Germany,Language Course,Nusrat,10-20 Lakh,2,Lost,2026-07-16,7
+LD00030,2025-03-13,Chattogram,Facebook Ads,USA,Study Abroad Consultation,Rafi,10-20 Lakh,2,New,2025-03-18,5
+LD00031,2025-08-02,Kalabagan,Seminar/Event,Canada,IELTS Preparation,Rafi,10-20 Lakh,3,Lost,2025-09-03,32
+LD00032,2026-02-08,Uttara,Google Ads,Canada,Study Abroad Consultation,Arafat,5-10 Lakh,4,Lost,2026-02-16,8
+LD00033,2026-06-15,Uttara,Google Ads,UK,IELTS Preparation,Rafi,5-10 Lakh,5,Lost,2026-07-17,32
+LD00034,2025-12-27,Chattogram,Seminar/Event,Australia,Study Abroad Consultation,Nusrat,5-10 Lakh,2,Enrolled,2026-04-28,122
+LD00035,2025-11-22,Kalabagan,Google Ads,USA,Study Abroad Consultation,Tanvir,10-20 Lakh,2,New,2025-12-02,10
+LD00036,2025-07-30,Kalabagan,Walk-in,USA,Study Abroad Consultation,Arafat,<5 Lakh,2,Enrolled,2025-11-08,101
+LD00037,2025-04-26,Sylhet,Facebook Ads,Canada,Study Abroad Consultation,Priya,<5 Lakh,3,Lost,2025-05-11,15
+LD00038,2026-06-07,Uttara,Referral,Canada,Study Abroad Consultation,Nusrat,10-20 Lakh,4,Application Submitted,2026-07-24,47
+LD00039,2025-11-03,Chattogram,Referral,Germany,IELTS Preparation,Priya,10-20 Lakh,3,Consultation Done,2025-11-15,12
+LD00040,2025-12-30,Kalabagan,Seminar/Event,Canada,Study Abroad Consultation,Rafi,<5 Lakh,5,Consultation Done,2026-01-10,11
+LD00041,2025-09-23,Kalabagan,Walk-in,Canada,IELTS Preparation,Arafat,10-20 Lakh,6,Enrolled,2025-12-15,83
+LD00042,2026-03-24,Sylhet,Google Ads,USA,Study Abroad Consultation,Nusrat,10-20 Lakh,2,Lost,2026-04-26,33
+LD00043,2026-03-16,Chattogram,Website Form,USA,Visa Processing,Shuvo,,3,Lost,2026-04-01,16
+LD00044,2026-01-26,Dhanmondi,Facebook Ads,Germany,Study Abroad Consultation,Priya,5-10 Lakh,4,Enrolled,2026-06-05,130
+LD00045,2025-11-04,Kalabagan,Google Ads,UK,IELTS Preparation,arafat,20+ Lakh,5,Lost,2025-11-09,5
+LD00046,2025-02-08,Dhanmondi,Google Ads,Canada,Language Course,Arafat,5-10 Lakh,3,Contacted,2025-02-23,15
+LD00047,2025-01-15,Kalabagan,Google Ads,UK,Visa Processing,Tanvir,5-10 Lakh,6,Consultation Done,2025-01-20,5
+LD00048,2026-03-30,Dhanmondi,Seminar/Event,Australia,Study Abroad Consultation,Rafi,20+ Lakh,1,Visa Approved,2026-04-18,19
+LD00049,2025-01-28,Kalabagan,Google Ads,UK,IELTS Preparation,rafi,<5 Lakh,2,Enrolled,2025-03-23,54
+LD00050,2025-03-06,Uttara,Google Ads,Canada,IELTS Preparation,Mim,5-10 Lakh,2,New,2025-03-22,16
+LD00051,2025-10-12,Dhanmondi,Facebook Ads,UK,Study Abroad Consultation,Mim,20+ Lakh,0,Lost,2025-11-30,49
+LD00052,2025-01-19,Dhanmondi,Referral,Germany,Study Abroad Consultation,Nusrat,10-20 Lakh,3,Contacted,2025-02-05,17
+LD00053,2026-02-27,Kalabagan,Website Form,Australia,Study Abroad Consultation,Priya,,1,Enrolled,2026-06-21,114
+LD00054,2025-07-19,Dhanmondi ,Walk-in,Canada,Visa Processing,nusrat,<5 Lakh,2,Lost,2025-08-24,36
+LD00055,2025-11-15,Dhanmondi,Facebook Ads,Germany,Visa Processing,arafat,5-10 Lakh,2,New,2025-11-21,6
+LD00056,2026-01-18,Kalabagan,Website Form,UK,IELTS Preparation,Nusrat,5-10 Lakh,6,Enrolled,2026-04-17,89
+LD00057,2026-06-26,Chattogram,Google Ads,USA,Study Abroad Consultation,Rafi,20+ Lakh,1,Consultation Done,2026-06-30,4
+LD00058,2025-05-03,Uttara,Referral,USA,IELTS Preparation,mim,5-10 Lakh,4,Enrolled,2025-08-31,120
+LD00059,2026-07-24,Dhanmondi,Website Form,Canada,Study Abroad Consultation,Tanvir,10-20 Lakh,5,Lost,2026-07-31,22
+LD00060,2025-08-16,Kalabagan,Seminar/Event,UK,Study Abroad Consultation,Mim,20+ Lakh,2,Lost,2025-09-30,45
+LD00061,2025-01-05,Sylhet,Walk-in,Canada,Study Abroad Consultation,Mim,5-10 Lakh,7,Enrolled,2025-05-27,142
+LD00062,2025-06-25,Dhanmondi,Referral,UK,Study Abroad Consultation,Mim,10-20 Lakh,3,Consultation Done,2025-06-28,3
+LD00063,2025-08-24,Chattogram,Facebook Ads,UK,Visa Processing,Rafi,<5 Lakh,2,Consultation Done,2025-09-04,11
+LD00064,2026-05-19,Kalabagan,Facebook Ads,Malaysia,Visa Processing,Rafi,5-10 Lakh,4,Consultation Done,2026-06-03,15
+LD00065,2025-08-03,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Mim,20+ Lakh,3,New,2025-08-19,16
+LD00066,2026-07-24,Kalabagan,Seminar/Event,Canada,Study Abroad Consultation,Arafat,,5,Lost,2026-07-31,21
+LD00067,2026-05-21,Uttara,Facebook Ads,UK,IELTS Preparation,Rafi,5-10 Lakh,5,Lost,2026-06-27,37
+LD00068,2026-07-02,Chattogram,Facebook Ads,Canada,Visa Processing,Priya,20+ Lakh,4,Contacted,2026-07-16,14
+LD00069,2026-02-22,Uttara,Walk-in,Canada,Study Abroad Consultation,arafat,5-10 Lakh,1,Lost,2026-03-02,8
+LD00070,2026-01-13,Kalabagan,Website Form,Germany,Study Abroad Consultation,Arafat,<5 Lakh,1,Lost,2026-02-22,40
+LD00071,2026-07-08,Dhanmondi,Seminar/Event,Australia,Study Abroad Consultation,Mim,10-20 Lakh,4,Lost,2026-07-31,42
+LD00072,2026-05-20,Chattogram,Google Ads,Australia,Study Abroad Consultation,Mim,5-10 Lakh,8,Lost,2026-06-27,38
+LD00073,2025-06-25,Dhanmondi,Google Ads,UK,Visa Processing,Nusrat,10-20 Lakh,1,Lost,2025-07-22,27
+LD00074,2026-04-05,Kalabagan,Google Ads,Malaysia,Study Abroad Consultation,Arafat,5-10 Lakh,3,Consultation Done,2026-04-08,3
+LD00075,2025-09-18,Chattogram,Facebook Ads,Canada,IELTS Preparation,Rafi,5-10 Lakh,5,Consultation Done,2025-09-24,6
+LD00076,2025-07-03,Dhanmondi,Google Ads,USA,Visa Processing,Arafat,5-10 Lakh,5,New,2025-07-19,16
+LD00077,2025-10-21,Kalabagan,Google Ads,USA,Study Abroad Consultation,Rafi,10-20 Lakh,2,Consultation Done,2025-11-01,11
+LD00078,2025-11-07,Dhanmondi,Facebook Ads,USA,Study Abroad Consultation,Mim,5-10 Lakh,2,New,2025-11-22,15
+LD00079,2025-01-26,Uttara,Seminar/Event,UK,IELTS Preparation,Priya,5-10 Lakh,5,Lost,2025-03-23,56
+LD00080,2025-06-16,Chattogram,Walk-in,UK,Study Abroad Consultation,Arafat,5-10 Lakh,4,Lost,2025-07-22,36
+LD00081,2025-09-17,Dhanmondi,Facebook Ads,UK,Study Abroad Consultation,Mim,20+ Lakh,3,Lost,2025-11-06,50
+LD00082,2026-06-23,Kalabagan,Walk-in,UK,Study Abroad Consultation,Tanvir,5-10 Lakh,1,Contacted,2026-06-27,4
+LD00083,2025-07-17,Dhanmondi,Facebook Ads,Germany,Language Course,Nusrat,<5 Lakh,1,New,2025-07-20,3
+LD00084,2026-05-06,Sylhet,Facebook Ads,Canada,Study Abroad Consultation,Mim,5-10 Lakh,4,Contacted,2026-05-24,18
+LD00085,2026-01-13,Kalabagan,Facebook Ads,Germany,IELTS Preparation,Tanvir,5-10 Lakh,5,Lost,2026-01-29,16
+LD00086,2025-09-17,Dhanmondi,Google Ads,Canada,Study Abroad Consultation,Mim,<5 Lakh,3,New,2025-09-18,1
+LD00087,2025-03-02,Kalabagan,Seminar/Event,Canada,Language Course,shuvo,5-10 Lakh,0,Enrolled,2025-07-21,141
+LD00088,2026-01-27,Chattogram,Referral,Canada,Study Abroad Consultation,Mim,5-10 Lakh,4,Lost,2026-03-15,47
+LD00089,2025-02-14,Chattogram,Facebook Ads,Australia,Visa Processing,Arafat,5-10 Lakh,2,Consultation Done,2025-02-28,14
+LD00090,2025-12-16,Kalabagan,Website Form,Germany,Study Abroad Consultation,Shuvo,10-20 Lakh,0,Lost,2026-01-03,18
+LD00091,2025-12-27,Uttara,Referral,UK,Study Abroad Consultation,Shuvo,5-10 Lakh,1,Enrolled,2026-03-18,81
+LD00092,2025-07-18,Chattogram,Seminar/Event,UK,IELTS Preparation,Arafat,10-20 Lakh,2,Lost,2025-09-08,52
+LD00093,2025-04-28,Kalabagan,Seminar/Event,UK,Language Course,Shuvo,10-20 Lakh,1,New,2025-05-12,14
+LD00094,2025-11-05,Uttara,Facebook Ads,Malaysia,Study Abroad Consultation,Priya,5-10 Lakh,4,Consultation Done,2025-11-08,3
+LD00095,2025-06-22,Uttara,Website Form,Malaysia,IELTS Preparation,Mim,5-10 Lakh,3,Enrolled,2025-10-12,112
+LD00096,2025-02-14,Dhanmondi,Facebook Ads,UK,Study Abroad Consultation,Nusrat,<5 Lakh,4,Visa Approved,2025-07-10,146
+LD00097,2025-05-31,Dhanmondi,Facebook Ads,Germany,IELTS Preparation,Mim,10-20 Lakh,2,Lost,2025-06-25,25
+LD00098,2025-09-10,Uttara,Facebook Ads,Canada,IELTS Preparation,Nusrat,5-10 Lakh,2,New,2025-09-23,13
+LD00099,2025-01-19,Uttara,Seminar/Event,Canada,Study Abroad Consultation,Mim,5-10 Lakh,1,Application Submitted,2025-04-26,97
+LD00100,2025-01-30,Uttara,Facebook Ads,Germany,IELTS Preparation,Priya,5-10 Lakh,7,Lost,2025-03-18,47
+LD00101,2025-10-10,Kalabagan,Walk-in,UK,Study Abroad Consultation,Mim,10-20 Lakh,3,New,2025-10-15,5
+LD00102,2025-04-24,Chattogram,Walk-in,UK,Study Abroad Consultation,Priya,<5 Lakh,2,Lost,2025-05-23,29
+LD00103,2025-05-19,Dhanmondi,Website Form,Canada,Visa Processing,Priya,<5 Lakh,2,Lost,2025-07-01,43
+LD00104,2025-05-19,Kalabagan,Google Ads,Canada,Study Abroad Consultation,Arafat,,9,Enrolled,2025-07-04,46
+LD00105,2025-10-11,Dhanmondi,Referral,Germany,Study Abroad Consultation,Tanvir,<5 Lakh,7,Lost,2025-11-18,38
+LD00106,2026-06-25,Kalabagan,Facebook Ads,UK,Language Course,Priya,10-20 Lakh,2,New,2026-07-03,8
+LD00107,2026-07-30,Kalabagan,Facebook Ads,Malaysia,Study Abroad Consultation,Priya,5-10 Lakh,4,New,2026-07-31,13
+LD00108,2025-01-03,Kalabagan,Referral,Germany,Study Abroad Consultation,Rafi,10-20 Lakh,2,Application Submitted,2025-03-12,68
+LD00109,2025-03-19,Uttara,Google Ads,Malaysia,Study Abroad Consultation,Arafat,10-20 Lakh,2,Visa Approved,2025-05-27,69
+LD00110,2025-09-25,Chattogram,Facebook Ads,UK,Study Abroad Consultation,Nusrat,20+ Lakh,3,Enrolled,2025-10-28,33
+LD00111,2025-04-03,Sylhet,Website Form,Germany,Study Abroad Consultation,Nusrat,<5 Lakh,4,Consultation Done,2025-04-05,2
+LD00112,2026-02-24,Dhanmondi,Website Form,USA,Study Abroad Consultation,Tanvir,<5 Lakh,4,New,2026-02-26,2
+LD00113,2026-04-04,Chattogram,Seminar/Event,USA,Visa Processing,Nusrat,20+ Lakh,4,Lost,2026-05-11,37
+LD00114,2026-05-20,Sylhet,Website Form,Canada,IELTS Preparation,Nusrat,10-20 Lakh,2,Consultation Done,2026-05-26,6
+LD00115,2025-09-18,Chattogram,Facebook Ads,Canada,Language Course,tanvir,<5 Lakh,5,Consultation Done,2025-10-03,15
+LD00116,2025-05-22,Dhanmondi,Walk-in,USA,Study Abroad Consultation,Rafi,5-10 Lakh,4,Lost,2025-06-20,29
+LD00117,2026-01-26,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Arafat,<5 Lakh,2,Consultation Done,2026-02-09,14
+LD00118,2025-12-01,Dhanmondi,Referral,USA,Study Abroad Consultation,Shuvo,5-10 Lakh,2,Enrolled,2026-01-31,61
+LD00119,2026-07-03,Chattogram,Facebook Ads,USA,Study Abroad Consultation,Shuvo,<5 Lakh,4,Contacted,2026-07-11,8
+LD00120,2025-12-18,Dhanmondi,Walk-in,UK,Study Abroad Consultation,Rafi,<5 Lakh,3,Contacted,2025-12-26,8
+LD00121,2025-02-17,Sylhet,Referral,Australia,IELTS Preparation,Shuvo,10-20 Lakh,1,Consultation Done,2025-02-23,6
+LD00122,2025-10-12,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Shuvo,10-20 Lakh,1,New,2025-10-20,8
+LD00123,2025-04-23,Dhanmondi,Google Ads,USA,Study Abroad Consultation,Tanvir,20+ Lakh,5,Lost,2025-06-03,41
+LD00124,2025-06-01,Uttara,Walk-in,Germany,Language Course,Tanvir,5-10 Lakh,7,Application Submitted,2025-07-13,42
+LD00125,2025-08-26,Dhanmondi,Google Ads,Canada,Study Abroad Consultation,Tanvir,<5 Lakh,4,Enrolled,2026-01-19,146
+LD00126,2025-07-02,Kalabagan,Facebook Ads,Australia,Study Abroad Consultation,Rafi,,3,Consultation Done,2025-07-18,16
+LD00127,2025-07-14,Kalabagan ,Facebook Ads,Australia,IELTS Preparation,Mim,5-10 Lakh,4,Lost,2025-08-27,44
+LD00128,2025-01-27,Uttara,Walk-in,Australia,IELTS Preparation,Mim,10-20 Lakh,1,Lost,2025-03-16,48
+LD00129,2025-11-28,Uttara,Facebook Ads,Germany,Language Course,Mim,<5 Lakh,1,Consultation Done,2025-12-08,10
+LD00130,2025-01-07,Sylhet,Referral,UK,Visa Processing,Rafi,10-20 Lakh,2,Lost,2025-02-13,37
+LD00131,2025-10-29,Uttara,Google Ads,Malaysia,IELTS Preparation,Mim,5-10 Lakh,1,Lost,2025-12-03,35
+LD00132,2026-06-27,Uttara,Website Form,UK,IELTS Preparation,Mim,5-10 Lakh,3,Contacted,2026-07-15,18
+LD00133,2025-03-22,Kalabagan,Website Form,Australia,Visa Processing,Nusrat,5-10 Lakh,4,Visa Approved,2025-05-01,40
+LD00134,2026-02-01,Uttara,Google Ads,Australia,Study Abroad Consultation,Tanvir,10-20 Lakh,2,Enrolled,2026-02-20,19
+LD00135,2026-03-17,Uttara,Referral,Australia,Study Abroad Consultation,Priya,,2,Lost,2026-05-06,50
+LD00136,2026-06-27,Kalabagan,Website Form,Australia,Language Course,arafat,<5 Lakh,2,Lost,2026-07-31,58
+LD00137,2025-03-01,Kalabagan,Google Ads,Malaysia,Study Abroad Consultation,Priya,<5 Lakh,1,Lost,2025-04-17,47
+LD00138,2025-10-18,Uttara,Seminar/Event,UK,Study Abroad Consultation,Priya,5-10 Lakh,3,New,2025-11-04,17
+LD00139,2025-11-21,Dhanmondi,Facebook Ads,Australia,Study Abroad Consultation,Nusrat,5-10 Lakh,3,Contacted,2025-11-26,5
+LD00140,2025-05-04,Uttara ,Facebook Ads,UK,IELTS Preparation,Tanvir,10-20 Lakh,6,Contacted,2025-05-06,2
+LD00141,2025-02-12,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Arafat,5-10 Lakh,0,Lost,2025-03-01,17
+LD00142,2025-04-22,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Tanvir,20+ Lakh,5,Consultation Done,2025-05-07,15
+LD00143,2026-03-17,Sylhet,Facebook Ads,Malaysia,IELTS Preparation,Tanvir,<5 Lakh,1,Consultation Done,2026-04-02,16
+LD00144,2025-12-13,Uttara,Facebook Ads,Canada,Study Abroad Consultation,Arafat,5-10 Lakh,4,Contacted,2025-12-20,7
+LD00145,2026-03-18,Dhanmondi,Google Ads,Germany,Study Abroad Consultation,Tanvir,20+ Lakh,4,Consultation Done,2026-03-24,6
+LD00146,2025-12-03,Dhanmondi,Walk-in,UK,IELTS Preparation,Nusrat,<5 Lakh,3,Consultation Done,2025-12-19,16
+LD00147,2025-07-12,Uttara,Facebook Ads,UK,Language Course,Priya,5-10 Lakh,3,Consultation Done,2025-07-25,13
+LD00148,2026-06-30,Uttara,Facebook Ads,Germany,Study Abroad Consultation,Mim,<5 Lakh,0,Contacted,2026-07-14,14
+LD00149,2026-05-27,Chattogram,Facebook Ads,Canada,Study Abroad Consultation,Priya,5-10 Lakh,1,Lost,2026-06-29,33
+LD00150,2025-05-27,Dhanmondi,Google Ads,Canada,Study Abroad Consultation,Arafat,5-10 Lakh,5,Lost,2025-07-12,46
+LD00151,2025-01-11,Dhanmondi,Facebook Ads,USA,Study Abroad Consultation,Rafi,10-20 Lakh,6,New,2025-01-14,3
+LD00152,2026-05-11,Kalabagan,Walk-in,UK,Study Abroad Consultation,Mim,10-20 Lakh,3,Lost,2026-07-03,53
+LD00153,2025-02-11,Kalabagan,Facebook Ads,USA,Language Course,Priya,10-20 Lakh,3,Contacted,2025-02-16,5
+LD00154,2025-12-11,Uttara,Facebook Ads,Canada,Study Abroad Consultation,Nusrat,10-20 Lakh,2,Enrolled,2026-01-18,38
+LD00155,2025-08-17,Kalabagan,Facebook Ads,Australia,Study Abroad Consultation,Arafat,5-10 Lakh,2,Lost,2025-08-23,6
+LD00156,2026-02-02,Kalabagan,Facebook Ads,UK,IELTS Preparation,Arafat,,2,Enrolled,2026-03-27,53
+LD00157,2026-02-28,Uttara,Google Ads,USA,Study Abroad Consultation,Nusrat,5-10 Lakh,3,Lost,2026-03-06,6
+LD00158,2026-05-26,Uttara,Google Ads,Australia,Study Abroad Consultation,Tanvir,5-10 Lakh,2,Contacted,2026-06-01,6
+LD00159,2025-02-26,Kalabagan ,Facebook Ads,UK,IELTS Preparation,Nusrat,20+ Lakh,0,New,2025-03-14,16
+LD00160,2025-12-08,Dhanmondi,Seminar/Event,UK,Study Abroad Consultation,Mim,5-10 Lakh,6,Application Submitted,2026-01-08,31
+LD00161,2025-10-15,Uttara,Referral,UK,Study Abroad Consultation,Tanvir,5-10 Lakh,2,Enrolled,2026-02-08,116
+LD00162,2026-03-17,Kalabagan,Walk-in,Australia,IELTS Preparation,Rafi,10-20 Lakh,5,Lost,2026-05-05,49
+LD00163,2025-01-04,Uttara,Referral,Australia,Study Abroad Consultation,Nusrat,5-10 Lakh,7,Lost,2025-02-19,46
+LD00164,2025-02-28,Dhanmondi,Facebook Ads,Australia,Study Abroad Consultation,Rafi,10-20 Lakh,4,Contacted,2025-03-14,14
+LD00165,2025-08-05,Uttara,Seminar/Event,Australia,Study Abroad Consultation,Nusrat,<5 Lakh,5,Lost,2025-09-28,54
+LD00166,2026-07-07,Chattogram,Referral,Australia,Study Abroad Consultation,Priya,5-10 Lakh,0,Lost,2026-07-31,49
+LD00167,2026-05-02,Sylhet,Seminar/Event,Australia,IELTS Preparation,Rafi,5-10 Lakh,2,Consultation Done,2026-05-09,7
+LD00168,2025-03-25,Kalabagan ,Referral,Canada,IELTS Preparation,Tanvir,<5 Lakh,7,Contacted,2025-04-12,18
+LD00169,2026-04-10,Uttara,Google Ads,Canada,Study Abroad Consultation,Mim,5-10 Lakh,3,Lost,2026-05-13,33
+LD00170,2025-11-09,Kalabagan,Walk-in,UK,Study Abroad Consultation,Nusrat,<5 Lakh,5,Enrolled,2026-01-25,77
+LD00171,2025-08-06,Dhanmondi,Website Form,Germany,Study Abroad Consultation,Rafi,,4,New,2025-08-20,14
+LD00172,2025-04-23,Kalabagan,Google Ads,Canada,IELTS Preparation,Shuvo,10-20 Lakh,1,New,2025-05-10,17
+LD00173,2025-09-09,Dhanmondi,Google Ads,USA,Study Abroad Consultation,Tanvir,<5 Lakh,3,Consultation Done,2025-09-19,10
+LD00174,2025-10-11,Kalabagan,Website Form,Germany,Visa Processing,Tanvir,20+ Lakh,4,Lost,2025-12-02,52
+LD00175,2025-12-06,Chattogram,Walk-in,Australia,Study Abroad Consultation,Mim,5-10 Lakh,2,Consultation Done,2025-12-25,19
+LD00176,2025-11-28,Dhanmondi,Website Form,Australia,Visa Processing,Rafi,5-10 Lakh,6,Consultation Done,2025-12-17,19
+LD00177,2025-04-16,Chattogram,Website Form,UK,IELTS Preparation,Mim,5-10 Lakh,4,Lost,2025-04-24,8
+LD00178,2025-09-29,Chattogram,Website Form,UK,IELTS Preparation,Shuvo,10-20 Lakh,2,Lost,2025-10-16,17
+LD00179,2025-05-16,Chattogram,Facebook Ads,Germany,Study Abroad Consultation,Arafat,5-10 Lakh,6,New,2025-05-23,7
+LD00180,2025-04-09,Kalabagan,Facebook Ads,Germany,Study Abroad Consultation,Tanvir,20+ Lakh,0,Contacted,2025-04-19,10
+LD00181,2025-09-04,Dhanmondi,Website Form,UK,Study Abroad Consultation,Nusrat,20+ Lakh,0,Lost,2025-09-16,12
+LD00182,2025-11-16,Kalabagan,Referral,USA,IELTS Preparation,Arafat,10-20 Lakh,2,Lost,2025-11-22,6
+LD00183,2026-07-25,Kalabagan,Walk-in,Germany,Study Abroad Consultation,Rafi,20+ Lakh,7,Visa Approved,2026-07-31,94
+LD00184,2026-06-29,Sylhet,Facebook Ads,USA,Visa Processing,Nusrat,10-20 Lakh,3,Visa Approved,2026-07-20,21
+LD00185,2025-07-01,Dhanmondi,Walk-in,Australia,Language Course,Nusrat,5-10 Lakh,2,Consultation Done,2025-07-02,1
+LD00186,2025-11-30,Chattogram,Seminar/Event,Canada,Study Abroad Consultation,Mim,<5 Lakh,3,Enrolled,2026-03-05,95
+LD00187,2025-08-30,Kalabagan,Referral,Canada,IELTS Preparation,Rafi,5-10 Lakh,3,Consultation Done,2025-09-17,18
+LD00188,2026-03-02,Dhanmondi,Facebook Ads,Canada,Study Abroad Consultation,Nusrat,10-20 Lakh,3,Enrolled,2026-07-06,126
+LD00189,2026-03-13,Kalabagan,Referral,UK,Study Abroad Consultation,Nusrat,10-20 Lakh,4,Lost,2026-03-30,17
+LD00190,2026-06-26,Uttara,Google Ads,Australia,Study Abroad Consultation,Mim,5-10 Lakh,2,New,2026-06-28,2
+LD00191,2025-09-07,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Nusrat,5-10 Lakh,0,Visa Approved,2025-11-03,57
+LD00192,2025-11-13,Kalabagan,Seminar/Event,UK,Study Abroad Consultation,Nusrat,20+ Lakh,3,New,2025-11-15,2
+LD00193,2025-09-09,Kalabagan,Seminar/Event,Canada,IELTS Preparation,Arafat,20+ Lakh,2,New,2025-09-19,10
+LD00194,2025-11-04,Kalabagan,Website Form,UK,IELTS Preparation,Priya,<5 Lakh,2,Contacted,2025-11-23,19
+LD00195,2025-10-24,Kalabagan,Referral,Germany,IELTS Preparation,Shuvo,5-10 Lakh,1,Enrolled,2026-02-04,103
+LD00196,2025-01-07,Kalabagan ,Facebook Ads,Canada,Study Abroad Consultation,Mim,20+ Lakh,3,Contacted,2025-01-22,15
+LD00197,2025-07-07,Sylhet,Website Form,Malaysia,Study Abroad Consultation,Nusrat,5-10 Lakh,2,Lost,2025-07-17,10
+LD00198,2025-11-27,Kalabagan,Seminar/Event,Australia,Visa Processing,Nusrat,10-20 Lakh,4,Lost,2026-01-05,39
+LD00199,2026-07-09,Kalabagan,Referral,USA,Visa Processing,Mim,5-10 Lakh,4,New,2026-07-21,12
+LD00200,2026-04-23,Kalabagan,Website Form,Australia,Study Abroad Consultation,Tanvir,10-20 Lakh,4,Consultation Done,2026-04-24,1
+LD00201,2025-08-18,Dhanmondi,Google Ads,Australia,Study Abroad Consultation,Tanvir,<5 Lakh,4,Enrolled,2025-10-22,65
+LD00202,2025-05-27,Dhanmondi,Facebook Ads,UK,IELTS Preparation,Arafat,20+ Lakh,7,New,2025-06-03,7
+LD00203,2026-05-14,Dhanmondi,Facebook Ads,UK,Study Abroad Consultation,Mim,5-10 Lakh,3,Lost,2026-07-07,54
+LD00204,2025-08-24,Kalabagan,Seminar/Event,Germany,IELTS Preparation,Rafi,20+ Lakh,3,Visa Approved,2026-01-03,132
+LD00205,2025-11-07,Kalabagan,Google Ads,Australia,Visa Processing,Tanvir,10-20 Lakh,4,Enrolled,2026-01-04,58
+LD00206,2025-08-13,Kalabagan,Seminar/Event,USA,IELTS Preparation,Rafi,5-10 Lakh,3,Consultation Done,2025-08-26,13
+LD00207,2025-03-29,Dhanmondi,Facebook Ads,UK,Study Abroad Consultation,Nusrat,5-10 Lakh,2,Lost,2025-04-15,17
+LD00208,2025-11-09,Uttara,Seminar/Event,UK,Study Abroad Consultation,Nusrat,10-20 Lakh,1,Contacted,2025-11-23,14
+LD00209,2025-02-10,Chattogram,Walk-in,USA,IELTS Preparation,Rafi,10-20 Lakh,1,Lost,2025-02-28,18
+LD00210,2025-07-23,Kalabagan,Facebook Ads,Germany,Study Abroad Consultation,Priya,20+ Lakh,3,Visa Approved,2025-12-17,147
+LD00211,2026-01-15,Dhanmondi,Seminar/Event,Australia,Study Abroad Consultation,Shuvo,10-20 Lakh,1,Lost,2026-02-21,37
+LD00212,2026-06-24,Kalabagan,Facebook Ads,USA,Visa Processing,Nusrat,5-10 Lakh,1,Contacted,2026-06-26,2
+LD00213,2025-11-30,Kalabagan,Seminar/Event,USA,Language Course,Rafi,20+ Lakh,3,Enrolled,2026-01-12,43
+LD00214,2025-03-05,Chattogram,Referral,UK,IELTS Preparation,Nusrat,<5 Lakh,2,Lost,2025-03-26,21
+LD00215,2026-03-31,Dhanmondi,Facebook Ads,Australia,Study Abroad Consultation,Priya,5-10 Lakh,2,Visa Approved,2026-06-14,75
+LD00216,2026-07-04,Chattogram,Referral,Germany,Study Abroad Consultation,Rafi,5-10 Lakh,6,Visa Approved,2026-07-31,30
+LD00217,2025-06-07,Kalabagan,Facebook Ads,USA,Study Abroad Consultation,Mim,5-10 Lakh,2,Consultation Done,2025-06-13,6
+LD00218,2025-03-22,Dhanmondi,Walk-in,Germany,Study Abroad Consultation,Tanvir,5-10 Lakh,2,Visa Approved,2025-06-17,87
+LD00219,2025-03-20,Kalabagan,Google Ads,Canada,IELTS Preparation,Tanvir,5-10 Lakh,5,Enrolled,2025-04-22,33
+LD00220,2026-06-27,Dhanmondi ,Facebook Ads,UK,Study Abroad Consultation,Mim,<5 Lakh,5,New,2026-07-08,11
+LD00221,2026-07-15,Dhanmondi,Website Form,Australia,Visa Processing,Mim,5-10 Lakh,4,Enrolled,2026-07-31,25
+LD00222,2025-05-20,Chattogram,Facebook Ads,Australia,Study Abroad Consultation,Priya,<5 Lakh,2,Contacted,2025-06-05,16
+LD00223,2025-10-30,Kalabagan,Google Ads,Canada,Study Abroad Consultation,Rafi,5-10 Lakh,4,Contacted,2025-11-01,2
+LD00224,2025-07-01,Kalabagan,Google Ads,Germany,Study Abroad Consultation,Arafat,<5 Lakh,2,Contacted,2025-07-18,17
+LD00225,2025-10-05,Dhanmondi,Facebook Ads,USA,Study Abroad Consultation,Arafat,20+ Lakh,2,Consultation Done,2025-10-17,12
+LD00226,2025-01-17,Kalabagan,Walk-in,Australia,Study Abroad Consultation,Mim,5-10 Lakh,5,Enrolled,2025-05-24,127
+LD00227,2025-11-07,Kalabagan,Facebook Ads,Australia,IELTS Preparation,Rafi,<5 Lakh,5,New,2025-11-24,17
+LD00228,2026-05-21,Dhanmondi,Seminar/Event,UK,Study Abroad Consultation,Nusrat,5-10 Lakh,1,Lost,2026-06-24,34
+LD00229,2026-05-23,Chattogram,Google Ads,Australia,IELTS Preparation,Tanvir,5-10 Lakh,3,Enrolled,2026-06-28,36
+LD00230,2026-07-25,Kalabagan,Website Form,Canada,IELTS Preparation,Tanvir,5-10 Lakh,4,Contacted,2026-07-25,0
+LD00231,2025-08-05,Uttara,Website Form,Germany,Language Course,Mim,,7,Application Submitted,2025-09-28,54
+LD00232,2025-12-05,Kalabagan,Website Form,USA,IELTS Preparation,Tanvir,10-20 Lakh,2,Consultation Done,2025-12-12,7
+LD00233,2025-12-19,Kalabagan,Seminar/Event,USA,Language Course,Shuvo,20+ Lakh,4,Contacted,2025-12-31,12
+LD00234,2026-05-16,Uttara,Facebook Ads,UK,Visa Processing,Arafat,<5 Lakh,0,Lost,2026-06-14,29
+LD00235,2025-12-17,Dhanmondi,Facebook Ads,Canada,Visa Processing,Nusrat,5-10 Lakh,3,Consultation Done,2025-12-20,3
+LD00236,2025-03-07,Kalabagan,Referral,Canada,IELTS Preparation,Arafat,20+ Lakh,5,Consultation Done,2025-03-16,9
+LD00237,2025-05-10,Chattogram,Facebook Ads,Canada,Study Abroad Consultation,Tanvir,5-10 Lakh,4,Consultation Done,2025-05-22,12
+LD00238,2025-08-20,Uttara,Referral,USA,Study Abroad Consultation,Mim,5-10 Lakh,2,Consultation Done,2025-09-05,16
+LD00239,2026-01-28,Kalabagan,Referral,UK,Language Course,Tanvir,<5 Lakh,1,Enrolled,2026-03-18,49
+LD00240,2025-05-11,Chattogram,Referral,USA,Study Abroad Consultation,Tanvir,5-10 Lakh,5,Lost,2025-05-21,10
+LD00241,2025-03-24,Kalabagan,Seminar/Event,Australia,Study Abroad Consultation,Nusrat,,2,Contacted,2025-04-05,12
+LD00242,2025-06-09,Kalabagan,Website Form,Canada,Study Abroad Consultation,Nusrat,10-20 Lakh,2,Application Submitted,2025-07-27,48
+LD00243,2026-01-24,Kalabagan,Facebook Ads,Germany,Visa Processing,Arafat,10-20 Lakh,2,Application Submitted,2026-02-22,29
+LD00244,2025-11-28,Kalabagan,Website Form,Germany,Study Abroad Consultation,Arafat,5-10 Lakh,1,Application Submitted,2026-02-28,92
+LD00245,2025-12-09,Sylhet,Referral,Canada,Study Abroad Consultation,Tanvir,,2,Visa Approved,2026-03-14,95
+LD00246,2025-01-28,Kalabagan,Referral,USA,Study Abroad Consultation,Rafi,5-10 Lakh,10,Contacted,2025-01-31,3
+LD00247,2025-03-27,Chattogram,Website Form,Malaysia,Study Abroad Consultation,Mim,10-20 Lakh,5,New,2025-04-05,9
+LD00248,2026-02-22,Kalabagan,Website Form,Australia,Study Abroad Consultation,Rafi,5-10 Lakh,3,Lost,2026-04-06,43
+LD00249,2025-08-03,Kalabagan,Facebook Ads,Malaysia,Study Abroad Consultation,Tanvir,20+ Lakh,1,Lost,2025-09-20,48
+LD00250,2025-02-03,Dhanmondi,Walk-in,Malaysia,Language Course,Tanvir,10-20 Lakh,3,Consultation Done,2025-02-16,13
+LD00251,2025-08-30,Uttara,Seminar/Event,Malaysia,Study Abroad Consultation,Nusrat,5-10 Lakh,3,Enrolled,2025-09-27,28
+LD00252,2025-11-20,Uttara,Facebook Ads,UK,Study Abroad Consultation,Rafi,<5 Lakh,0,Application Submitted,2026-01-16,57
+LD00253,2026-06-24,Kalabagan,Referral,UK,Study Abroad Consultation,Mim,5-10 Lakh,5,Visa Approved,2026-07-31,89
+LD00254,2026-02-21,Sylhet,Referral,Canada,IELTS Preparation,Priya,5-10 Lakh,3,Lost,2026-03-18,25
+LD00255,2025-10-24,Dhanmondi,Seminar/Event,Australia,IELTS Preparation,Shuvo,10-20 Lakh,2,Application Submitted,2026-03-02,129
+LD00256,2025-08-14,Uttara,Walk-in,UK,Study Abroad Consultation,Priya,10-20 Lakh,4,Lost,2025-08-16,2
+LD00257,2025-04-05,Kalabagan,Seminar/Event,Canada,Study Abroad Consultation,Rafi,20+ Lakh,0,Lost,2025-04-27,22
+LD00258,2026-02-18,Sylhet,Facebook Ads,Malaysia,Visa Processing,Priya,5-10 Lakh,2,Consultation Done,2026-03-08,18
+LD00259,2026-05-18,Kalabagan,Facebook Ads,Germany,IELTS Preparation,Rafi,5-10 Lakh,6,Lost,2026-07-05,48
+LD00260,2026-05-14,Uttara,Referral,Australia,Study Abroad Consultation,Mim,10-20 Lakh,3,Consultation Done,2026-05-18,4
+LD00261,2026-04-01,Uttara,Facebook Ads,Canada,Study Abroad Consultation,Shuvo,5-10 Lakh,2,Enrolled,2026-07-31,140
+LD00262,2025-04-17,Chattogram,Facebook Ads,UK,Visa Processing,Priya,5-10 Lakh,3,Consultation Done,2025-04-22,5
+LD00263,2025-07-15,Kalabagan,Walk-in,UK,Study Abroad Consultation,Tanvir,<5 Lakh,2,Enrolled,2025-10-22,99
+LD00264,2026-07-04,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Shuvo,10-20 Lakh,1,New,2026-07-13,9
+LD00265,2025-03-19,Sylhet,Seminar/Event,Malaysia,Study Abroad Consultation,Mim,<5 Lakh,2,Enrolled,2025-07-26,129
+LD00266,2025-09-19,Uttara,Website Form,UK,Study Abroad Consultation,Mim,5-10 Lakh,1,New,2025-09-22,3
+LD00267,2025-09-02,Uttara,Facebook Ads,Canada,Study Abroad Consultation,Mim,10-20 Lakh,1,Lost,2025-09-28,26
+LD00268,2026-06-04,Dhanmondi,Referral,Germany,Study Abroad Consultation,Nusrat,10-20 Lakh,2,Consultation Done,2026-06-11,7
+LD00269,2025-10-25,Kalabagan,Seminar/Event,Canada,Study Abroad Consultation,Priya,<5 Lakh,4,Lost,2025-11-23,29
+LD00270,2025-09-16,Sylhet,Google Ads,Germany,Language Course,Priya,<5 Lakh,3,Consultation Done,2025-09-30,14
+LD00271,2025-12-13,Kalabagan,Facebook Ads,Canada,IELTS Preparation,Tanvir,5-10 Lakh,2,Lost,2025-12-31,18
+LD00272,2026-02-25,Uttara,Referral,UK,Study Abroad Consultation,Mim,10-20 Lakh,2,Application Submitted,2026-03-25,28
+LD00273,2025-09-11,Dhanmondi,Referral,Canada,Visa Processing,Tanvir,<5 Lakh,7,Lost,2025-09-30,19
+LD00274,2025-06-04,Uttara,Seminar/Event,USA,Visa Processing,Tanvir,20+ Lakh,2,Consultation Done,2025-06-11,7
+LD00275,2025-03-23,Uttara,Facebook Ads,Australia,Visa Processing,Mim,10-20 Lakh,3,Lost,2025-04-23,31
+LD00276,2025-10-01,Uttara,Google Ads,UK,Study Abroad Consultation,Tanvir,5-10 Lakh,1,New,2025-10-09,8
+LD00277,2026-01-03,Chattogram,Google Ads,Australia,Study Abroad Consultation,Nusrat,<5 Lakh,6,Contacted,2026-01-09,6
+LD00278,2025-12-19,Dhanmondi,Facebook Ads,USA,Study Abroad Consultation,Mim,10-20 Lakh,1,Enrolled,2026-05-07,139
+LD00279,2026-07-27,Chattogram,Facebook Ads,Australia,Study Abroad Consultation,Mim,20+ Lakh,1,Lost,2026-07-31,5
+LD00280,2026-04-10,Chattogram,Facebook Ads,UK,Study Abroad Consultation,Priya,10-20 Lakh,2,New,2026-04-14,4
+LD00281,2025-05-28,Kalabagan,Facebook Ads,Canada,Study Abroad Consultation,Shuvo,<5 Lakh,4,New,2025-06-06,9
+LD00282,2026-02-26,Uttara,Website Form,Australia,IELTS Preparation,Shuvo,10-20 Lakh,3,New,2026-03-13,15
+LD00283,2025-06-11,Kalabagan,Referral,Germany,Study Abroad Consultation,Nusrat,<5 Lakh,5,Lost,2025-08-05,55
+LD00284,2026-01-31,Chattogram,Website Form,Malaysia,Study Abroad Consultation,Rafi,10-20 Lakh,1,Lost,2026-03-20,48
+LD00285,2026-07-12,Uttara,Referral,UK,Visa Processing,Rafi,<5 Lakh,4,Enrolled,2026-07-31,41
+LD00286,2025-02-13,Uttara,Referral,Australia,IELTS Preparation,Priya,10-20 Lakh,2,Enrolled,2025-05-02,78
+LD00287,2025-01-09,Uttara,Website Form,UK,Visa Processing,Shuvo,<5 Lakh,7,Enrolled,2025-05-14,125
+LD00288,2025-04-27,Chattogram,Seminar/Event,UK,Language Course,Tanvir,5-10 Lakh,2,Enrolled,2025-05-21,24
+LD00289,2025-01-11,Dhanmondi,Facebook Ads,USA,Language Course,Rafi,10-20 Lakh,4,New,2025-01-20,9
+LD00290,2026-05-30,Uttara,Walk-in,UK,Study Abroad Consultation,Arafat,20+ Lakh,2,Lost,2026-07-08,39
+LD00291,2026-05-22,Uttara,Facebook Ads,Australia,Study Abroad Consultation,Rafi,10-20 Lakh,2,Contacted,2026-05-27,5
+LD00292,2025-05-10,Kalabagan,Facebook Ads,USA,IELTS Preparation,Mim,10-20 Lakh,4,New,2025-05-14,4
+LD00293,2025-10-21,Kalabagan ,Google Ads,Australia,Visa Processing,Rafi,5-10 Lakh,3,New,2025-11-02,12
+LD00294,2025-05-29,Kalabagan,Referral,Canada,Study Abroad Consultation,mim,<5 Lakh,2,Enrolled,2025-09-03,97
+LD00295,2026-04-09,Chattogram,Google Ads,Australia,IELTS Preparation,Arafat,10-20 Lakh,2,Enrolled,2026-05-31,52
+LD00296,2025-07-01,Uttara,Google Ads,Canada,IELTS Preparation,Priya,10-20 Lakh,5,New,2025-07-01,0
+LD00297,2025-07-26,Sylhet,Facebook Ads,UK,Study Abroad Consultation,Tanvir,10-20 Lakh,4,Enrolled,2025-12-14,141
+LD00298,2025-10-13,Chattogram,Seminar/Event,Canada,IELTS Preparation,Arafat,<5 Lakh,3,Application Submitted,2026-02-11,121
+LD00299,2026-03-06,Kalabagan,Google Ads,Canada,Study Abroad Consultation,Rafi,10-20 Lakh,1,Lost,2026-04-21,46
+LD00300,2025-12-23,Uttara,Facebook Ads,USA,Study Abroad Consultation,Priya,5-10 Lakh,2,Lost,2026-01-27,35
+LD00301,2026-07-19,Kalabagan,Google Ads,USA,Visa Processing,Nusrat,10-20 Lakh,4,Contacted,2026-07-31,12
+LD00302,2026-01-12,Dhanmondi,Website Form,UK,Study Abroad Consultation,Arafat,<5 Lakh,3,New,2026-01-12,0
+LD00303,2025-10-02,Kalabagan,Walk-in,UK,IELTS Preparation,Shuvo,10-20 Lakh,1,Consultation Done,2025-10-21,19
+LD00304,2025-05-20,Dhanmondi,Website Form,UK,IELTS Preparation,Arafat,5-10 Lakh,3,Consultation Done,2025-05-31,11
+LD00305,2026-01-27,Chattogram,Website Form,Malaysia,IELTS Preparation,Shuvo,10-20 Lakh,5,New,2026-02-04,8
+LD00306,2025-05-02,Kalabagan,Google Ads,Australia,Language Course,Shuvo,10-20 Lakh,3,Enrolled,2025-09-27,148
+LD00307,2025-02-12,Uttara,Google Ads,Canada,Study Abroad Consultation,Shuvo,5-10 Lakh,2,Contacted,2025-03-02,18
+LD00308,2026-06-03,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Nusrat,5-10 Lakh,2,Lost,2026-06-30,27
+LD00309,2025-11-12,Kalabagan,Google Ads,UK,Study Abroad Consultation,Nusrat,20+ Lakh,3,Consultation Done,2025-11-21,9
+LD00310,2025-03-14,Chattogram,Facebook Ads,Australia,Study Abroad Consultation,Tanvir,20+ Lakh,1,Contacted,2025-03-27,13
+LD00311,2026-02-04,Kalabagan,Google Ads,UK,Study Abroad Consultation,Nusrat,10-20 Lakh,1,Visa Approved,2026-06-05,121
+LD00312,2026-05-19,Dhanmondi,Seminar/Event,Canada,Study Abroad Consultation,Nusrat,10-20 Lakh,5,Lost,2026-06-15,27
+LD00313,2026-05-27,Sylhet,Google Ads,Canada,Study Abroad Consultation,Priya,<5 Lakh,1,Lost,2026-06-22,26
+LD00314,2025-04-07,Dhanmondi,Seminar/Event,Australia,Study Abroad Consultation,Priya,5-10 Lakh,2,Lost,2025-04-28,21
+LD00315,2026-03-19,Chattogram,Facebook Ads,Australia,Study Abroad Consultation,Tanvir,5-10 Lakh,5,Enrolled,2026-05-19,61
+LD00316,2025-03-17,Chattogram,Facebook Ads,UK,Study Abroad Consultation,Mim,10-20 Lakh,2,Contacted,2025-03-25,8
+LD00317,2025-10-01,Sylhet ,Facebook Ads,Malaysia,Study Abroad Consultation,Tanvir,5-10 Lakh,4,New,2025-10-11,10
+LD00318,2026-02-13,Uttara ,Facebook Ads,UK,Study Abroad Consultation,Mim,5-10 Lakh,7,New,2026-02-14,1
+LD00319,2026-03-11,Sylhet,Google Ads,UK,Study Abroad Consultation,Nusrat,5-10 Lakh,4,Lost,2026-04-08,28
+LD00320,2026-04-15,Uttara,Referral,Australia,IELTS Preparation,Arafat,20+ Lakh,1,Enrolled,2026-07-07,83
+LD00321,2025-07-26,Kalabagan,Walk-in,USA,Study Abroad Consultation,Priya,5-10 Lakh,4,Application Submitted,2025-10-31,97
+LD00322,2026-03-03,Kalabagan,Facebook Ads,UK,Visa Processing,Mim,5-10 Lakh,3,New,2026-03-11,8
+LD00323,2025-02-12,Kalabagan,Facebook Ads,Malaysia,Study Abroad Consultation,Priya,10-20 Lakh,0,Lost,2025-04-01,48
+LD00324,2025-10-19,Dhanmondi,Facebook Ads,Canada,Study Abroad Consultation,Nusrat,10-20 Lakh,3,Contacted,2025-10-27,8
+LD00325,2026-05-27,Kalabagan,Referral,Australia,Study Abroad Consultation,Tanvir,10-20 Lakh,3,New,2026-06-15,19
+LD00326,2025-06-11,Uttara,Facebook Ads,Australia,Visa Processing,Shuvo,5-10 Lakh,2,Contacted,2025-06-26,15
+LD00327,2025-09-20,Kalabagan,Google Ads,Canada,Language Course,Nusrat,5-10 Lakh,6,Lost,2025-10-24,34
+LD00328,2026-05-22,Uttara,Walk-in,Canada,IELTS Preparation,Arafat,10-20 Lakh,2,Consultation Done,2026-06-03,12
+LD00329,2025-08-09,Dhanmondi,Seminar/Event,Australia,Visa Processing,Rafi,5-10 Lakh,5,New,2025-08-27,18
+LD00330,2025-05-17,Dhanmondi,Facebook Ads,UK,Study Abroad Consultation,Mim,<5 Lakh,0,Lost,2025-06-01,15
+LD00331,2025-11-27,Kalabagan,Google Ads,Germany,IELTS Preparation,Shuvo,5-10 Lakh,5,Lost,2026-01-14,48
+LD00332,2025-04-03,Kalabagan,Seminar/Event,UK,Study Abroad Consultation,Tanvir,10-20 Lakh,2,Enrolled,2025-08-11,130
+LD00333,2025-07-15,Dhanmondi,Website Form,UK,Study Abroad Consultation,Nusrat,5-10 Lakh,4,Lost,2025-07-20,5
+LD00334,2025-04-28,Uttara,Referral,Australia,Study Abroad Consultation,shuvo,,5,Lost,2025-06-22,55
+LD00335,2025-02-09,Uttara,Referral,UK,Visa Processing,Rafi,<5 Lakh,3,Application Submitted,2025-04-21,71
+LD00336,2025-05-22,Kalabagan,Seminar/Event,UK,Study Abroad Consultation,Mim,<5 Lakh,4,Enrolled,2025-08-20,90
+LD00337,2025-09-07,Sylhet,Referral,Australia,Study Abroad Consultation,Nusrat,5-10 Lakh,3,Consultation Done,2025-09-19,12
+LD00338,2025-05-09,Dhanmondi,Facebook Ads,Australia,Study Abroad Consultation,Tanvir,20+ Lakh,4,Lost,2025-05-13,4
+LD00339,2025-03-09,Dhanmondi,Walk-in,Australia,Visa Processing,Arafat,10-20 Lakh,2,Lost,2025-04-22,44
+LD00340,2026-04-21,Uttara,Website Form,UK,IELTS Preparation,Priya,20+ Lakh,4,Lost,2026-06-05,45
+LD00341,2025-05-30,Dhanmondi,Facebook Ads,Canada,Study Abroad Consultation,Mim,20+ Lakh,3,Lost,2025-06-21,22
+LD00342,2026-05-19,Kalabagan,Website Form,Australia,IELTS Preparation,Mim,20+ Lakh,5,New,2026-05-25,6
+LD00343,2025-07-24,Kalabagan,Referral,Canada,Study Abroad Consultation,Rafi,20+ Lakh,2,Lost,2025-08-12,19
+LD00344,2026-02-27,Kalabagan,Walk-in,Australia,Visa Processing,Arafat,<5 Lakh,0,Visa Approved,2026-03-20,21
+LD00345,2025-11-14,Kalabagan,Walk-in,UK,Visa Processing,Tanvir,<5 Lakh,5,Lost,2025-11-22,8
+LD00346,2026-05-23,Chattogram,Referral,UK,Study Abroad Consultation,Priya,5-10 Lakh,1,Enrolled,2026-06-29,37
+LD00347,2026-06-03,Kalabagan,Seminar/Event,Germany,Study Abroad Consultation,Mim,5-10 Lakh,1,Visa Approved,2026-07-31,81
+LD00348,2025-02-28,Uttara,Google Ads,UK,Study Abroad Consultation,Tanvir,<5 Lakh,6,Enrolled,2025-04-10,41
+LD00349,2026-07-15,Kalabagan,Facebook Ads,Canada,IELTS Preparation,Tanvir,5-10 Lakh,1,Contacted,2026-07-28,13
+LD00350,2025-02-05,Chattogram,Referral,Canada,Study Abroad Consultation,Mim,10-20 Lakh,3,Enrolled,2025-03-18,41
+LD00351,2025-03-22,Sylhet,Website Form,Germany,Visa Processing,Mim,5-10 Lakh,4,Contacted,2025-04-10,19
+LD00352,2026-07-23,Chattogram,Referral,Canada,IELTS Preparation,Priya,5-10 Lakh,6,Enrolled,2026-07-31,59
+LD00353,2025-11-01,Kalabagan,Walk-in,Malaysia,Study Abroad Consultation,Tanvir,<5 Lakh,2,Application Submitted,2026-02-17,108
+LD00354,2025-07-18,Uttara,Google Ads,UK,IELTS Preparation,Priya,<5 Lakh,1,Consultation Done,2025-08-04,17
+LD00355,2025-05-31,Kalabagan,Facebook Ads,Canada,IELTS Preparation,Priya,10-20 Lakh,4,Contacted,2025-06-16,16
+LD00356,2025-06-21,Dhanmondi,Facebook Ads,Germany,IELTS Preparation,Mim,10-20 Lakh,6,Enrolled,2025-10-02,103
+LD00357,2025-09-04,Uttara,Website Form,Germany,Study Abroad Consultation,Arafat,<5 Lakh,1,Contacted,2025-09-14,10
+LD00358,2026-01-28,Chattogram,Facebook Ads,USA,IELTS Preparation,Arafat,<5 Lakh,2,Lost,2026-02-09,12
+LD00359,2026-04-21,Uttara,Google Ads,Canada,Study Abroad Consultation,Arafat,5-10 Lakh,1,New,2026-05-03,12
+LD00360,2025-08-10,Uttara,Facebook Ads,UK,Visa Processing,Arafat,,2,Lost,2025-08-26,16
+LD00361,2025-01-26,Uttara,Referral,USA,Study Abroad Consultation,Tanvir,20+ Lakh,6,Lost,2025-02-14,19
+LD00362,2025-09-03,Kalabagan,Seminar/Event,UK,Study Abroad Consultation,Tanvir,,5,Lost,2025-10-21,48
+LD00363,2026-05-31,Sylhet,Referral,UK,IELTS Preparation,Nusrat,<5 Lakh,1,Enrolled,2026-06-20,20
+LD00364,2025-03-03,Chattogram,Facebook Ads,Australia,Study Abroad Consultation,Tanvir,<5 Lakh,3,Lost,2025-04-10,38
+LD00365,2026-03-14,Kalabagan,Google Ads,Canada,Visa Processing,Rafi,20+ Lakh,3,Lost,2026-05-08,55
+LD00366,2026-01-18,Kalabagan,Seminar/Event,Canada,Study Abroad Consultation,Mim,<5 Lakh,2,Contacted,2026-01-23,5
+LD00367,2025-04-02,Kalabagan,Referral,Canada,Study Abroad Consultation,Shuvo,<5 Lakh,2,Enrolled,2025-07-09,98
+LD00368,2025-11-25,Dhanmondi,Facebook Ads,Germany,Study Abroad Consultation,Rafi,20+ Lakh,4,Consultation Done,2025-11-28,3
+LD00369,2026-03-05,Sylhet,Referral,Australia,IELTS Preparation,Rafi,5-10 Lakh,5,Enrolled,2026-05-03,59
+LD00370,2025-07-21,Kalabagan,Google Ads,Australia,Study Abroad Consultation,Nusrat,5-10 Lakh,1,New,2025-08-08,18
+LD00371,2025-11-24,Kalabagan,Facebook Ads,Australia,Visa Processing,Arafat,5-10 Lakh,5,Lost,2025-12-30,36
+LD00372,2025-07-06,Dhanmondi,Facebook Ads,Canada,IELTS Preparation,Tanvir,10-20 Lakh,1,Contacted,2025-07-14,8
+LD00373,2025-10-16,Uttara,Facebook Ads,Germany,Visa Processing,Mim,5-10 Lakh,1,Contacted,2025-10-21,5
+LD00374,2026-02-13,Dhanmondi,Referral,UK,Study Abroad Consultation,rafi,10-20 Lakh,1,Application Submitted,2026-06-20,127
+LD00375,2025-07-17,Chattogram,Facebook Ads,Canada,Study Abroad Consultation,Priya,<5 Lakh,1,Application Submitted,2025-10-09,84
+LD00376,2025-06-01,Uttara,Website Form,USA,Study Abroad Consultation,Nusrat,<5 Lakh,1,Lost,2025-07-08,37
+LD00377,2026-02-27,Uttara,Facebook Ads,UK,Visa Processing,Shuvo,10-20 Lakh,2,Enrolled,2026-04-22,54
+LD00378,2025-11-01,Kalabagan,Website Form,Australia,Visa Processing,Arafat,10-20 Lakh,4,Lost,2025-12-08,37
+LD00379,2025-10-29,Kalabagan,Referral,Canada,Study Abroad Consultation,Tanvir,<5 Lakh,4,Consultation Done,2025-11-01,3
+LD00380,2026-03-08,Chattogram,Facebook Ads,Germany,Study Abroad Consultation,Priya,10-20 Lakh,4,Consultation Done,2026-03-09,1
+LD00381,2026-01-05,Kalabagan,Website Form,Malaysia,Study Abroad Consultation,Rafi,<5 Lakh,1,Enrolled,2026-04-20,105
+LD00382,2026-05-27,Kalabagan,Seminar/Event,Canada,Study Abroad Consultation,Shuvo,10-20 Lakh,5,Consultation Done,2026-06-13,17
+LD00383,2025-07-28,Kalabagan,Facebook Ads,Malaysia,Language Course,Shuvo,20+ Lakh,0,Lost,2025-08-15,18
+LD00384,2026-03-14,Kalabagan,Referral,UK,Study Abroad Consultation,Shuvo,20+ Lakh,4,Lost,2026-03-19,5
+LD00385,2025-04-01,Kalabagan,Referral,UK,Study Abroad Consultation,Arafat,10-20 Lakh,2,Consultation Done,2025-04-04,3
+LD00386,2025-09-25,Chattogram,Website Form,Germany,Study Abroad Consultation,Priya,10-20 Lakh,1,Contacted,2025-10-11,16
+LD00387,2025-11-25,Uttara,Referral,USA,IELTS Preparation,Tanvir,5-10 Lakh,3,Lost,2026-01-13,49
+LD00388,2025-10-23,Uttara,Website Form,Canada,Study Abroad Consultation,Tanvir,5-10 Lakh,4,Application Submitted,2025-12-24,62
+LD00389,2025-08-13,Kalabagan,Google Ads,Australia,Study Abroad Consultation,Shuvo,<5 Lakh,3,Lost,2025-10-08,56
+LD00390,2025-07-11,Chattogram,Seminar/Event,UK,Study Abroad Consultation,Arafat,20+ Lakh,1,Visa Approved,2025-11-09,121
+LD00391,2025-09-14,Kalabagan,Referral,UK,IELTS Preparation,Mim,10-20 Lakh,4,Enrolled,2025-12-19,96
+LD00392,2026-01-02,Kalabagan,Google Ads,Australia,Study Abroad Consultation,Rafi,5-10 Lakh,4,Enrolled,2026-04-23,111
+LD00393,2026-07-08,Sylhet,Referral,Australia,Visa Processing,Rafi,,3,Enrolled,2026-07-31,42
+LD00394,2026-04-25,Uttara,Website Form,Australia,IELTS Preparation,Shuvo,<5 Lakh,3,Application Submitted,2026-06-18,54
+LD00395,2025-05-20,Uttara,Facebook Ads,USA,Study Abroad Consultation,Tanvir,5-10 Lakh,4,New,2025-06-06,17
+LD00396,2025-06-28,Kalabagan,Google Ads,Australia,Visa Processing,Nusrat,5-10 Lakh,2,Lost,2025-08-08,41
+LD00397,2026-03-21,Kalabagan,Google Ads,Canada,Study Abroad Consultation,Shuvo,5-10 Lakh,2,Contacted,2026-04-07,17
+LD00398,2025-01-09,Dhanmondi,Facebook Ads,USA,Study Abroad Consultation,Tanvir,10-20 Lakh,1,Consultation Done,2025-01-21,12
+LD00399,2025-07-28,Kalabagan,Walk-in,Australia,Study Abroad Consultation,Tanvir,10-20 Lakh,3,Consultation Done,2025-08-16,19
+LD00400,2025-10-06,Sylhet,Referral,Canada,IELTS Preparation,Arafat,10-20 Lakh,2,Lost,2025-11-24,49
+LD00401,2025-12-22,Chattogram,Website Form,Germany,IELTS Preparation,Shuvo,10-20 Lakh,0,New,2026-01-05,14
+LD00402,2025-02-03,Sylhet,Seminar/Event,Germany,Study Abroad Consultation,Shuvo,10-20 Lakh,2,New,2025-02-20,17
+LD00403,2025-06-08,Sylhet,Website Form,Germany,Study Abroad Consultation,Rafi,<5 Lakh,2,Consultation Done,2025-06-23,15
+LD00404,2025-11-01,Kalabagan,Referral,Canada,Study Abroad Consultation,Rafi,<5 Lakh,0,Enrolled,2026-03-10,129
+LD00405,2025-03-04,Dhanmondi,Google Ads,UK,Study Abroad Consultation,Arafat,,3,Consultation Done,2025-03-05,1
+LD00406,2025-01-29,Uttara,Referral,Canada,Study Abroad Consultation,Rafi,<5 Lakh,0,Lost,2025-03-21,51
+LD00407,2025-10-27,Kalabagan,Google Ads,USA,Study Abroad Consultation,Mim,<5 Lakh,4,Lost,2025-10-29,2
+LD00408,2026-01-03,Chattogram,Website Form,Canada,Language Course,Nusrat,<5 Lakh,2,Lost,2026-03-02,58
+LD00409,2025-02-12,Uttara,Facebook Ads,Germany,Study Abroad Consultation,Priya,,3,Lost,2025-03-15,31
+LD00410,2025-05-22,Kalabagan,Walk-in,USA,Study Abroad Consultation,Nusrat,<5 Lakh,2,Lost,2025-06-11,20
+LD00411,2025-09-25,Dhanmondi ,Walk-in,USA,Study Abroad Consultation,Shuvo,20+ Lakh,4,Lost,2025-10-08,13
+LD00412,2025-02-25,Sylhet,Walk-in,Australia,Study Abroad Consultation,Nusrat,20+ Lakh,4,Contacted,2025-03-08,11
+LD00413,2025-05-10,Dhanmondi,Google Ads,Canada,Study Abroad Consultation,Arafat,<5 Lakh,4,New,2025-05-24,14
+LD00414,2025-12-25,Kalabagan,Referral,UK,Study Abroad Consultation,Mim,<5 Lakh,5,Enrolled,2026-04-25,121
+LD00415,2026-06-17,Chattogram,Facebook Ads,USA,Study Abroad Consultation,Rafi,5-10 Lakh,1,Contacted,2026-06-24,7
+LD00416,2025-04-23,Dhanmondi,Facebook Ads,Australia,Study Abroad Consultation,Priya,5-10 Lakh,5,Lost,2025-05-22,29
+LD00417,2025-02-19,Dhanmondi,Walk-in,UK,Study Abroad Consultation,Priya,10-20 Lakh,1,Consultation Done,2025-02-26,7
+LD00418,2025-12-21,Uttara,Google Ads,Germany,Visa Processing,Arafat,<5 Lakh,3,Enrolled,2026-04-02,102
+LD00419,2025-04-17,Chattogram,Facebook Ads,UK,Study Abroad Consultation,Rafi,<5 Lakh,1,Enrolled,2025-06-24,68
+LD00420,2026-02-23,Kalabagan,Website Form,UK,Study Abroad Consultation,Mim,10-20 Lakh,7,New,2026-02-24,1
+LD00421,2026-03-17,Sylhet,Facebook Ads,Canada,Study Abroad Consultation,Nusrat,<5 Lakh,2,Contacted,2026-03-17,0
+LD00422,2026-02-13,Kalabagan,Walk-in,Australia,Study Abroad Consultation,Tanvir,5-10 Lakh,3,Enrolled,2026-06-03,110
+LD00423,2026-03-07,Uttara,Facebook Ads,Canada,Language Course,Shuvo,5-10 Lakh,4,Consultation Done,2026-03-17,10
+LD00424,2026-05-18,Kalabagan,Walk-in,Malaysia,IELTS Preparation,Mim,10-20 Lakh,5,Consultation Done,2026-05-27,9
+LD00425,2025-03-20,Uttara,Facebook Ads,Germany,Study Abroad Consultation,Shuvo,5-10 Lakh,4,Consultation Done,2025-04-05,16
+LD00426,2025-06-13,Kalabagan,Google Ads,USA,Visa Processing,Tanvir,10-20 Lakh,2,Consultation Done,2025-06-26,13
+LD00427,2026-07-22,Kalabagan,Referral,USA,IELTS Preparation,Tanvir,<5 Lakh,3,Enrolled,2026-07-31,26
+LD00428,2025-10-30,Kalabagan,Walk-in,UK,Study Abroad Consultation,Tanvir,5-10 Lakh,3,Consultation Done,2025-11-14,15
+LD00429,2026-02-05,Chattogram,Facebook Ads,UK,Study Abroad Consultation,Shuvo,5-10 Lakh,2,Lost,2026-02-24,19
+LD00430,2025-03-04,Uttara,Google Ads,Germany,IELTS Preparation,Priya,20+ Lakh,3,Contacted,2025-03-13,9
+LD00431,2025-02-01,Uttara,Facebook Ads,Australia,IELTS Preparation,Nusrat,5-10 Lakh,4,New,2025-02-01,0
+LD00432,2025-11-17,Sylhet,Website Form,Canada,IELTS Preparation,Priya,5-10 Lakh,1,Contacted,2025-12-06,19
+LD00433,2025-02-26,Chattogram,Walk-in,Malaysia,Visa Processing,Mim,5-10 Lakh,1,New,2025-03-11,13
+LD00434,2026-01-18,Kalabagan,Google Ads,Canada,Study Abroad Consultation,Nusrat,20+ Lakh,4,New,2026-01-29,11
+LD00435,2025-01-06,Kalabagan,Website Form,UK,Study Abroad Consultation,Nusrat,10-20 Lakh,2,Contacted,2025-01-13,7
+LD00436,2025-01-26,Kalabagan,Facebook Ads,Australia,Study Abroad Consultation,Tanvir,20+ Lakh,1,Lost,2025-02-12,17
+LD00437,2025-01-20,Dhanmondi,Website Form,UK,Language Course,Mim,5-10 Lakh,2,Lost,2025-01-23,3
+LD00438,2026-02-20,Chattogram,Facebook Ads,UK,Study Abroad Consultation,Mim,<5 Lakh,3,Consultation Done,2026-03-09,17
+LD00439,2026-03-16,Dhanmondi ,Website Form,USA,Study Abroad Consultation,Mim,10-20 Lakh,7,Consultation Done,2026-03-20,4
+LD00440,2025-04-13,Sylhet,Website Form,Australia,Study Abroad Consultation,priya,5-10 Lakh,4,Enrolled,2025-07-30,108
+LD00441,2026-07-30,Kalabagan,Walk-in,UK,Visa Processing,Nusrat,<5 Lakh,1,New,2026-07-31,8
+LD00442,2025-10-21,Uttara,Website Form,UK,Study Abroad Consultation,Shuvo,,0,Lost,2025-12-08,48
+LD00443,2025-10-28,Kalabagan,Walk-in,Australia,Study Abroad Consultation,Shuvo,,3,Consultation Done,2025-10-29,1
+LD00444,2025-08-11,Kalabagan,Referral,UK,Study Abroad Consultation,Tanvir,20+ Lakh,5,Application Submitted,2025-08-29,18
+LD00445,2025-08-30,Chattogram,Facebook Ads,Germany,Study Abroad Consultation,Tanvir,10-20 Lakh,4,Lost,2025-10-07,38
+LD00446,2025-10-21,Uttara,Website Form,UK,Study Abroad Consultation,Shuvo,20+ Lakh,3,Consultation Done,2025-11-03,13
+LD00447,2026-03-22,Chattogram,Website Form,Canada,Study Abroad Consultation,Rafi,5-10 Lakh,2,Application Submitted,2026-06-09,79
+LD00448,2026-07-19,Kalabagan,Referral,Australia,Study Abroad Consultation,Nusrat,10-20 Lakh,6,Application Submitted,2026-07-31,35
+LD00449,2025-07-06,Uttara,Facebook Ads,UK,IELTS Preparation,Tanvir,5-10 Lakh,4,New,2025-07-24,18
+LD00450,2025-12-10,Uttara,Facebook Ads,UK,Study Abroad Consultation,Tanvir,10-20 Lakh,3,Lost,2025-12-16,6
+LD00451,2026-05-01,Chattogram,Website Form,Canada,Study Abroad Consultation,Rafi,<5 Lakh,6,Contacted,2026-05-01,0
+LD00452,2025-07-20,Uttara,Google Ads,Canada,Study Abroad Consultation,Nusrat,10-20 Lakh,3,Contacted,2025-07-27,7
+LD00453,2025-05-19,Uttara,Google Ads,USA,IELTS Preparation,Priya,10-20 Lakh,3,Application Submitted,2025-07-15,57
+LD00454,2026-01-18,Chattogram,Referral,Malaysia,Study Abroad Consultation,Priya,<5 Lakh,2,Visa Approved,2026-05-19,121
+LD00455,2025-01-15,Dhanmondi,Seminar/Event,Canada,Study Abroad Consultation,Arafat,5-10 Lakh,1,Contacted,2025-01-16,1
+LD00456,2026-03-05,Sylhet,Google Ads,UK,Study Abroad Consultation,Nusrat,20+ Lakh,6,Application Submitted,2026-06-13,100
+LD00457,2026-04-26,Dhanmondi,Google Ads,UK,Study Abroad Consultation,Tanvir,<5 Lakh,2,Consultation Done,2026-05-03,7
+LD00458,2025-02-19,Uttara,Facebook Ads,Australia,IELTS Preparation,Mim,5-10 Lakh,2,New,2025-03-04,13
+LD00459,2026-07-12,Dhanmondi,Google Ads,Germany,Language Course,Rafi,20+ Lakh,3,Contacted,2026-07-31,19
+LD00460,2025-02-06,Sylhet,Facebook Ads,Australia,Language Course,Tanvir,5-10 Lakh,7,Contacted,2025-02-13,7
+LD00461,2026-04-13,Kalabagan,Walk-in,Canada,IELTS Preparation,Arafat,10-20 Lakh,4,Consultation Done,2026-04-15,2
+LD00462,2025-06-27,Dhanmondi,Walk-in,Australia,IELTS Preparation,Rafi,5-10 Lakh,1,Contacted,2025-07-15,18
+LD00463,2026-03-22,Dhanmondi,Walk-in,USA,Visa Processing,Priya,5-10 Lakh,4,Application Submitted,2026-04-24,33
+LD00464,2025-07-30,Dhanmondi,Google Ads,UK,IELTS Preparation,Nusrat,,4,Contacted,2025-08-09,10
+LD00465,2026-03-13,Dhanmondi,Seminar/Event,Malaysia,Study Abroad Consultation,Priya,10-20 Lakh,3,Enrolled,2026-06-13,92
+LD00466,2025-02-03,Uttara,Website Form,Germany,IELTS Preparation,Mim,10-20 Lakh,8,Enrolled,2025-04-11,67
+LD00467,2025-12-07,Dhanmondi,Facebook Ads,Malaysia,Study Abroad Consultation,Rafi,<5 Lakh,0,Consultation Done,2025-12-17,10
+LD00468,2026-07-19,Uttara,Referral,UK,IELTS Preparation,Arafat,<5 Lakh,1,Enrolled,2026-07-31,136
+LD00469,2026-04-10,Chattogram,Seminar/Event,Australia,Study Abroad Consultation,Priya,<5 Lakh,4,Lost,2026-05-09,29
+LD00470,2025-06-18,Uttara,Facebook Ads,Canada,Visa Processing,Arafat,5-10 Lakh,2,Lost,2025-06-27,9
+LD00471,2026-05-24,Sylhet,Google Ads,USA,IELTS Preparation,Priya,<5 Lakh,4,New,2026-05-29,5
+LD00472,2026-07-05,Kalabagan ,Walk-in,USA,IELTS Preparation,Nusrat,<5 Lakh,5,Application Submitted,2026-07-31,51
+LD00473,2026-04-28,Kalabagan,Referral,UK,Study Abroad Consultation,Tanvir,<5 Lakh,3,Contacted,2026-05-12,14
+LD00474,2026-01-27,Uttara,Walk-in,UK,IELTS Preparation,Priya,<5 Lakh,5,Contacted,2026-02-03,7
+LD00475,2026-07-22,Kalabagan,Walk-in,UK,Study Abroad Consultation,Tanvir,10-20 Lakh,2,New,2026-07-31,15
+LD00476,2026-05-06,Dhanmondi,Referral,Australia,IELTS Preparation,Rafi,5-10 Lakh,5,Lost,2026-07-04,59
+LD00477,2025-01-13,Uttara,Walk-in,UK,Study Abroad Consultation,Arafat,<5 Lakh,4,Enrolled,2025-03-17,63
+LD00478,2025-03-08,Kalabagan,Google Ads,USA,Study Abroad Consultation,Nusrat,5-10 Lakh,2,Contacted,2025-03-09,1
+LD00479,2025-08-13,Sylhet,Facebook Ads,Germany,IELTS Preparation,Priya,10-20 Lakh,2,Contacted,2025-09-01,19
+LD00480,2025-08-20,Dhanmondi,Referral,USA,IELTS Preparation,Arafat,10-20 Lakh,1,Lost,2025-09-25,36
+LD00481,2025-09-12,Uttara,Facebook Ads,Australia,Study Abroad Consultation,Nusrat,<5 Lakh,3,Lost,2025-10-28,46
+LD00482,2025-04-24,Uttara,Referral,Canada,Visa Processing,Arafat,5-10 Lakh,5,Lost,2025-05-28,34
+LD00483,2025-06-18,Dhanmondi,Referral,UK,Study Abroad Consultation,Priya,,1,Consultation Done,2025-07-06,18
+LD00484,2025-11-11,Kalabagan,Referral,Germany,Study Abroad Consultation,Nusrat,20+ Lakh,0,Enrolled,2026-03-22,131
+LD00485,2025-07-25,Dhanmondi,Walk-in,USA,Study Abroad Consultation,Shuvo,<5 Lakh,4,Lost,2025-09-15,52
+LD00486,2025-04-18,Kalabagan,Walk-in,Malaysia,IELTS Preparation,Rafi,20+ Lakh,5,Lost,2025-04-23,5
+LD00487,2025-04-09,Uttara,Facebook Ads,Canada,IELTS Preparation,Tanvir,5-10 Lakh,4,Enrolled,2025-07-31,113
+LD00488,2025-01-22,Kalabagan,Seminar/Event,Canada,Study Abroad Consultation,Shuvo,<5 Lakh,5,Lost,2025-02-17,26
+LD00489,2025-10-14,Chattogram,Facebook Ads,Canada,Study Abroad Consultation,Nusrat,5-10 Lakh,2,Enrolled,2026-01-21,99
+LD00490,2025-04-01,Uttara,Walk-in,UK,Study Abroad Consultation,Tanvir,5-10 Lakh,4,Enrolled,2025-07-13,103
+LD00491,2025-10-14,Chattogram,Referral,Germany,Study Abroad Consultation,Tanvir,<5 Lakh,2,Application Submitted,2026-01-20,98
+LD00492,2025-08-07,Chattogram,Referral,UK,Study Abroad Consultation,Mim,5-10 Lakh,0,Enrolled,2025-09-21,45
+LD00493,2025-09-20,Kalabagan,Seminar/Event,USA,Study Abroad Consultation,Tanvir,5-10 Lakh,3,Contacted,2025-10-08,18
+LD00494,2025-12-06,Kalabagan,Referral,Australia,Visa Processing,Mim,10-20 Lakh,1,Enrolled,2026-01-17,42
+LD00495,2025-03-30,Kalabagan,Seminar/Event,UK,IELTS Preparation,Priya,20+ Lakh,4,Lost,2025-05-28,59
+LD00496,2025-02-21,Chattogram,Website Form,USA,Study Abroad Consultation,Priya,10-20 Lakh,4,Lost,2025-02-24,3
+LD00497,2025-06-13,Dhanmondi,Website Form,UK,IELTS Preparation,Mim,5-10 Lakh,1,Consultation Done,2025-06-20,7
+LD00498,2025-01-03,Dhanmondi,Facebook Ads,Germany,Study Abroad Consultation,Priya,5-10 Lakh,3,Contacted,2025-01-12,9
+LD00499,2025-08-06,Chattogram,Facebook Ads,UK,Study Abroad Consultation,Tanvir,<5 Lakh,6,Contacted,2025-08-15,9
+LD00500,2025-01-14,Uttara,Referral,USA,Language Course,Shuvo,10-20 Lakh,3,Lost,2025-03-06,51
+LD00501,2025-09-26,Uttara,Facebook Ads,UK,Study Abroad Consultation,Shuvo,5-10 Lakh,1,Lost,2025-10-30,34
+LD00502,2026-03-26,Kalabagan,Facebook Ads,Canada,Study Abroad Consultation,Nusrat,20+ Lakh,3,Contacted,2026-04-01,6
+LD00503,2026-06-05,Uttara,Facebook Ads,UK,Study Abroad Consultation,Tanvir,20+ Lakh,2,Consultation Done,2026-06-05,0
+LD00504,2025-06-22,Sylhet,Facebook Ads,UK,Study Abroad Consultation,Rafi,20+ Lakh,0,Consultation Done,2025-06-27,5
+LD00505,2025-12-16,Uttara,Facebook Ads,Malaysia,Visa Processing,Rafi,<5 Lakh,0,Lost,2025-12-25,9
+LD00506,2025-05-29,Dhanmondi,Google Ads,UK,Language Course,Priya,5-10 Lakh,6,Contacted,2025-06-10,12
+LD00507,2025-01-21,Dhanmondi,Website Form,Malaysia,IELTS Preparation,Mim,<5 Lakh,5,Lost,2025-03-14,52
+LD00508,2026-04-11,Chattogram,Google Ads,USA,Study Abroad Consultation,Shuvo,5-10 Lakh,2,Enrolled,2026-05-14,33
+LD00509,2026-06-25,Dhanmondi,Facebook Ads,UK,Study Abroad Consultation,Arafat,20+ Lakh,2,Contacted,2026-07-07,12
+LD00510,2026-02-10,Uttara,Google Ads,USA,Visa Processing,Priya,5-10 Lakh,0,Consultation Done,2026-02-14,4
+LD00511,2025-09-09,Uttara,Seminar/Event,Australia,Language Course,Mim,<5 Lakh,4,New,2025-09-24,15
+LD00512,2026-06-23,Kalabagan,Seminar/Event,Germany,Language Course,Tanvir,10-20 Lakh,2,Contacted,2026-07-12,19
+LD00513,2025-01-26,Uttara,Google Ads,UK,Study Abroad Consultation,Rafi,5-10 Lakh,2,New,2025-01-26,0
+LD00514,2025-11-01,Uttara,Facebook Ads,Canada,Study Abroad Consultation,Tanvir,5-10 Lakh,3,Enrolled,2026-02-13,104
+LD00515,2025-09-21,Kalabagan,Website Form,UK,Study Abroad Consultation,Mim,10-20 Lakh,1,Application Submitted,2025-11-24,64
+LD00516,2025-03-29,Kalabagan,Website Form,Canada,IELTS Preparation,Rafi,<5 Lakh,6,Lost,2025-04-24,26
+LD00517,2025-09-14,Kalabagan,Seminar/Event,Germany,Study Abroad Consultation,Priya,20+ Lakh,1,Application Submitted,2026-01-20,128
+LD00518,2025-07-22,Dhanmondi,Facebook Ads,USA,Study Abroad Consultation,Nusrat,10-20 Lakh,1,Enrolled,2025-12-15,146
+LD00519,2025-09-16,Chattogram,Facebook Ads,USA,IELTS Preparation,Nusrat,5-10 Lakh,2,Contacted,2025-10-04,18
+LD00520,2026-05-03,Uttara,Facebook Ads,Canada,IELTS Preparation,Nusrat,<5 Lakh,3,Contacted,2026-05-17,14
+LD00521,2025-10-28,Kalabagan,Seminar/Event,UK,Study Abroad Consultation,Priya,5-10 Lakh,3,Lost,2025-11-18,21
+LD00522,2026-01-15,Dhanmondi,Google Ads,UK,Language Course,Shuvo,10-20 Lakh,2,Contacted,2026-01-19,4
+LD00523,2025-09-10,Kalabagan,Walk-in,USA,Study Abroad Consultation,Tanvir,10-20 Lakh,1,Lost,2025-10-20,40
+LD00524,2025-03-03,Kalabagan,Walk-in,Australia,Visa Processing,Nusrat,5-10 Lakh,2,Consultation Done,2025-03-14,11
+LD00525,2026-02-08,Uttara,Walk-in,Canada,Study Abroad Consultation,Rafi,<5 Lakh,2,Enrolled,2026-07-07,149
+LD00526,2025-05-31,Dhanmondi,Website Form,Malaysia,Language Course,Rafi,<5 Lakh,2,Lost,2025-06-17,17
+LD00527,2025-09-29,Uttara,Seminar/Event,UK,Study Abroad Consultation,Shuvo,5-10 Lakh,2,Contacted,2025-10-06,7
+LD00528,2025-07-26,Sylhet,Facebook Ads,Australia,Visa Processing,Rafi,5-10 Lakh,4,Consultation Done,2025-08-05,10
+LD00529,2025-11-26,Uttara,Website Form,Australia,Visa Processing,Shuvo,<5 Lakh,2,New,2025-11-27,1
+LD00530,2025-11-18,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Rafi,<5 Lakh,4,Contacted,2025-11-30,12
+LD00531,2026-02-04,Chattogram,Facebook Ads,Germany,IELTS Preparation,Shuvo,5-10 Lakh,1,New,2026-02-09,5
+LD00532,2025-05-30,Chattogram,Referral,Germany,Study Abroad Consultation,Tanvir,10-20 Lakh,2,Lost,2025-06-02,3
+LD00533,2025-08-28,Uttara,Google Ads,Germany,Language Course,Arafat,20+ Lakh,6,New,2025-09-03,6
+LD00534,2026-05-13,Uttara,Facebook Ads,Malaysia,IELTS Preparation,Rafi,5-10 Lakh,0,Consultation Done,2026-05-30,17
+LD00535,2025-03-27,Sylhet,Walk-in,Australia,Study Abroad Consultation,Shuvo,<5 Lakh,3,Lost,2025-05-05,39
+LD00536,2025-04-23,Kalabagan,Referral,Canada,IELTS Preparation,Tanvir,5-10 Lakh,3,Enrolled,2025-09-14,144
+LD00537,2026-06-26,Chattogram,Facebook Ads,Canada,Visa Processing,Rafi,5-10 Lakh,6,Consultation Done,2026-07-11,15
+LD00538,2026-02-09,Kalabagan,Walk-in,Germany,IELTS Preparation,Nusrat,5-10 Lakh,3,Lost,2026-02-23,14
+LD00539,2025-04-25,Kalabagan,Google Ads,Malaysia,Study Abroad Consultation,Mim,<5 Lakh,3,New,2025-05-07,12
+LD00540,2025-11-29,Kalabagan,Google Ads,UK,Study Abroad Consultation,Priya,5-10 Lakh,1,New,2025-11-30,1
+LD00541,2026-03-30,Kalabagan,Walk-in,USA,IELTS Preparation,Nusrat,<5 Lakh,4,Consultation Done,2026-04-02,3
+LD00542,2026-02-24,Kalabagan,Google Ads,USA,Study Abroad Consultation,Arafat,10-20 Lakh,3,Contacted,2026-03-07,11
+LD00543,2025-01-10,Chattogram,Facebook Ads,Canada,IELTS Preparation,Priya,<5 Lakh,3,Lost,2025-02-20,41
+LD00544,2025-07-14,Kalabagan,Website Form,UK,Study Abroad Consultation,Nusrat,5-10 Lakh,5,Lost,2025-08-14,31
+LD00545,2025-06-26,Uttara,Walk-in,USA,Language Course,Nusrat,<5 Lakh,5,Contacted,2025-06-30,4
+LD00546,2025-11-26,Chattogram,Referral,UK,Study Abroad Consultation,Rafi,5-10 Lakh,5,Consultation Done,2025-12-14,18
+LD00547,2025-09-21,Kalabagan,Facebook Ads,Malaysia,Study Abroad Consultation,Mim,5-10 Lakh,2,Lost,2025-11-10,50
+LD00548,2026-01-03,Dhanmondi,Referral,UK,Study Abroad Consultation,Priya,5-10 Lakh,4,New,2026-01-20,17
+LD00549,2025-01-13,Dhanmondi,Facebook Ads,UK,Language Course,Arafat,10-20 Lakh,3,Contacted,2025-01-30,17
+LD00550,2025-02-04,Sylhet,Facebook Ads,UK,Study Abroad Consultation,Mim,<5 Lakh,2,Contacted,2025-02-11,7
+LD00551,2026-01-18,Dhanmondi,Google Ads,UK,Visa Processing,Priya,20+ Lakh,5,Lost,2026-02-10,23
+LD00552,2025-04-01,Uttara,Google Ads,USA,Language Course,Priya,5-10 Lakh,3,Application Submitted,2025-05-29,58
+LD00553,2026-07-20,Sylhet,Google Ads,UK,IELTS Preparation,Priya,5-10 Lakh,2,Lost,2026-07-31,59
+LD00554,2026-02-10,Chattogram,Facebook Ads,USA,IELTS Preparation,Shuvo,20+ Lakh,2,Lost,2026-03-04,22
+LD00555,2025-02-23,Kalabagan,Google Ads,UK,Study Abroad Consultation,Arafat,<5 Lakh,6,Application Submitted,2025-07-17,144
+LD00556,2025-02-16,Chattogram,Facebook Ads,Canada,IELTS Preparation,Mim,5-10 Lakh,5,Enrolled,2025-03-25,37
+LD00557,2026-02-25,Kalabagan,Referral,USA,IELTS Preparation,Priya,<5 Lakh,2,Contacted,2026-03-05,8
+LD00558,2025-08-03,Chattogram,Google Ads,UK,Study Abroad Consultation,Tanvir,<5 Lakh,5,Lost,2025-09-05,33
+LD00559,2026-04-29,Kalabagan,Google Ads,Malaysia,IELTS Preparation,Tanvir,5-10 Lakh,5,Lost,2026-06-08,40
+LD00560,2025-11-12,Uttara,Facebook Ads,Australia,Visa Processing,Shuvo,10-20 Lakh,5,New,2025-11-30,18
+LD00561,2026-06-18,Kalabagan,Facebook Ads,Canada,Visa Processing,Priya,,4,Contacted,2026-06-21,3
+LD00562,2025-01-05,Chattogram,Website Form,Canada,IELTS Preparation,Tanvir,<5 Lakh,3,New,2025-01-23,18
+LD00563,2025-07-09,Sylhet,Facebook Ads,UK,Language Course,Priya,<5 Lakh,3,Consultation Done,2025-07-18,9
+LD00564,2026-01-13,Uttara,Google Ads,Australia,Study Abroad Consultation,Priya,5-10 Lakh,2,Lost,2026-02-04,22
+LD00565,2025-02-04,Chattogram,Facebook Ads,UK,Visa Processing,Nusrat,5-10 Lakh,3,Consultation Done,2025-02-10,6
+LD00566,2025-04-30,Dhanmondi,Referral,UK,Visa Processing,Rafi,<5 Lakh,0,Lost,2025-06-02,33
+LD00567,2025-07-16,Dhanmondi,Facebook Ads,Malaysia,Visa Processing,Nusrat,5-10 Lakh,6,New,2025-07-25,9
+LD00568,2025-12-22,Kalabagan,Website Form,Germany,IELTS Preparation,Arafat,5-10 Lakh,1,Consultation Done,2026-01-05,14
+LD00569,2025-05-24,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Arafat,5-10 Lakh,6,Contacted,2025-05-29,5
+LD00570,2026-04-06,Dhanmondi,Walk-in,Canada,Visa Processing,Arafat,<5 Lakh,3,Contacted,2026-04-12,6
+LD00571,2026-02-20,Chattogram,Google Ads,Malaysia,Study Abroad Consultation,Arafat,,2,Contacted,2026-02-26,6
+LD00572,2025-11-04,Kalabagan,Google Ads,Canada,IELTS Preparation,Rafi,<5 Lakh,2,Contacted,2025-11-14,10
+LD00573,2026-05-14,Kalabagan,Facebook Ads,Malaysia,IELTS Preparation,Mim,5-10 Lakh,2,Visa Approved,2026-06-23,40
+LD00574,2026-02-25,Dhanmondi,Referral,USA,Study Abroad Consultation,Arafat,20+ Lakh,3,Enrolled,2026-06-18,113
+LD00575,2026-04-23,Uttara,Referral,UK,IELTS Preparation,Arafat,<5 Lakh,2,Visa Approved,2026-05-25,32
+LD00576,2025-06-13,Kalabagan,Google Ads,USA,Study Abroad Consultation,Tanvir,10-20 Lakh,3,Lost,2025-07-11,28
+LD00577,2025-01-22,Uttara,Facebook Ads,UK,Language Course,Mim,20+ Lakh,2,Contacted,2025-01-26,4
+LD00578,2026-05-28,Kalabagan,Facebook Ads,USA,IELTS Preparation,Nusrat,10-20 Lakh,3,New,2026-06-10,13
+LD00579,2025-04-06,Chattogram,Referral,Canada,Study Abroad Consultation,Rafi,<5 Lakh,3,Enrolled,2025-05-22,46
+LD00580,2025-03-07,Kalabagan,Google Ads,Canada,Study Abroad Consultation,mim,,2,Consultation Done,2025-03-07,0
+LD00581,2025-12-03,Uttara,Facebook Ads,Germany,Study Abroad Consultation,Rafi,10-20 Lakh,5,Lost,2025-12-10,7
+LD00582,2025-05-09,Chattogram,Facebook Ads,Australia,Study Abroad Consultation,Rafi,10-20 Lakh,0,New,2025-05-24,15
+LD00583,2026-02-06,Chattogram,Website Form,Australia,IELTS Preparation,Shuvo,5-10 Lakh,3,Visa Approved,2026-03-14,36
+LD00584,2025-08-15,Kalabagan,Walk-in,Canada,Study Abroad Consultation,Rafi,20+ Lakh,1,Enrolled,2025-12-15,122
+LD00585,2025-02-16,Kalabagan,Google Ads,USA,Visa Processing,Shuvo,<5 Lakh,3,New,2025-02-20,4
+LD00586,2025-12-21,Chattogram,Website Form,Canada,IELTS Preparation,Shuvo,5-10 Lakh,2,Lost,2026-01-24,34
+LD00587,2026-07-15,Chattogram,Referral,UK,IELTS Preparation,Nusrat,20+ Lakh,11,Application Submitted,2026-07-31,116
+LD00588,2026-03-01,Sylhet,Facebook Ads,Malaysia,Study Abroad Consultation,Shuvo,<5 Lakh,2,Consultation Done,2026-03-12,11
+LD00589,2025-08-16,Kalabagan,Referral,USA,IELTS Preparation,Rafi,10-20 Lakh,4,Enrolled,2025-12-07,113
+LD00590,2025-12-11,Sylhet,Facebook Ads,UK,Study Abroad Consultation,Priya,10-20 Lakh,1,Lost,2026-01-03,23
+LD00591,2025-10-14,Uttara,Website Form,UK,IELTS Preparation,Shuvo,<5 Lakh,3,Lost,2025-10-23,9
+LD00592,2026-02-20,Uttara,Facebook Ads,UK,IELTS Preparation,Priya,<5 Lakh,4,Visa Approved,2026-06-19,119
+LD00593,2025-02-18,Sylhet,Website Form,Canada,Language Course,Nusrat,<5 Lakh,3,Lost,2025-03-06,16
+LD00594,2025-10-16,Kalabagan,Referral,UK,Visa Processing,Arafat,5-10 Lakh,1,Application Submitted,2026-02-08,115
+LD00595,2026-04-21,Uttara,Referral,Canada,Study Abroad Consultation,Tanvir,20+ Lakh,3,Consultation Done,2026-05-04,13
+LD00596,2025-03-21,Chattogram,Walk-in,UK,IELTS Preparation,Tanvir,<5 Lakh,2,Contacted,2025-03-29,8
+LD00597,2025-11-23,Dhanmondi,Facebook Ads,Canada,IELTS Preparation,Rafi,5-10 Lakh,2,Lost,2026-01-05,43
+LD00598,2026-06-10,Chattogram,Facebook Ads,Canada,Study Abroad Consultation,Rafi,20+ Lakh,6,New,2026-06-10,0
+LD00599,2025-04-03,Kalabagan,Facebook Ads,Canada,Study Abroad Consultation,Arafat,20+ Lakh,6,Enrolled,2025-07-16,104
+LD00600,2025-01-06,Dhanmondi,Facebook Ads,Canada,IELTS Preparation,Rafi,5-10 Lakh,6,Consultation Done,2025-01-23,17
+LD00601,2025-05-03,Chattogram,Facebook Ads,UK,Study Abroad Consultation,Priya,20+ Lakh,3,Contacted,2025-05-20,17
+LD00602,2025-07-27,Uttara,Referral,Canada,Study Abroad Consultation,Mim,5-10 Lakh,2,Lost,2025-08-12,16
+LD00603,2025-07-31,Dhanmondi,Seminar/Event,UK,Visa Processing,Arafat,10-20 Lakh,4,Application Submitted,2025-11-19,111
+LD00604,2026-01-25,Dhanmondi,Walk-in,USA,Study Abroad Consultation,Tanvir,10-20 Lakh,0,Application Submitted,2026-05-30,125
+LD00605,2026-05-24,Kalabagan,Facebook Ads,Germany,Study Abroad Consultation,Rafi,5-10 Lakh,2,Lost,2026-05-29,5
+LD00606,2025-05-09,Dhanmondi,Seminar/Event,Canada,Study Abroad Consultation,Nusrat,10-20 Lakh,3,Contacted,2025-05-18,9
+LD00607,2026-04-02,Uttara,Website Form,UK,IELTS Preparation,Mim,10-20 Lakh,7,New,2026-04-06,4
+LD00608,2026-01-10,Dhanmondi,Facebook Ads,USA,Study Abroad Consultation,Priya,5-10 Lakh,3,New,2026-01-22,12
+LD00609,2025-02-02,Kalabagan,Google Ads,Canada,Study Abroad Consultation,Tanvir,20+ Lakh,3,Application Submitted,2025-02-23,21
+LD00610,2025-07-07,Uttara,Google Ads,Australia,Study Abroad Consultation,Arafat,5-10 Lakh,2,Consultation Done,2025-07-10,3
+LD00611,2025-11-29,Kalabagan,Google Ads,UK,Study Abroad Consultation,Priya,20+ Lakh,7,Lost,2026-01-06,38
+LD00612,2025-05-29,Kalabagan,Facebook Ads,Canada,Study Abroad Consultation,Mim,5-10 Lakh,1,Contacted,2025-06-17,19
+LD00613,2025-01-06,Uttara,Facebook Ads,UK,Study Abroad Consultation,Arafat,10-20 Lakh,5,Lost,2025-01-07,1
+LD00614,2026-01-31,Chattogram,Website Form,Canada,Study Abroad Consultation,Shuvo,5-10 Lakh,2,Lost,2026-03-19,47
+LD00615,2025-01-04,Uttara,Facebook Ads,UK,Study Abroad Consultation,Tanvir,5-10 Lakh,4,Lost,2025-02-08,35
+LD00616,2026-02-11,Uttara,Seminar/Event,Canada,Study Abroad Consultation,Tanvir,<5 Lakh,4,Consultation Done,2026-03-02,19
+LD00617,2026-06-18,Dhanmondi,Referral,UK,Visa Processing,Arafat,<5 Lakh,5,Visa Approved,2026-07-31,96
+LD00618,2026-05-18,Uttara ,Website Form,USA,Study Abroad Consultation,Nusrat,5-10 Lakh,3,Contacted,2026-05-21,3
+LD00619,2026-03-27,Chattogram,Seminar/Event,Canada,IELTS Preparation,Mim,<5 Lakh,3,Consultation Done,2026-04-12,16
+LD00620,2025-07-14,Kalabagan,Facebook Ads,Australia,Study Abroad Consultation,Priya,5-10 Lakh,1,Contacted,2025-07-24,10
+LD00621,2025-08-05,Chattogram,Google Ads,Australia,IELTS Preparation,Shuvo,5-10 Lakh,1,New,2025-08-19,14
+LD00622,2025-12-30,Dhanmondi,Facebook Ads,USA,Study Abroad Consultation,Shuvo,10-20 Lakh,5,Lost,2026-01-20,21
+LD00623,2025-01-18,Kalabagan,Walk-in,Germany,IELTS Preparation,Priya,10-20 Lakh,4,Consultation Done,2025-01-18,0
+LD00624,2025-04-11,Uttara,Referral,Malaysia,Study Abroad Consultation,Priya,20+ Lakh,2,Lost,2025-05-12,31
+LD00625,2025-04-10,Dhanmondi,Referral,Germany,IELTS Preparation,Priya,10-20 Lakh,5,Visa Approved,2025-06-16,67
+LD00626,2026-02-09,Kalabagan,Seminar/Event,Germany,IELTS Preparation,Priya,10-20 Lakh,2,Enrolled,2026-04-19,69
+LD00627,2026-07-03,Kalabagan,Google Ads,USA,Visa Processing,Priya,5-10 Lakh,3,New,2026-07-13,10
+LD00628,2026-03-11,Sylhet,Walk-in,Canada,IELTS Preparation,Tanvir,5-10 Lakh,2,New,2026-03-16,5
+LD00629,2025-02-08,Kalabagan,Facebook Ads,Australia,Language Course,Rafi,10-20 Lakh,0,Lost,2025-02-20,12
+LD00630,2025-04-01,Dhanmondi,Referral,UK,IELTS Preparation,Arafat,<5 Lakh,1,Contacted,2025-04-02,1
+LD00631,2026-06-29,Uttara,Seminar/Event,Australia,IELTS Preparation,Arafat,5-10 Lakh,8,Enrolled,2026-07-31,120
+LD00632,2025-02-14,Dhanmondi,Walk-in,Australia,Study Abroad Consultation,Arafat,10-20 Lakh,3,Lost,2025-03-21,35
+LD00633,2025-09-26,Sylhet,Website Form,Canada,Study Abroad Consultation,Nusrat,<5 Lakh,2,Lost,2025-11-22,57
+LD00634,2025-02-19,Chattogram,Facebook Ads,Australia,IELTS Preparation,Mim,5-10 Lakh,4,Enrolled,2025-07-13,144
+LD00635,2025-10-10,Dhanmondi,Facebook Ads,Australia,IELTS Preparation,Mim,,2,New,2025-10-22,12
+LD00636,2025-03-26,Uttara,Walk-in,Australia,Study Abroad Consultation,Mim,10-20 Lakh,4,Lost,2025-03-30,4
+LD00637,2025-06-01,Kalabagan,Referral,UK,IELTS Preparation,Priya,<5 Lakh,2,Enrolled,2025-08-24,84
+LD00638,2026-04-21,Uttara,Website Form,UK,IELTS Preparation,Mim,20+ Lakh,3,Lost,2026-04-27,6
+LD00639,2026-03-09,Dhanmondi,Google Ads,UK,Language Course,Nusrat,,6,Enrolled,2026-04-13,35
+LD00640,2025-09-10,Dhanmondi,Facebook Ads,USA,Language Course,Arafat,10-20 Lakh,4,Consultation Done,2025-09-24,14
+LD00641,2025-07-01,Dhanmondi,Website Form,Australia,Study Abroad Consultation,Rafi,10-20 Lakh,2,Contacted,2025-07-11,10
+LD00642,2025-09-04,Chattogram,Website Form,UK,IELTS Preparation,Rafi,10-20 Lakh,1,Contacted,2025-09-21,17
+LD00643,2025-08-23,Kalabagan,Walk-in,Malaysia,Language Course,Priya,20+ Lakh,5,Enrolled,2025-09-28,36
+LD00644,2025-12-07,Dhanmondi,Facebook Ads,Malaysia,Study Abroad Consultation,Shuvo,<5 Lakh,3,Lost,2025-12-16,9
+LD00645,2026-06-05,Uttara,Google Ads,Canada,Study Abroad Consultation,Mim,<5 Lakh,1,New,2026-06-15,10
+LD00646,2025-06-26,Chattogram ,Referral,Germany,Study Abroad Consultation,Rafi,10-20 Lakh,0,Visa Approved,2025-11-04,131
+LD00647,2025-02-04,Sylhet,Referral,Canada,IELTS Preparation,Priya,10-20 Lakh,2,New,2025-02-07,3
+LD00648,2025-08-06,Dhanmondi,Facebook Ads,UK,IELTS Preparation,Nusrat,5-10 Lakh,7,Consultation Done,2025-08-19,13
+LD00649,2026-06-01,Uttara,Walk-in,Australia,Study Abroad Consultation,Shuvo,<5 Lakh,1,New,2026-06-19,18
+LD00650,2025-09-18,Dhanmondi,Facebook Ads,Canada,IELTS Preparation,Rafi,5-10 Lakh,2,Contacted,2025-10-02,14
+LD00651,2025-08-02,Kalabagan,Referral,Australia,Study Abroad Consultation,Shuvo,5-10 Lakh,2,Enrolled,2025-09-25,54
+LD00652,2025-01-21,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Tanvir,10-20 Lakh,5,Lost,2025-01-24,3
+LD00653,2026-01-24,Kalabagan,Seminar/Event,UK,Study Abroad Consultation,Shuvo,<5 Lakh,6,Enrolled,2026-06-02,129
+LD00654,2026-06-08,Chattogram,Facebook Ads,USA,IELTS Preparation,Rafi,<5 Lakh,4,Lost,2026-07-29,51
+LD00655,2025-11-24,Chattogram,Google Ads,Canada,Study Abroad Consultation,Mim,5-10 Lakh,2,Enrolled,2026-02-18,86
+LD00656,2025-02-24,Uttara,Facebook Ads,Australia,Study Abroad Consultation,Tanvir,<5 Lakh,1,New,2025-03-14,18
+LD00657,2025-07-27,Kalabagan,Facebook Ads,Canada,Visa Processing,Shuvo,10-20 Lakh,2,Application Submitted,2025-10-08,73
+LD00658,2025-07-19,Chattogram,Facebook Ads,Germany,IELTS Preparation,Priya,<5 Lakh,7,Lost,2025-08-18,30
+LD00659,2025-01-02,Uttara,Website Form,Canada,Visa Processing,Shuvo,<5 Lakh,3,Lost,2025-01-26,24
+LD00660,2025-11-22,Kalabagan,Referral,Australia,Study Abroad Consultation,Rafi,20+ Lakh,1,Lost,2025-11-28,6
+LD00661,2025-08-21,Kalabagan,Website Form,Canada,Study Abroad Consultation,Mim,5-10 Lakh,6,Enrolled,2025-12-15,116
+LD00662,2026-04-17,Kalabagan,Seminar/Event,Germany,Study Abroad Consultation,Tanvir,5-10 Lakh,2,Application Submitted,2026-07-31,106
+LD00663,2025-12-24,Kalabagan,Google Ads,Australia,Study Abroad Consultation,Rafi,5-10 Lakh,3,New,2026-01-03,10
+LD00664,2026-02-13,Kalabagan,Facebook Ads,Malaysia,IELTS Preparation,Arafat,20+ Lakh,4,Lost,2026-03-21,36
+LD00665,2026-07-08,Kalabagan,Facebook Ads,Canada,Study Abroad Consultation,Mim,10-20 Lakh,2,Lost,2026-07-31,23
+LD00666,2025-04-01,Kalabagan,Walk-in,Australia,Study Abroad Consultation,Rafi,20+ Lakh,3,New,2025-04-04,3
+LD00667,2025-12-06,Kalabagan,Seminar/Event,UK,Visa Processing,Nusrat,10-20 Lakh,3,Consultation Done,2025-12-12,6
+LD00668,2026-06-01,Kalabagan,Referral,Australia,IELTS Preparation,Rafi,5-10 Lakh,4,Enrolled,2026-07-30,59
+LD00669,2025-09-15,Kalabagan,Google Ads,USA,Language Course,Nusrat,20+ Lakh,2,Consultation Done,2025-09-16,1
+LD00670,2025-08-17,Uttara,Seminar/Event,Canada,Visa Processing,Mim,10-20 Lakh,4,Visa Approved,2025-09-23,37
+LD00671,2025-11-11,Chattogram,Facebook Ads,Canada,IELTS Preparation,Shuvo,<5 Lakh,4,New,2025-11-18,7
+LD00672,2025-05-14,Chattogram,Walk-in,Canada,Study Abroad Consultation,Nusrat,,2,Consultation Done,2025-06-01,18
+LD00673,2025-03-17,Uttara,Google Ads,UK,Study Abroad Consultation,Mim,<5 Lakh,1,Lost,2025-04-04,18
+LD00674,2025-01-07,Chattogram,Facebook Ads,Canada,Visa Processing,Tanvir,<5 Lakh,3,Enrolled,2025-04-07,90
+LD00675,2026-01-22,Sylhet,Facebook Ads,UK,Study Abroad Consultation,Mim,10-20 Lakh,2,Lost,2026-02-18,27
+LD00676,2025-07-22,Kalabagan,Walk-in,UK,IELTS Preparation,Tanvir,5-10 Lakh,5,Lost,2025-08-14,23
+LD00677,2025-05-20,Dhanmondi,Facebook Ads,USA,Study Abroad Consultation,Nusrat,10-20 Lakh,3,Enrolled,2025-09-12,115
+LD00678,2025-02-21,Kalabagan,Seminar/Event,UK,Study Abroad Consultation,Nusrat,<5 Lakh,3,Contacted,2025-03-02,9
+LD00679,2026-01-03,Dhanmondi,Referral,UK,Study Abroad Consultation,Shuvo,5-10 Lakh,0,Visa Approved,2026-01-20,17
+LD00680,2025-11-22,Kalabagan,Facebook Ads,USA,Visa Processing,Nusrat,10-20 Lakh,4,Enrolled,2026-03-13,111
+LD00681,2025-09-01,Kalabagan,Website Form,UK,Visa Processing,Tanvir,<5 Lakh,2,Enrolled,2025-10-19,48
+LD00682,2025-05-16,Kalabagan,Google Ads,UK,Language Course,Rafi,20+ Lakh,5,Lost,2025-07-02,47
+LD00683,2025-03-08,Kalabagan,Google Ads,Canada,Study Abroad Consultation,Rafi,5-10 Lakh,5,Visa Approved,2025-04-12,35
+LD00684,2026-03-05,Dhanmondi,Website Form,Canada,Language Course,Shuvo,<5 Lakh,4,Consultation Done,2026-03-08,3
+LD00685,2025-09-26,Uttara,Referral,Malaysia,Study Abroad Consultation,Priya,,5,Lost,2025-10-07,11
+LD00686,2025-03-18,Sylhet,Walk-in,Germany,Study Abroad Consultation,rafi,20+ Lakh,3,Lost,2025-04-18,31
+LD00687,2025-08-13,Uttara,Website Form,Canada,Visa Processing,Nusrat,5-10 Lakh,0,Consultation Done,2025-08-23,10
+LD00688,2025-12-15,Chattogram,Seminar/Event,UK,Language Course,Rafi,10-20 Lakh,4,Lost,2026-01-08,24
+LD00689,2025-11-10,Uttara,Walk-in,Australia,IELTS Preparation,Shuvo,10-20 Lakh,3,Consultation Done,2025-11-17,7
+LD00690,2025-09-08,Kalabagan,Facebook Ads,UK,IELTS Preparation,Arafat,,2,Contacted,2025-09-23,15
+LD00691,2025-02-08,Dhanmondi,Referral,UK,Study Abroad Consultation,Tanvir,10-20 Lakh,5,Consultation Done,2025-02-22,14
+LD00692,2026-04-09,Dhanmondi,Facebook Ads,UK,IELTS Preparation,Mim,10-20 Lakh,2,Application Submitted,2026-07-23,105
+LD00693,2026-01-22,Kalabagan,Walk-in,UK,Study Abroad Consultation,Rafi,,3,Contacted,2026-02-09,18
+LD00694,2025-12-18,Uttara,Facebook Ads,Malaysia,Study Abroad Consultation,Nusrat,20+ Lakh,2,Contacted,2026-01-05,18
+LD00695,2026-06-13,Kalabagan ,Facebook Ads,Canada,Visa Processing,Rafi,10-20 Lakh,3,Application Submitted,2026-07-31,118
+LD00696,2025-12-27,Dhanmondi,Facebook Ads,Germany,Study Abroad Consultation,Arafat,5-10 Lakh,2,Consultation Done,2025-12-30,3
+LD00697,2025-09-15,Kalabagan,Website Form,Malaysia,Study Abroad Consultation,Mim,10-20 Lakh,3,Enrolled,2025-11-07,53
+LD00698,2026-07-27,Sylhet,Google Ads,Germany,Visa Processing,Tanvir,10-20 Lakh,3,Application Submitted,2026-07-31,61
+LD00699,2026-06-12,Kalabagan ,Website Form,Australia,IELTS Preparation,Rafi,<5 Lakh,3,Contacted,2026-06-21,9
+LD00700,2026-07-03,Uttara,Website Form,Canada,Language Course,Arafat,<5 Lakh,2,Lost,2026-07-31,39
+LD00701,2025-04-08,Chattogram,Referral,Malaysia,Language Course,Shuvo,5-10 Lakh,2,Lost,2025-04-26,18
+LD00702,2025-12-05,Sylhet,Facebook Ads,Malaysia,Study Abroad Consultation,Nusrat,20+ Lakh,1,Consultation Done,2025-12-20,15
+LD00703,2026-02-17,Dhanmondi,Google Ads,UK,Visa Processing,Nusrat,5-10 Lakh,4,Contacted,2026-02-25,8
+LD00704,2026-03-22,Chattogram,Google Ads,Australia,Study Abroad Consultation,Nusrat,10-20 Lakh,3,Enrolled,2026-06-03,73
+LD00705,2025-08-08,Uttara,Facebook Ads,Canada,Study Abroad Consultation,Priya,20+ Lakh,5,Lost,2025-10-04,57
+LD00706,2026-06-23,Kalabagan,Website Form,UK,IELTS Preparation,Rafi,5-10 Lakh,7,New,2026-06-30,7
+LD00707,2025-12-24,Kalabagan,Seminar/Event,Australia,IELTS Preparation,Nusrat,<5 Lakh,8,Application Submitted,2026-03-18,84
+LD00708,2026-04-16,Uttara,Website Form,UK,Study Abroad Consultation,Arafat,10-20 Lakh,3,Consultation Done,2026-04-21,5
+LD00709,2025-11-05,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Tanvir,10-20 Lakh,5,Application Submitted,2026-02-18,105
+LD00710,2025-10-15,Dhanmondi,Referral,Germany,Visa Processing,Shuvo,20+ Lakh,2,Enrolled,2026-01-02,79
+LD00711,2025-01-03,Chattogram,Website Form,USA,Study Abroad Consultation,Shuvo,<5 Lakh,4,Contacted,2025-01-06,3
+LD00712,2026-04-24,Dhanmondi,Facebook Ads,Australia,IELTS Preparation,Rafi,5-10 Lakh,1,Enrolled,2026-05-11,17
+LD00713,2025-01-12,Dhanmondi,Website Form,Germany,Study Abroad Consultation,Priya,<5 Lakh,4,Lost,2025-01-14,2
+LD00714,2026-02-20,Kalabagan,Website Form,USA,Study Abroad Consultation,Rafi,10-20 Lakh,2,Application Submitted,2026-05-13,82
+LD00715,2025-11-15,Uttara,Seminar/Event,Germany,Study Abroad Consultation,Priya,10-20 Lakh,3,Application Submitted,2026-02-16,93
+LD00716,2026-04-07,Uttara,Referral,UK,Study Abroad Consultation,Priya,5-10 Lakh,4,Enrolled,2026-07-31,134
+LD00717,2025-02-09,Kalabagan,Facebook Ads,Malaysia,Visa Processing,Rafi,5-10 Lakh,3,Lost,2025-02-26,17
+LD00718,2026-06-26,Dhanmondi,Facebook Ads,Australia,IELTS Preparation,Rafi,5-10 Lakh,3,Lost,2026-07-14,18
+LD00719,2026-01-06,Dhanmondi,Facebook Ads,Canada,Language Course,Priya,<5 Lakh,2,Contacted,2026-01-12,6
+LD00720,2025-10-31,Kalabagan,Google Ads,USA,Study Abroad Consultation,Rafi,5-10 Lakh,3,New,2025-11-01,1
+LD00721,2026-01-24,Kalabagan,Website Form,Australia,Study Abroad Consultation,Shuvo,5-10 Lakh,5,Contacted,2026-02-03,10
+LD00722,2025-08-14,Uttara,Facebook Ads,UK,Study Abroad Consultation,Nusrat,20+ Lakh,3,Contacted,2025-08-27,13
+LD00723,2025-03-11,Kalabagan,Website Form,USA,Visa Processing,Priya,20+ Lakh,3,Enrolled,2025-07-01,112
+LD00724,2025-06-17,Dhanmondi,Seminar/Event,Canada,IELTS Preparation,Mim,<5 Lakh,2,Lost,2025-06-19,2
+LD00725,2025-12-17,Chattogram,Seminar/Event,USA,IELTS Preparation,Rafi,10-20 Lakh,6,Lost,2026-02-06,51
+LD00726,2026-01-12,Kalabagan,Referral,Germany,Visa Processing,Priya,5-10 Lakh,4,Lost,2026-02-03,22
+LD00727,2025-03-01,Sylhet,Google Ads,Canada,Language Course,Shuvo,20+ Lakh,4,Contacted,2025-03-11,10
+LD00728,2026-03-12,Dhanmondi,Referral,Malaysia,Study Abroad Consultation,Arafat,20+ Lakh,2,Consultation Done,2026-03-15,3
+LD00729,2025-05-26,Sylhet,Google Ads,Australia,Study Abroad Consultation,Arafat,5-10 Lakh,3,Lost,2025-06-16,21
+LD00730,2025-03-28,Kalabagan,Seminar/Event,UK,Visa Processing,Mim,10-20 Lakh,4,Contacted,2025-04-09,12
+LD00731,2026-02-19,Sylhet,Walk-in,UK,Visa Processing,Arafat,10-20 Lakh,5,Contacted,2026-03-04,13
+LD00732,2025-10-25,Uttara,Seminar/Event,Malaysia,IELTS Preparation,Mim,10-20 Lakh,0,Contacted,2025-10-29,4
+LD00733,2026-01-01,Uttara,Website Form,Germany,Study Abroad Consultation,Arafat,5-10 Lakh,5,Consultation Done,2026-01-16,15
+LD00734,2026-05-26,Kalabagan,Google Ads,Germany,Study Abroad Consultation,Tanvir,10-20 Lakh,3,Lost,2026-06-14,19
+LD00735,2025-07-30,Kalabagan,Website Form,Canada,Study Abroad Consultation,Nusrat,5-10 Lakh,3,Contacted,2025-08-16,17
+LD00736,2025-02-17,Dhanmondi,Walk-in,UK,IELTS Preparation,Rafi,20+ Lakh,5,Lost,2025-03-08,19
+LD00737,2025-06-20,Dhanmondi,Facebook Ads,Canada,Visa Processing,Rafi,<5 Lakh,4,Lost,2025-08-06,47
+LD00738,2025-09-04,Kalabagan,Google Ads,Australia,Study Abroad Consultation,Tanvir,5-10 Lakh,5,Contacted,2025-09-07,3
+LD00739,2026-07-13,Kalabagan,Facebook Ads,UK,Language Course,Priya,,5,Lost,2026-07-31,21
+LD00740,2026-02-18,Kalabagan,Facebook Ads,UK,IELTS Preparation,Shuvo,<5 Lakh,2,Enrolled,2026-03-23,33
+LD00741,2025-06-30,Kalabagan,Walk-in,UK,Language Course,Nusrat,10-20 Lakh,1,Consultation Done,2025-07-08,8
+LD00742,2026-03-30,Sylhet,Referral,Australia,Study Abroad Consultation,Priya,20+ Lakh,2,Lost,2026-05-11,42
+LD00743,2025-05-09,Uttara,Facebook Ads,Canada,Study Abroad Consultation,Arafat,<5 Lakh,4,Visa Approved,2025-06-26,48
+LD00744,2025-02-26,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Arafat,10-20 Lakh,3,Enrolled,2025-06-08,102
+LD00745,2026-07-05,Uttara,Website Form,Canada,IELTS Preparation,Tanvir,<5 Lakh,1,Visa Approved,2026-07-31,127
+LD00746,2026-02-18,Sylhet,Facebook Ads,Germany,IELTS Preparation,Nusrat,5-10 Lakh,4,Contacted,2026-03-01,11
+LD00747,2026-05-07,Kalabagan,Referral,Canada,IELTS Preparation,Mim,<5 Lakh,2,Enrolled,2026-07-31,132
+LD00748,2025-07-23,Chattogram,Referral,Canada,Study Abroad Consultation,Tanvir,5-10 Lakh,1,Enrolled,2025-08-25,33
+LD00749,2025-01-29,Kalabagan,Google Ads,UK,Study Abroad Consultation,Nusrat,5-10 Lakh,1,Contacted,2025-02-11,13
+LD00750,2025-02-14,Sylhet,Google Ads,UK,Visa Processing,Nusrat,<5 Lakh,7,Consultation Done,2025-02-21,7
+LD00751,2025-10-08,Chattogram,Facebook Ads,UK,Study Abroad Consultation,Nusrat,,2,Lost,2025-10-17,9
+LD00752,2025-07-20,Uttara,Google Ads,Australia,Visa Processing,Shuvo,5-10 Lakh,1,Consultation Done,2025-07-22,2
+LD00753,2026-07-11,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Tanvir,5-10 Lakh,2,Lost,2026-07-26,15
+LD00754,2025-04-23,Kalabagan,Google Ads,Malaysia,Study Abroad Consultation,Shuvo,<5 Lakh,2,Lost,2025-05-18,25
+LD00755,2026-05-18,Uttara,Website Form,Canada,IELTS Preparation,Priya,20+ Lakh,4,Lost,2026-07-06,49
+LD00756,2025-03-16,Chattogram,Google Ads,Australia,Study Abroad Consultation,Tanvir,<5 Lakh,3,Consultation Done,2025-03-28,12
+LD00757,2025-08-28,Dhanmondi,Google Ads,Germany,IELTS Preparation,Mim,10-20 Lakh,4,Visa Approved,2026-01-16,141
+LD00758,2025-12-20,Uttara,Facebook Ads,UK,Study Abroad Consultation,Rafi,5-10 Lakh,7,New,2026-01-05,16
+LD00759,2026-06-20,Kalabagan,Website Form,UK,Study Abroad Consultation,Nusrat,10-20 Lakh,4,Consultation Done,2026-06-26,6
+LD00760,2025-07-05,Kalabagan,Facebook Ads,USA,Study Abroad Consultation,Mim,5-10 Lakh,3,New,2025-07-18,13
+LD00761,2026-01-23,Uttara,Google Ads,Australia,Study Abroad Consultation,Rafi,10-20 Lakh,5,Lost,2026-03-12,48
+LD00762,2025-01-23,Kalabagan,Website Form,USA,Visa Processing,Mim,10-20 Lakh,2,Lost,2025-03-01,37
+LD00763,2025-01-07,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Priya,10-20 Lakh,1,Contacted,2025-01-15,8
+LD00764,2025-08-15,Dhanmondi,Website Form,Canada,Study Abroad Consultation,Mim,10-20 Lakh,3,Enrolled,2025-08-30,15
+LD00765,2025-12-08,Kalabagan,Referral,Canada,Study Abroad Consultation,Mim,10-20 Lakh,0,Consultation Done,2025-12-24,16
+LD00766,2025-02-13,Dhanmondi,Facebook Ads,UK,IELTS Preparation,Rafi,<5 Lakh,4,Enrolled,2025-03-14,29
+LD00767,2026-03-30,Dhanmondi,Google Ads,UK,IELTS Preparation,Shuvo,<5 Lakh,3,Lost,2026-05-11,42
+LD00768,2025-04-28,Chattogram,Referral,Canada,Study Abroad Consultation,Tanvir,5-10 Lakh,6,Consultation Done,2025-05-01,3
+LD00769,2025-01-20,Dhanmondi,Referral,USA,Study Abroad Consultation,Shuvo,5-10 Lakh,4,Enrolled,2025-05-21,121
+LD00770,2025-09-01,Uttara,Facebook Ads,Canada,Study Abroad Consultation,Priya,<5 Lakh,2,New,2025-09-15,14
+LD00771,2026-04-05,Kalabagan,Facebook Ads,Australia,Study Abroad Consultation,Rafi,10-20 Lakh,2,Visa Approved,2026-07-08,94
+LD00772,2025-05-18,Dhanmondi,Website Form,Canada,Study Abroad Consultation,Arafat,5-10 Lakh,4,Lost,2025-07-15,58
+LD00773,2025-04-27,Sylhet,Walk-in,UK,Study Abroad Consultation,Arafat,10-20 Lakh,3,Consultation Done,2025-05-08,11
+LD00774,2025-09-01,Kalabagan,Referral,Canada,IELTS Preparation,Shuvo,20+ Lakh,3,Lost,2025-09-10,9
+LD00775,2025-07-06,Dhanmondi,Google Ads,Australia,Study Abroad Consultation,Mim,10-20 Lakh,0,Visa Approved,2025-08-12,37
+LD00776,2026-06-29,Uttara,Website Form,Malaysia,Visa Processing,Tanvir,<5 Lakh,3,New,2026-07-15,16
+LD00777,2026-07-24,Uttara,Website Form,Germany,Study Abroad Consultation,Priya,10-20 Lakh,2,Lost,2026-07-31,7
+LD00778,2025-10-27,Dhanmondi,Facebook Ads,UK,Study Abroad Consultation,Priya,10-20 Lakh,4,Contacted,2025-11-12,16
+LD00779,2026-01-20,Dhanmondi,Walk-in,UK,Visa Processing,Mim,5-10 Lakh,6,Contacted,2026-01-26,6
+LD00780,2025-09-02,Sylhet,Facebook Ads,UK,Study Abroad Consultation,Shuvo,10-20 Lakh,2,Contacted,2025-09-17,15
+LD00781,2025-05-03,Uttara,Google Ads,UK,Study Abroad Consultation,Shuvo,20+ Lakh,1,New,2025-05-15,12
+LD00782,2025-05-09,Dhanmondi ,Facebook Ads,UK,Study Abroad Consultation,Shuvo,5-10 Lakh,1,Contacted,2025-05-15,6
+LD00783,2025-01-11,Kalabagan,Website Form,UK,IELTS Preparation,Shuvo,10-20 Lakh,4,Lost,2025-02-21,41
+LD00784,2025-04-06,Dhanmondi,Walk-in,Australia,IELTS Preparation,Shuvo,5-10 Lakh,6,Contacted,2025-04-18,12
+LD00785,2025-02-07,Kalabagan,Website Form,Australia,IELTS Preparation,Priya,5-10 Lakh,2,Enrolled,2025-02-28,21
+LD00786,2025-03-15,Kalabagan,Website Form,Australia,Language Course,Rafi,<5 Lakh,6,Lost,2025-04-22,38
+LD00787,2025-07-08,Uttara,Website Form,UK,Study Abroad Consultation,Nusrat,<5 Lakh,7,Lost,2025-08-27,50
+LD00788,2025-07-22,Kalabagan,Referral,USA,Study Abroad Consultation,Shuvo,5-10 Lakh,1,Enrolled,2025-10-13,83
+LD00789,2025-09-08,Sylhet,Google Ads,Canada,Language Course,Shuvo,<5 Lakh,1,Lost,2025-09-16,8
+LD00790,2025-03-30,Kalabagan,Google Ads,UK,Study Abroad Consultation,Priya,<5 Lakh,3,Contacted,2025-04-18,19
+LD00791,2025-07-07,Chattogram,Seminar/Event,UK,Language Course,Arafat,10-20 Lakh,8,Application Submitted,2025-09-21,76
+LD00792,2026-03-07,Dhanmondi,Facebook Ads,Australia,Visa Processing,Tanvir,20+ Lakh,5,Lost,2026-04-14,38
+LD00793,2026-04-07,Uttara,Google Ads,Germany,Study Abroad Consultation,Mim,<5 Lakh,5,Application Submitted,2026-06-14,68
+LD00794,2025-04-13,Kalabagan,Walk-in,Canada,Study Abroad Consultation,Nusrat,10-20 Lakh,3,Visa Approved,2025-06-11,59
+LD00795,2026-01-22,Kalabagan,Google Ads,UK,Study Abroad Consultation,Mim,5-10 Lakh,1,Contacted,2026-02-07,16
+LD00796,2026-06-15,Kalabagan,Website Form,UK,Study Abroad Consultation,Tanvir,10-20 Lakh,2,New,2026-07-01,16
+LD00797,2025-02-17,Uttara,Seminar/Event,UK,Visa Processing,Priya,<5 Lakh,1,Consultation Done,2025-02-27,10
+LD00798,2025-12-03,Kalabagan,Facebook Ads,Australia,IELTS Preparation,Priya,5-10 Lakh,2,Consultation Done,2025-12-21,18
+LD00799,2025-09-29,Uttara,Walk-in,Australia,Study Abroad Consultation,Mim,10-20 Lakh,1,Enrolled,2025-10-25,26
+LD00800,2026-02-09,Dhanmondi,Referral,UK,Study Abroad Consultation,Nusrat,20+ Lakh,4,Enrolled,2026-04-24,74
+LD00801,2025-03-08,Uttara,Facebook Ads,Malaysia,Study Abroad Consultation,Tanvir,10-20 Lakh,2,Enrolled,2025-03-25,17
+LD00802,2025-11-17,Kalabagan,Google Ads,Germany,Visa Processing,Nusrat,10-20 Lakh,4,Contacted,2025-11-23,6
+LD00803,2025-07-22,Uttara,Google Ads,UK,Visa Processing,Mim,10-20 Lakh,2,Contacted,2025-08-10,19
+LD00804,2026-01-07,Kalabagan,Google Ads,Canada,IELTS Preparation,Tanvir,10-20 Lakh,3,Lost,2026-01-17,10
+LD00805,2026-02-11,Sylhet,Website Form,Canada,IELTS Preparation,Arafat,<5 Lakh,3,Consultation Done,2026-02-14,3
+LD00806,2025-10-27,Chattogram,Google Ads,Australia,Visa Processing,Rafi,5-10 Lakh,1,New,2025-10-30,3
+LD00807,2025-04-05,Uttara,Walk-in,UK,Visa Processing,Priya,10-20 Lakh,2,Lost,2025-05-30,55
+LD00808,2025-04-09,Uttara,Seminar/Event,UK,IELTS Preparation,Nusrat,10-20 Lakh,4,Contacted,2025-04-19,10
+LD00809,2026-01-13,Dhanmondi,Referral,Canada,Study Abroad Consultation,Arafat,<5 Lakh,1,Lost,2026-01-31,18
+LD00810,2025-03-20,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Shuvo,10-20 Lakh,6,Lost,2025-05-04,45
+LD00811,2025-02-05,Chattogram,Referral,UK,Study Abroad Consultation,Shuvo,5-10 Lakh,6,Enrolled,2025-04-25,79
+LD00812,2025-01-08,Uttara,Seminar/Event,UK,Study Abroad Consultation,Tanvir,20+ Lakh,5,Lost,2025-03-04,55
+LD00813,2025-07-06,Dhanmondi,Referral,Canada,Study Abroad Consultation,mim,<5 Lakh,1,Enrolled,2025-09-15,71
+LD00814,2026-06-06,Chattogram,Google Ads,Canada,Study Abroad Consultation,Tanvir,10-20 Lakh,2,Enrolled,2026-07-18,42
+LD00815,2026-06-15,Kalabagan,Walk-in,Canada,Language Course,Nusrat,10-20 Lakh,2,Consultation Done,2026-06-26,11
+LD00816,2025-06-09,Chattogram,Seminar/Event,Canada,IELTS Preparation,Rafi,<5 Lakh,4,Visa Approved,2025-09-28,111
+LD00817,2025-12-12,Dhanmondi,Google Ads,Canada,Visa Processing,Mim,10-20 Lakh,3,Lost,2026-01-14,33
+LD00818,2026-01-24,Uttara,Website Form,Canada,Study Abroad Consultation,Rafi,5-10 Lakh,2,Visa Approved,2026-02-22,29
+LD00819,2025-07-23,Kalabagan,Facebook Ads,Canada,Study Abroad Consultation,Shuvo,5-10 Lakh,4,Consultation Done,2025-08-02,10
+LD00820,2025-08-30,Kalabagan,Website Form,Australia,Study Abroad Consultation,Priya,<5 Lakh,5,Lost,2025-10-06,37
+LD00821,2025-05-12,Sylhet,Facebook Ads,Australia,Study Abroad Consultation,Arafat,20+ Lakh,1,Enrolled,2025-08-22,102
+LD00822,2025-04-15,Chattogram,Facebook Ads,USA,Study Abroad Consultation,Rafi,5-10 Lakh,2,Consultation Done,2025-04-30,15
+LD00823,2025-06-27,Kalabagan,Facebook Ads,Canada,Study Abroad Consultation,Priya,5-10 Lakh,2,Contacted,2025-07-02,5
+LD00824,2025-08-17,Kalabagan,Walk-in,Australia,IELTS Preparation,Rafi,20+ Lakh,4,Lost,2025-10-03,47
+LD00825,2026-07-13,Kalabagan,Facebook Ads,UK,IELTS Preparation,mim,20+ Lakh,4,Consultation Done,2026-07-14,1
+LD00826,2025-10-18,Uttara,Website Form,Australia,Study Abroad Consultation,Priya,5-10 Lakh,4,Consultation Done,2025-10-22,4
+LD00827,2026-06-23,Kalabagan,Google Ads,USA,Study Abroad Consultation,Arafat,10-20 Lakh,1,Enrolled,2026-07-31,100
+LD00828,2026-05-01,Kalabagan,Facebook Ads,USA,Study Abroad Consultation,Shuvo,<5 Lakh,7,Enrolled,2026-06-14,44
+LD00829,2026-05-03,Uttara,Website Form,UK,Study Abroad Consultation,Nusrat,5-10 Lakh,5,Visa Approved,2026-07-31,138
+LD00830,2026-02-28,Dhanmondi,Facebook Ads,USA,Study Abroad Consultation,Tanvir,10-20 Lakh,0,Lost,2026-04-20,51
+LD00831,2025-10-06,Uttara,Google Ads,UK,Study Abroad Consultation,Priya,5-10 Lakh,4,New,2025-10-20,14
+LD00832,2026-01-13,Uttara,Google Ads,Canada,Language Course,Nusrat,5-10 Lakh,4,Lost,2026-01-31,18
+LD00833,2025-05-06,Kalabagan,Google Ads,Australia,Study Abroad Consultation,Nusrat,10-20 Lakh,3,Lost,2025-06-17,42
+LD00834,2025-12-15,Dhanmondi,Seminar/Event,Canada,Study Abroad Consultation,Rafi,5-10 Lakh,5,Lost,2026-01-09,25
+LD00835,2025-07-21,Uttara,Facebook Ads,UK,IELTS Preparation,Nusrat,10-20 Lakh,2,Lost,2025-08-14,24
+LD00836,2025-10-18,Chattogram,Google Ads,Australia,IELTS Preparation,Priya,5-10 Lakh,5,Consultation Done,2025-11-06,19
+LD00837,2025-04-26,Dhanmondi,Facebook Ads,UK,IELTS Preparation,Priya,<5 Lakh,5,Consultation Done,2025-05-02,6
+LD00838,2025-12-03,Kalabagan,Facebook Ads,USA,Study Abroad Consultation,Shuvo,20+ Lakh,1,New,2025-12-17,14
+LD00839,2026-01-07,Uttara,Google Ads,Canada,Study Abroad Consultation,Mim,20+ Lakh,1,Application Submitted,2026-02-18,42
+LD00840,2025-03-18,Kalabagan,Google Ads,UK,IELTS Preparation,Mim,<5 Lakh,4,Lost,2025-05-13,56
+LD00841,2025-07-18,Kalabagan,Seminar/Event,UK,IELTS Preparation,Arafat,5-10 Lakh,1,Lost,2025-09-05,49
+LD00842,2025-05-15,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Shuvo,5-10 Lakh,2,Consultation Done,2025-05-29,14
+LD00843,2025-05-12,Chattogram,Website Form,Australia,Study Abroad Consultation,Shuvo,10-20 Lakh,4,Application Submitted,2025-06-28,47
+LD00844,2025-05-27,Uttara,Facebook Ads,UK,Study Abroad Consultation,Arafat,5-10 Lakh,2,Enrolled,2025-09-17,113
+LD00845,2025-08-23,Dhanmondi,Google Ads,Australia,Language Course,Arafat,<5 Lakh,5,Lost,2025-10-06,44
+LD00846,2026-02-16,Dhanmondi,Website Form,UK,Visa Processing,Arafat,5-10 Lakh,2,Lost,2026-03-09,21
+LD00847,2025-03-14,Kalabagan,Google Ads,Canada,Visa Processing,Nusrat,5-10 Lakh,3,Enrolled,2025-06-22,100
+LD00848,2025-07-07,Kalabagan,Walk-in,UK,Study Abroad Consultation,Priya,5-10 Lakh,0,Lost,2025-07-11,4
+LD00849,2026-01-04,Uttara,Referral,Canada,IELTS Preparation,Shuvo,10-20 Lakh,3,Visa Approved,2026-05-17,133
+LD00850,2025-04-22,Dhanmondi,Walk-in,Malaysia,IELTS Preparation,Mim,,5,Contacted,2025-04-24,2
+LD00851,2025-11-08,Sylhet,Website Form,Canada,Study Abroad Consultation,Tanvir,<5 Lakh,1,Contacted,2025-11-27,19
+LD00852,2026-04-28,Kalabagan,Google Ads,Australia,Study Abroad Consultation,Tanvir,5-10 Lakh,2,Lost,2026-05-08,10
+LD00853,2025-10-24,Kalabagan,Facebook Ads,Australia,Study Abroad Consultation,Arafat,10-20 Lakh,0,Consultation Done,2025-10-27,3
+LD00854,2026-07-14,Dhanmondi,Facebook Ads,UK,IELTS Preparation,Nusrat,5-10 Lakh,2,Consultation Done,2026-07-25,11
+LD00855,2025-10-06,Sylhet,Facebook Ads,UK,IELTS Preparation,Nusrat,5-10 Lakh,3,Lost,2025-11-04,29
+LD00856,2025-03-02,Sylhet,Website Form,Canada,Study Abroad Consultation,Arafat,5-10 Lakh,3,Contacted,2025-03-19,17
+LD00857,2025-08-24,Kalabagan,Walk-in,USA,Language Course,Tanvir,<5 Lakh,4,Lost,2025-09-06,13
+LD00858,2025-06-14,Sylhet,Referral,Germany,Study Abroad Consultation,Mim,5-10 Lakh,2,New,2025-06-26,12
+LD00859,2025-12-18,Dhanmondi,Referral,Canada,IELTS Preparation,Shuvo,20+ Lakh,2,Lost,2026-02-05,49
+LD00860,2025-07-20,Chattogram,Referral,Canada,Study Abroad Consultation,Priya,5-10 Lakh,2,Enrolled,2025-10-12,84
+LD00861,2025-03-11,Uttara,Seminar/Event,Germany,Study Abroad Consultation,Nusrat,10-20 Lakh,5,Enrolled,2025-06-28,109
+LD00862,2025-08-01,Chattogram,Facebook Ads,UK,IELTS Preparation,Priya,<5 Lakh,2,Contacted,2025-08-10,9
+LD00863,2026-03-26,Dhanmondi,Facebook Ads,Canada,Study Abroad Consultation,Rafi,5-10 Lakh,4,Contacted,2026-03-30,4
+LD00864,2025-08-11,Uttara,Referral,Australia,Study Abroad Consultation,Tanvir,5-10 Lakh,4,Enrolled,2025-12-06,117
+LD00865,2025-08-18,Chattogram,Google Ads,Australia,Study Abroad Consultation,nusrat,<5 Lakh,1,Lost,2025-08-30,12
+LD00866,2025-05-21,Kalabagan,Facebook Ads,UK,IELTS Preparation,Priya,10-20 Lakh,3,Consultation Done,2025-06-08,18
+LD00867,2025-01-22,Sylhet,Facebook Ads,UK,Visa Processing,Shuvo,<5 Lakh,2,Enrolled,2025-03-05,42
+LD00868,2025-11-23,Sylhet,Referral,Malaysia,Study Abroad Consultation,Rafi,10-20 Lakh,1,Lost,2025-11-24,1
+LD00869,2026-06-28,Kalabagan,Website Form,Canada,IELTS Preparation,Nusrat,10-20 Lakh,4,Lost,2026-07-10,12
+LD00870,2026-02-24,Chattogram,Google Ads,USA,Study Abroad Consultation,Tanvir,5-10 Lakh,1,Consultation Done,2026-03-11,15
+LD00871,2026-06-06,Dhanmondi,Google Ads,USA,Visa Processing,Tanvir,5-10 Lakh,2,Enrolled,2026-07-31,149
+LD00872,2025-01-31,Uttara,Seminar/Event,Australia,IELTS Preparation,Priya,5-10 Lakh,4,Lost,2025-02-11,11
+LD00873,2025-09-25,Kalabagan,Referral,UK,Language Course,Priya,<5 Lakh,3,Enrolled,2026-02-02,130
+LD00874,2025-04-16,Sylhet,Facebook Ads,Australia,Study Abroad Consultation,Nusrat,,5,New,2025-04-30,14
+LD00875,2025-03-17,Kalabagan,Referral,UK,Study Abroad Consultation,Nusrat,5-10 Lakh,2,Lost,2025-03-26,9
+LD00876,2025-09-28,Uttara,Facebook Ads,Malaysia,Study Abroad Consultation,Nusrat,<5 Lakh,2,Lost,2025-11-22,55
+LD00877,2026-04-03,Sylhet,Facebook Ads,Canada,Study Abroad Consultation,Nusrat,,2,Lost,2026-05-31,58
+LD00878,2026-04-22,Uttara,Google Ads,Canada,Visa Processing,Rafi,20+ Lakh,3,New,2026-05-02,10
+LD00879,2025-12-17,Dhanmondi,Walk-in,Australia,Study Abroad Consultation,Mim,5-10 Lakh,3,Contacted,2025-12-31,14
+LD00880,2025-11-14,Kalabagan,Facebook Ads,Australia,Study Abroad Consultation,Tanvir,<5 Lakh,2,Lost,2025-11-21,7
+LD00881,2025-10-20,Kalabagan,Website Form,UK,Study Abroad Consultation,Arafat,<5 Lakh,1,Lost,2025-11-16,27
+LD00882,2026-02-06,Kalabagan,Facebook Ads,Canada,Study Abroad Consultation,Rafi,10-20 Lakh,3,Consultation Done,2026-02-16,10
+LD00883,2025-12-18,Sylhet,Google Ads,Australia,Study Abroad Consultation,Mim,<5 Lakh,9,New,2025-12-23,5
+LD00884,2025-01-07,Uttara,Walk-in,Australia,Visa Processing,Arafat,20+ Lakh,3,Enrolled,2025-06-01,145
+LD00885,2025-10-02,Chattogram,Facebook Ads,Canada,Study Abroad Consultation,Rafi,5-10 Lakh,1,Lost,2025-11-23,52
+LD00886,2025-01-13,Dhanmondi,Seminar/Event,UK,Study Abroad Consultation,Priya,5-10 Lakh,3,Visa Approved,2025-04-06,83
+LD00887,2026-05-11,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Rafi,10-20 Lakh,9,Lost,2026-05-28,17
+LD00888,2025-02-18,Kalabagan,Google Ads,Malaysia,Study Abroad Consultation,Priya,,3,Lost,2025-03-05,15
+LD00889,2026-01-10,Kalabagan,Walk-in,USA,Visa Processing,Arafat,5-10 Lakh,2,Lost,2026-01-26,16
+LD00890,2025-09-06,Sylhet,Website Form,Germany,IELTS Preparation,Priya,<5 Lakh,2,New,2025-09-08,2
+LD00891,2025-03-10,Kalabagan,Referral,UK,IELTS Preparation,Shuvo,<5 Lakh,2,Lost,2025-05-04,55
+LD00892,2025-06-07,Uttara,Facebook Ads,Australia,Study Abroad Consultation,Priya,20+ Lakh,4,Consultation Done,2025-06-22,15
+LD00893,2025-10-16,Chattogram,Referral,Canada,Study Abroad Consultation,Shuvo,5-10 Lakh,2,Consultation Done,2025-10-18,2
+LD00894,2025-08-21,Chattogram,Facebook Ads,Canada,IELTS Preparation,Nusrat,5-10 Lakh,2,Contacted,2025-08-28,7
+LD00895,2025-09-03,Kalabagan,Walk-in,UK,Study Abroad Consultation,Mim,10-20 Lakh,1,Lost,2025-10-22,49
+LD00896,2026-02-24,Dhanmondi,Google Ads,Australia,IELTS Preparation,Nusrat,5-10 Lakh,1,Application Submitted,2026-07-17,143
+LD00897,2025-03-01,Sylhet,Facebook Ads,USA,Visa Processing,Mim,5-10 Lakh,3,Consultation Done,2025-03-19,18
+LD00898,2026-04-23,Kalabagan,Walk-in,UK,IELTS Preparation,Tanvir,10-20 Lakh,4,Contacted,2026-04-28,5
+LD00899,2025-11-30,Chattogram,Referral,UK,Study Abroad Consultation,Shuvo,<5 Lakh,2,Lost,2025-12-06,6
+LD00900,2026-03-29,Dhanmondi,Google Ads,USA,Visa Processing,Nusrat,20+ Lakh,2,Lost,2026-04-14,16
+LD00901,2026-07-23,Kalabagan,Facebook Ads,UK,IELTS Preparation,Tanvir,<5 Lakh,5,New,2026-07-31,12
+LD00902,2025-02-09,Dhanmondi,Google Ads,UK,Study Abroad Consultation,Arafat,5-10 Lakh,2,Lost,2025-04-02,52
+LD00903,2026-07-27,Kalabagan,Google Ads,UK,IELTS Preparation,Arafat,10-20 Lakh,6,Contacted,2026-07-31,17
+LD00904,2025-03-13,Chattogram,Google Ads,Australia,IELTS Preparation,Nusrat,5-10 Lakh,1,New,2025-03-14,1
+LD00905,2026-05-27,Uttara,Referral,USA,Visa Processing,Arafat,<5 Lakh,2,Lost,2026-06-16,20
+LD00906,2025-12-18,Kalabagan,Referral,USA,Study Abroad Consultation,rafi,5-10 Lakh,3,Lost,2026-02-09,53
+LD00907,2025-06-23,Kalabagan,Facebook Ads,USA,Study Abroad Consultation,Priya,<5 Lakh,4,Lost,2025-07-26,33
+LD00908,2026-04-05,Kalabagan,Facebook Ads,Malaysia,Study Abroad Consultation,Arafat,<5 Lakh,5,Consultation Done,2026-04-17,12
+LD00909,2025-07-11,Kalabagan,Facebook Ads,Australia,Language Course,Arafat,5-10 Lakh,2,Visa Approved,2025-08-12,32
+LD00910,2025-01-17,Uttara,Google Ads,Canada,Study Abroad Consultation,Arafat,10-20 Lakh,1,Application Submitted,2025-02-01,15
+LD00911,2025-02-25,Chattogram,Google Ads,UK,Study Abroad Consultation,Rafi,<5 Lakh,1,Lost,2025-04-23,57
+LD00912,2026-06-28,Sylhet,Google Ads,Australia,Study Abroad Consultation,Rafi,5-10 Lakh,2,Application Submitted,2026-07-31,101
+LD00913,2026-05-18,Dhanmondi,Facebook Ads,Germany,IELTS Preparation,Mim,5-10 Lakh,5,Contacted,2026-06-06,19
+LD00914,2025-11-10,Dhanmondi,Website Form,Germany,Study Abroad Consultation,Priya,5-10 Lakh,3,Lost,2025-11-20,10
+LD00915,2026-03-25,Uttara,Google Ads,Australia,Study Abroad Consultation,Nusrat,5-10 Lakh,4,Lost,2026-05-18,54
+LD00916,2026-07-02,Chattogram,Google Ads,Canada,Visa Processing,Tanvir,5-10 Lakh,3,Consultation Done,2026-07-05,3
+LD00917,2025-06-21,Uttara,Website Form,UK,IELTS Preparation,Shuvo,<5 Lakh,1,Lost,2025-07-29,38
+LD00918,2025-04-10,Kalabagan,Referral,Australia,Study Abroad Consultation,Nusrat,5-10 Lakh,3,Lost,2025-04-13,3
+LD00919,2026-03-11,Chattogram,Facebook Ads,Germany,Language Course,mim,20+ Lakh,2,Contacted,2026-03-24,13
+LD00920,2026-01-15,Kalabagan,Google Ads,Germany,IELTS Preparation,Tanvir,10-20 Lakh,3,Consultation Done,2026-01-30,15
+LD00921,2025-08-11,Kalabagan,Website Form,UK,Study Abroad Consultation,Priya,5-10 Lakh,2,Lost,2025-08-20,9
+LD00922,2026-06-10,Uttara,Website Form,Canada,Study Abroad Consultation,Nusrat,<5 Lakh,4,Lost,2026-06-20,10
+LD00923,2025-03-03,Kalabagan,Facebook Ads,USA,Study Abroad Consultation,Nusrat,10-20 Lakh,2,Contacted,2025-03-14,11
+LD00924,2026-07-25,Sylhet,Website Form,Germany,Study Abroad Consultation,Nusrat,10-20 Lakh,3,Lost,2026-07-31,11
+LD00925,2026-07-01,Sylhet,Google Ads,Canada,Study Abroad Consultation,Rafi,5-10 Lakh,1,New,2026-07-19,18
+LD00926,2026-07-30,Kalabagan,Seminar/Event,USA,Study Abroad Consultation,Mim,20+ Lakh,3,Contacted,2026-07-31,8
+LD00927,2026-05-25,Chattogram,Google Ads,Germany,Study Abroad Consultation,mim,10-20 Lakh,4,Enrolled,2026-07-31,72
+LD00928,2026-04-01,Uttara,Seminar/Event,USA,Visa Processing,Mim,20+ Lakh,3,Enrolled,2026-07-31,127
+LD00929,2025-08-04,Chattogram,Seminar/Event,Canada,IELTS Preparation,Mim,<5 Lakh,3,Lost,2025-09-26,53
+LD00930,2025-04-08,Sylhet ,Seminar/Event,Australia,Study Abroad Consultation,Rafi,10-20 Lakh,2,Consultation Done,2025-04-24,16
+LD00931,2025-01-13,Uttara,Google Ads,UK,Study Abroad Consultation,Mim,5-10 Lakh,3,New,2025-01-17,4
+LD00932,2025-01-23,Sylhet,Walk-in,Germany,Study Abroad Consultation,Shuvo,20+ Lakh,3,Consultation Done,2025-02-07,15
+LD00933,2026-05-30,Dhanmondi,Google Ads,Australia,IELTS Preparation,Tanvir,10-20 Lakh,3,Lost,2026-07-13,44
+LD00934,2025-12-02,Chattogram,Google Ads,Australia,Visa Processing,Priya,10-20 Lakh,5,Lost,2026-01-14,43
+LD00935,2025-03-14,Kalabagan,Referral,Canada,Study Abroad Consultation,Tanvir,<5 Lakh,1,Lost,2025-04-17,34
+LD00936,2025-08-08,Chattogram,Walk-in,USA,IELTS Preparation,Rafi,5-10 Lakh,3,Application Submitted,2025-11-24,108
+LD00937,2026-02-02,Uttara,Walk-in,Canada,Study Abroad Consultation,Tanvir,<5 Lakh,2,Lost,2026-02-25,23
+LD00938,2026-06-22,Chattogram,Facebook Ads,Malaysia,Study Abroad Consultation,Arafat,<5 Lakh,5,Lost,2026-06-28,6
+LD00939,2025-10-18,Kalabagan,Google Ads,UK,Visa Processing,Mim,<5 Lakh,3,Lost,2025-11-08,21
+LD00940,2025-11-11,Dhanmondi,Seminar/Event,Canada,Visa Processing,Rafi,10-20 Lakh,5,Contacted,2025-11-30,19
+LD00941,2025-08-21,Chattogram,Google Ads,Germany,IELTS Preparation,Mim,10-20 Lakh,3,Lost,2025-10-08,48
+LD00942,2026-03-26,Sylhet,Referral,Australia,Visa Processing,Mim,<5 Lakh,6,Lost,2026-05-07,42
+LD00943,2026-05-02,Chattogram,Google Ads,UK,Study Abroad Consultation,Mim,10-20 Lakh,3,Lost,2026-05-14,12
+LD00944,2025-09-09,Chattogram,Walk-in,Germany,Visa Processing,Nusrat,<5 Lakh,7,Enrolled,2026-01-06,119
+LD00945,2026-07-05,Chattogram,Referral,UK,Study Abroad Consultation,Nusrat,5-10 Lakh,4,Application Submitted,2026-07-31,49
+LD00946,2026-05-06,Kalabagan,Google Ads,USA,Study Abroad Consultation,Priya,<5 Lakh,2,Lost,2026-06-30,55
+LD00947,2026-07-05,Kalabagan ,Facebook Ads,Germany,Study Abroad Consultation,Rafi,5-10 Lakh,3,Lost,2026-07-11,6
+LD00948,2026-03-02,Sylhet,Seminar/Event,UK,Study Abroad Consultation,Shuvo,10-20 Lakh,3,Lost,2026-03-27,25
+LD00949,2025-07-13,Uttara,Seminar/Event,Germany,Visa Processing,Shuvo,20+ Lakh,3,Lost,2025-08-22,40
+LD00950,2025-09-04,Dhanmondi,Referral,UK,IELTS Preparation,Tanvir,5-10 Lakh,5,New,2025-09-06,2
+LD00951,2025-10-15,Dhanmondi,Referral,UK,Language Course,Arafat,5-10 Lakh,3,Enrolled,2026-02-01,109
+LD00952,2025-04-13,Kalabagan,Referral,USA,IELTS Preparation,Shuvo,5-10 Lakh,5,Enrolled,2025-07-08,86
+LD00953,2025-02-06,Kalabagan ,Facebook Ads,UK,Study Abroad Consultation,Shuvo,5-10 Lakh,4,Lost,2025-02-15,9
+LD00954,2025-08-11,Chattogram,Seminar/Event,Germany,Study Abroad Consultation,Rafi,5-10 Lakh,3,New,2025-08-26,15
+LD00955,2025-04-26,Dhanmondi,Facebook Ads,USA,Visa Processing,Arafat,20+ Lakh,5,Application Submitted,2025-08-30,126
+LD00956,2025-06-13,Dhanmondi,Google Ads,USA,Study Abroad Consultation,Arafat,10-20 Lakh,3,Contacted,2025-06-13,0
+LD00957,2026-07-13,Dhanmondi,Facebook Ads,UK,IELTS Preparation,nusrat,<5 Lakh,5,Contacted,2026-07-17,4
+LD00958,2026-02-06,Chattogram,Facebook Ads,Australia,Visa Processing,Nusrat,5-10 Lakh,3,New,2026-02-20,14
+LD00959,2026-04-15,Dhanmondi,Google Ads,USA,Visa Processing,Tanvir,10-20 Lakh,0,New,2026-04-30,15
+LD00960,2026-02-07,Dhanmondi,Facebook Ads,UK,IELTS Preparation,Arafat,10-20 Lakh,5,Consultation Done,2026-02-13,6
+LD00961,2026-06-06,Uttara,Walk-in,Australia,IELTS Preparation,Shuvo,,3,Consultation Done,2026-06-10,4
+LD00962,2025-07-07,Uttara,Website Form,Canada,Visa Processing,Priya,5-10 Lakh,5,Consultation Done,2025-07-07,0
+LD00963,2025-01-24,Chattogram,Website Form,UK,IELTS Preparation,Shuvo,20+ Lakh,3,Contacted,2025-02-11,18
+LD00964,2026-05-30,Kalabagan,Referral,Malaysia,Language Course,Rafi,10-20 Lakh,4,Enrolled,2026-07-31,145
+LD00965,2025-11-28,Chattogram,Seminar/Event,Australia,Language Course,Nusrat,20+ Lakh,1,Visa Approved,2026-03-21,113
+LD00966,2025-12-02,Uttara,Seminar/Event,Malaysia,IELTS Preparation,Priya,20+ Lakh,2,Lost,2026-01-18,47
+LD00967,2025-09-07,Kalabagan,Facebook Ads,Canada,Visa Processing,Rafi,10-20 Lakh,1,New,2025-09-20,13
+LD00968,2025-06-24,Chattogram,Walk-in,Australia,IELTS Preparation,Nusrat,5-10 Lakh,4,Lost,2025-07-03,9
+LD00969,2025-12-30,Kalabagan,Website Form,Canada,Study Abroad Consultation,Rafi,10-20 Lakh,4,Lost,2026-02-08,40
+LD00970,2026-06-18,Kalabagan,Walk-in,UK,Study Abroad Consultation,Shuvo,,7,Consultation Done,2026-06-28,10
+LD00971,2026-07-18,Chattogram,Facebook Ads,Canada,IELTS Preparation,Tanvir,5-10 Lakh,2,Consultation Done,2026-07-31,17
+LD00972,2026-07-23,Dhanmondi,Google Ads,UK,Study Abroad Consultation,Priya,10-20 Lakh,3,Lost,2026-07-31,50
+LD00973,2025-09-22,Dhanmondi,Facebook Ads,Malaysia,Study Abroad Consultation,Shuvo,10-20 Lakh,3,Lost,2025-11-11,50
+LD00974,2025-12-19,Kalabagan,Google Ads,UK,IELTS Preparation,Tanvir,10-20 Lakh,1,Lost,2026-01-16,28
+LD00975,2025-01-09,Uttara,Facebook Ads,Australia,Study Abroad Consultation,Nusrat,20+ Lakh,2,Application Submitted,2025-04-13,94
+LD00976,2026-05-13,Uttara,Seminar/Event,UK,IELTS Preparation,Rafi,10-20 Lakh,3,Consultation Done,2026-05-28,15
+LD00977,2025-03-24,Sylhet,Walk-in,Australia,Study Abroad Consultation,Mim,<5 Lakh,0,Application Submitted,2025-06-03,71
+LD00978,2025-11-02,Sylhet,Facebook Ads,Australia,Study Abroad Consultation,Shuvo,10-20 Lakh,0,Lost,2025-12-04,32
+LD00979,2026-05-21,Kalabagan,Walk-in,Australia,Study Abroad Consultation,Shuvo,20+ Lakh,3,Contacted,2026-05-26,5
+LD00980,2025-06-07,Chattogram,Referral,Australia,IELTS Preparation,Tanvir,20+ Lakh,5,Enrolled,2025-09-03,88
+LD00981,2025-10-22,Kalabagan,Website Form,UK,Study Abroad Consultation,Priya,5-10 Lakh,3,New,2025-11-10,19
+LD00982,2025-10-12,Dhanmondi,Google Ads,Canada,Visa Processing,Arafat,10-20 Lakh,2,Contacted,2025-10-13,1
+LD00983,2025-02-23,Chattogram,Website Form,Canada,IELTS Preparation,Tanvir,10-20 Lakh,6,Contacted,2025-03-01,6
+LD00984,2025-02-03,Dhanmondi,Walk-in,Australia,Study Abroad Consultation,Priya,<5 Lakh,3,Enrolled,2025-05-06,92
+LD00985,2025-06-01,Uttara,Facebook Ads,Australia,Study Abroad Consultation,Mim,20+ Lakh,3,Lost,2025-06-05,4
+LD00986,2026-05-30,Kalabagan,Website Form,Canada,IELTS Preparation,Nusrat,5-10 Lakh,0,Enrolled,2026-07-28,59
+LD00987,2026-01-04,Kalabagan,Facebook Ads,Canada,Study Abroad Consultation,Rafi,<5 Lakh,5,New,2026-01-19,15
+LD00988,2025-05-20,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Shuvo,<5 Lakh,5,Lost,2025-06-15,26
+LD00989,2025-04-18,Chattogram,Facebook Ads,USA,Study Abroad Consultation,Rafi,<5 Lakh,7,Consultation Done,2025-05-05,17
+LD00990,2025-08-28,Kalabagan,Referral,Germany,Study Abroad Consultation,Nusrat,5-10 Lakh,3,Application Submitted,2025-09-24,27
+LD00991,2025-07-29,Kalabagan,Facebook Ads,USA,Study Abroad Consultation,Tanvir,10-20 Lakh,4,Application Submitted,2025-10-07,70
+LD00992,2025-09-28,Kalabagan,Facebook Ads,Germany,Study Abroad Consultation,Shuvo,<5 Lakh,1,New,2025-10-16,18
+LD00993,2026-03-30,Chattogram,Google Ads,UK,Study Abroad Consultation,Nusrat,10-20 Lakh,4,Contacted,2026-04-16,17
+LD00994,2025-04-08,Kalabagan,Facebook Ads,UK,Language Course,Tanvir,10-20 Lakh,6,New,2025-04-18,10
+LD00995,2025-05-08,Dhanmondi,Facebook Ads,USA,Language Course,Arafat,10-20 Lakh,7,Lost,2025-06-08,31
+LD00996,2025-07-19,Kalabagan,Google Ads,Germany,Study Abroad Consultation,Arafat,5-10 Lakh,3,Contacted,2025-07-21,2
+LD00997,2025-10-05,Chattogram,Google Ads,Germany,Study Abroad Consultation,Priya,10-20 Lakh,0,Lost,2025-11-30,56
+LD00998,2026-05-08,Chattogram,Walk-in,UK,Study Abroad Consultation,Nusrat,5-10 Lakh,3,New,2026-05-21,13
+LD00999,2026-06-12,Uttara,Website Form,UK,Study Abroad Consultation,Priya,5-10 Lakh,2,Consultation Done,2026-06-20,8
+LD01000,2026-05-04,Chattogram,Website Form,Germany,Visa Processing,Arafat,<5 Lakh,3,Lost,2026-06-25,52
+LD01001,2025-09-28,Uttara,Facebook Ads,Germany,Study Abroad Consultation,Rafi,10-20 Lakh,5,Lost,2025-10-31,33
+LD01002,2025-11-11,Chattogram,Facebook Ads,USA,Study Abroad Consultation,Nusrat,5-10 Lakh,5,Consultation Done,2025-11-21,10
+LD01003,2025-10-12,Kalabagan,Google Ads,Australia,Study Abroad Consultation,Priya,<5 Lakh,3,Consultation Done,2025-10-22,10
+LD01004,2025-01-20,Uttara,Google Ads,UK,IELTS Preparation,Nusrat,10-20 Lakh,3,Application Submitted,2025-02-23,34
+LD01005,2026-02-27,Dhanmondi,Referral,UK,Study Abroad Consultation,Mim,10-20 Lakh,3,Application Submitted,2026-04-07,39
+LD01006,2025-03-03,Sylhet,Facebook Ads,Malaysia,Visa Processing,Arafat,5-10 Lakh,4,Visa Approved,2025-04-15,43
+LD01007,2025-09-30,Kalabagan,Walk-in,UK,IELTS Preparation,Nusrat,5-10 Lakh,3,New,2025-10-10,10
+LD01008,2025-01-25,Chattogram,Website Form,Australia,Language Course,Mim,<5 Lakh,2,Enrolled,2025-04-12,77
+LD01009,2025-10-30,Chattogram,Seminar/Event,UK,Study Abroad Consultation,Shuvo,5-10 Lakh,1,Lost,2025-12-09,40
+LD01010,2026-03-26,Chattogram,Google Ads,USA,IELTS Preparation,Nusrat,10-20 Lakh,3,New,2026-03-30,4
+LD01011,2026-01-25,Uttara,Referral,Canada,Study Abroad Consultation,Shuvo,10-20 Lakh,4,Visa Approved,2026-03-14,48
+LD01012,2026-06-10,Kalabagan,Referral,Germany,Study Abroad Consultation,Tanvir,20+ Lakh,4,Lost,2026-07-31,57
+LD01013,2026-01-21,Kalabagan,Walk-in,UK,Study Abroad Consultation,Nusrat,<5 Lakh,3,Enrolled,2026-04-11,80
+LD01014,2025-01-11,Kalabagan,Google Ads,USA,Study Abroad Consultation,Nusrat,10-20 Lakh,6,Consultation Done,2025-01-24,13
+LD01015,2025-04-01,Chattogram,Google Ads,USA,Study Abroad Consultation,Nusrat,10-20 Lakh,3,Visa Approved,2025-05-07,36
+LD01016,2026-07-19,Kalabagan,Facebook Ads,Australia,Study Abroad Consultation,Rafi,10-20 Lakh,4,Lost,2026-07-31,50
+LD01017,2026-03-31,Kalabagan ,Walk-in,Australia,Study Abroad Consultation,Mim,<5 Lakh,3,Lost,2026-05-28,58
+LD01018,2025-06-03,Dhanmondi,Facebook Ads,UK,IELTS Preparation,Mim,20+ Lakh,4,Consultation Done,2025-06-07,4
+LD01019,2026-02-09,Kalabagan,Referral,Germany,IELTS Preparation,Nusrat,<5 Lakh,1,Application Submitted,2026-06-08,119
+LD01020,2025-06-17,Chattogram,Walk-in,Germany,Visa Processing,Shuvo,5-10 Lakh,2,Contacted,2025-06-28,11
+LD01021,2026-01-25,Uttara,Website Form,UK,Study Abroad Consultation,Rafi,20+ Lakh,3,Application Submitted,2026-03-03,37
+LD01022,2025-03-13,Dhanmondi,Facebook Ads,Malaysia,Visa Processing,Tanvir,20+ Lakh,2,Application Submitted,2025-05-02,50
+LD01023,2026-02-15,Uttara,Facebook Ads,Malaysia,IELTS Preparation,nusrat,10-20 Lakh,2,Lost,2026-04-03,47
+LD01024,2026-04-23,Kalabagan,Referral,UK,Study Abroad Consultation,Priya,20+ Lakh,1,Lost,2026-05-17,24
+LD01025,2026-02-21,Kalabagan,Google Ads,Canada,Study Abroad Consultation,Priya,20+ Lakh,4,Contacted,2026-03-02,9
+LD01026,2025-10-25,Kalabagan,Walk-in,Germany,Study Abroad Consultation,Shuvo,20+ Lakh,3,Lost,2025-11-07,13
+LD01027,2025-04-22,Kalabagan,Website Form,UK,Study Abroad Consultation,Priya,<5 Lakh,4,Lost,2025-05-01,9
+LD01028,2025-07-03,Kalabagan,Facebook Ads,Australia,Study Abroad Consultation,Rafi,10-20 Lakh,2,Consultation Done,2025-07-05,2
+LD01029,2025-03-31,Dhanmondi,Walk-in,Canada,Study Abroad Consultation,Tanvir,<5 Lakh,4,Consultation Done,2025-04-11,11
+LD01030,2026-02-01,Dhanmondi,Seminar/Event,Canada,Study Abroad Consultation,Mim,5-10 Lakh,3,Lost,2026-02-17,16
+LD01031,2026-03-02,Uttara,Website Form,Australia,Study Abroad Consultation,Shuvo,20+ Lakh,4,Lost,2026-04-15,44
+LD01032,2025-01-21,Uttara,Facebook Ads,Australia,Visa Processing,Priya,5-10 Lakh,4,Contacted,2025-01-25,4
+LD01033,2025-05-28,Kalabagan,Seminar/Event,UK,Visa Processing,Nusrat,10-20 Lakh,6,Consultation Done,2025-06-14,17
+LD01034,2025-06-08,Sylhet,Facebook Ads,Australia,Study Abroad Consultation,Arafat,<5 Lakh,3,Visa Approved,2025-07-03,25
+LD01035,2026-01-08,Uttara,Referral,Australia,Study Abroad Consultation,Rafi,,3,Enrolled,2026-05-12,124
+LD01036,2026-01-29,Kalabagan,Referral,UK,IELTS Preparation,Mim,5-10 Lakh,1,Lost,2026-02-07,9
+LD01037,2025-04-05,Kalabagan,Website Form,Canada,Study Abroad Consultation,Nusrat,10-20 Lakh,0,Lost,2025-05-14,39
+LD01038,2025-09-17,Dhanmondi ,Referral,UK,Visa Processing,Priya,20+ Lakh,3,Enrolled,2026-01-11,116
+LD01039,2025-10-03,Kalabagan,Referral,USA,IELTS Preparation,Priya,<5 Lakh,4,Lost,2025-11-04,32
+LD01040,2025-05-11,Sylhet,Referral,Germany,IELTS Preparation,Nusrat,10-20 Lakh,4,Enrolled,2025-06-19,39
+LD01041,2025-03-18,Chattogram,Facebook Ads,USA,IELTS Preparation,Nusrat,10-20 Lakh,1,New,2025-03-29,11
+LD01042,2025-06-11,Sylhet,Facebook Ads,UK,Study Abroad Consultation,Rafi,20+ Lakh,2,New,2025-06-26,15
+LD01043,2025-05-14,Dhanmondi,Facebook Ads,Australia,Language Course,Priya,5-10 Lakh,0,Contacted,2025-05-27,13
+LD01044,2025-09-06,Kalabagan,Website Form,Canada,IELTS Preparation,Rafi,<5 Lakh,4,Consultation Done,2025-09-23,17
+LD01045,2025-01-01,Dhanmondi,Website Form,USA,Study Abroad Consultation,Nusrat,20+ Lakh,2,Lost,2025-02-09,39
+LD01046,2026-03-13,Uttara,Walk-in,Australia,Study Abroad Consultation,Tanvir,10-20 Lakh,3,Visa Approved,2026-04-03,21
+LD01047,2025-06-10,Uttara,Referral,Canada,Study Abroad Consultation,Arafat,<5 Lakh,4,Lost,2025-07-28,48
+LD01048,2025-03-10,Sylhet,Referral,Canada,Study Abroad Consultation,Nusrat,5-10 Lakh,2,Contacted,2025-03-21,11
+LD01049,2025-08-08,Sylhet,Facebook Ads,Canada,IELTS Preparation,Arafat,<5 Lakh,1,Consultation Done,2025-08-21,13
+LD01050,2025-11-22,Chattogram,Website Form,UK,Study Abroad Consultation,tanvir,10-20 Lakh,3,Contacted,2025-11-25,3
+LD01051,2025-03-21,Kalabagan,Referral,Australia,Study Abroad Consultation,Priya,10-20 Lakh,3,Lost,2025-03-25,4
+LD01052,2025-07-14,Dhanmondi,Facebook Ads,Germany,Language Course,Rafi,5-10 Lakh,2,Contacted,2025-07-27,13
+LD01053,2025-10-11,Kalabagan,Facebook Ads,Germany,Study Abroad Consultation,Arafat,20+ Lakh,3,Contacted,2025-10-16,5
+LD01054,2026-05-23,Kalabagan,Google Ads,UK,Study Abroad Consultation,Rafi,<5 Lakh,4,Consultation Done,2026-06-10,18
+LD01055,2026-07-19,Kalabagan,Website Form,Australia,IELTS Preparation,Tanvir,20+ Lakh,2,Lost,2026-07-31,50
+LD01056,2025-12-30,Chattogram,Facebook Ads,UK,Study Abroad Consultation,Tanvir,<5 Lakh,4,New,2026-01-08,9
+LD01057,2026-01-26,Kalabagan,Walk-in,Malaysia,Study Abroad Consultation,Shuvo,10-20 Lakh,1,New,2026-02-03,8
+LD01058,2026-03-03,Chattogram,Website Form,USA,Study Abroad Consultation,Mim,,1,Contacted,2026-03-06,3
+LD01059,2026-05-24,Kalabagan,Google Ads,Australia,Study Abroad Consultation,Priya,10-20 Lakh,1,Enrolled,2026-07-31,124
+LD01060,2025-06-12,Kalabagan,Referral,UK,Study Abroad Consultation,Rafi,10-20 Lakh,2,Lost,2025-08-04,53
+LD01061,2025-12-30,Chattogram,Referral,UK,Study Abroad Consultation,Tanvir,10-20 Lakh,4,Lost,2026-01-21,22
+LD01062,2025-09-27,Kalabagan,Facebook Ads,USA,Study Abroad Consultation,Shuvo,<5 Lakh,2,Lost,2025-10-13,16
+LD01063,2025-08-14,Uttara,Referral,Malaysia,Study Abroad Consultation,Shuvo,10-20 Lakh,3,Enrolled,2025-12-08,116
+LD01064,2025-02-28,Uttara,Walk-in,Canada,Study Abroad Consultation,Shuvo,<5 Lakh,2,Consultation Done,2025-03-14,14
+LD01065,2025-06-29,Dhanmondi,Seminar/Event,Malaysia,Visa Processing,Arafat,20+ Lakh,4,Visa Approved,2025-09-26,89
+LD01066,2026-05-08,Kalabagan,Seminar/Event,Canada,Study Abroad Consultation,Rafi,10-20 Lakh,5,Lost,2026-05-24,16
+LD01067,2026-06-22,Chattogram,Walk-in,USA,Study Abroad Consultation,Arafat,5-10 Lakh,2,Consultation Done,2026-06-30,8
+LD01068,2025-04-05,Kalabagan,Google Ads,Canada,Study Abroad Consultation,Rafi,5-10 Lakh,1,Enrolled,2025-07-19,105
+LD01069,2025-07-24,Chattogram,Website Form,Australia,Study Abroad Consultation,Shuvo,<5 Lakh,2,New,2025-08-11,18
+LD01070,2025-01-19,Kalabagan,Google Ads,Malaysia,IELTS Preparation,Shuvo,5-10 Lakh,3,Consultation Done,2025-01-28,9
+LD01071,2026-06-29,Sylhet,Facebook Ads,Canada,Study Abroad Consultation,Priya,20+ Lakh,4,Lost,2026-07-10,11
+LD01072,2025-12-22,Uttara,Google Ads,UK,Visa Processing,Priya,<5 Lakh,4,Contacted,2025-12-28,6
+LD01073,2026-05-08,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Priya,<5 Lakh,1,Lost,2026-06-13,36
+LD01074,2025-10-08,Chattogram,Seminar/Event,Malaysia,Study Abroad Consultation,Rafi,10-20 Lakh,1,Enrolled,2025-11-25,48
+LD01075,2026-06-10,Chattogram,Facebook Ads,Canada,Study Abroad Consultation,Arafat,20+ Lakh,7,Enrolled,2026-07-31,142
+LD01076,2025-01-17,Sylhet,Facebook Ads,UK,Study Abroad Consultation,Arafat,10-20 Lakh,3,Lost,2025-03-17,59
+LD01077,2025-12-22,Dhanmondi,Referral,Australia,Language Course,tanvir,5-10 Lakh,1,Lost,2026-02-15,55
+LD01078,2025-10-17,Dhanmondi,Walk-in,Canada,IELTS Preparation,Shuvo,<5 Lakh,4,Consultation Done,2025-10-28,11
+LD01079,2026-07-23,Kalabagan,Google Ads,Malaysia,Study Abroad Consultation,Priya,10-20 Lakh,3,Consultation Done,2026-07-25,2
+LD01080,2025-01-09,Kalabagan,Google Ads,Germany,Study Abroad Consultation,Priya,5-10 Lakh,1,Application Submitted,2025-04-28,109
+LD01081,2025-06-14,Chattogram,Seminar/Event,UK,Language Course,Rafi,5-10 Lakh,6,Lost,2025-06-24,10
+LD01082,2025-06-07,Dhanmondi,Facebook Ads,Malaysia,Visa Processing,Tanvir,5-10 Lakh,4,Contacted,2025-06-13,6
+LD01083,2025-11-17,Uttara,Facebook Ads,Malaysia,Study Abroad Consultation,Mim,5-10 Lakh,3,Consultation Done,2025-11-20,3
+LD01084,2025-10-27,Dhanmondi,Website Form,Germany,Language Course,Tanvir,20+ Lakh,4,New,2025-10-28,1
+LD01085,2025-02-28,Dhanmondi,Facebook Ads,UK,Study Abroad Consultation,Shuvo,10-20 Lakh,4,Contacted,2025-03-06,6
+LD01086,2025-02-27,Kalabagan,Referral,UK,Study Abroad Consultation,Tanvir,20+ Lakh,1,Visa Approved,2025-07-03,126
+LD01087,2025-09-01,Kalabagan,Referral,Malaysia,Study Abroad Consultation,Priya,5-10 Lakh,3,Application Submitted,2025-11-13,73
+LD01088,2025-08-23,Chattogram,Walk-in,Australia,Visa Processing,Mim,5-10 Lakh,1,Contacted,2025-08-26,3
+LD01089,2025-11-26,Kalabagan,Google Ads,Australia,Study Abroad Consultation,Tanvir,10-20 Lakh,3,Lost,2025-12-13,17
+LD01090,2025-08-29,Chattogram,Facebook Ads,Germany,IELTS Preparation,Nusrat,5-10 Lakh,3,Consultation Done,2025-09-07,9
+LD01091,2026-01-01,Uttara,Walk-in,Canada,Study Abroad Consultation,Shuvo,,4,Visa Approved,2026-02-14,44
+LD01092,2025-03-14,Chattogram,Seminar/Event,UK,IELTS Preparation,Rafi,20+ Lakh,3,Consultation Done,2025-03-23,9
+LD01093,2025-02-12,Kalabagan,Facebook Ads,USA,IELTS Preparation,Rafi,<5 Lakh,1,Consultation Done,2025-02-26,14
+LD01094,2026-05-30,Chattogram,Facebook Ads,UK,Study Abroad Consultation,Priya,10-20 Lakh,3,New,2026-06-14,15
+LD01095,2025-08-12,Uttara,Walk-in,Canada,Visa Processing,Priya,10-20 Lakh,6,Application Submitted,2025-12-08,118
+LD01096,2025-01-27,Kalabagan,Walk-in,USA,Language Course,Mim,10-20 Lakh,1,Contacted,2025-02-01,5
+LD01097,2026-04-10,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Mim,10-20 Lakh,2,Contacted,2026-04-11,1
+LD01098,2026-01-18,Kalabagan,Referral,Australia,Study Abroad Consultation,Priya,<5 Lakh,0,Lost,2026-01-24,6
+LD01099,2025-03-24,Kalabagan,Google Ads,Germany,Study Abroad Consultation,Tanvir,<5 Lakh,6,Lost,2025-05-15,52
+LD01100,2025-05-07,Chattogram,Seminar/Event,Germany,Study Abroad Consultation,Shuvo,5-10 Lakh,1,Contacted,2025-05-11,4
+LD01101,2025-11-18,Kalabagan,Referral,Germany,Study Abroad Consultation,Shuvo,10-20 Lakh,4,Enrolled,2026-04-09,142
+LD01102,2025-02-17,Chattogram,Facebook Ads,Germany,Language Course,Priya,10-20 Lakh,6,Contacted,2025-02-17,0
+LD01103,2025-10-01,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Shuvo,10-20 Lakh,2,Enrolled,2025-11-12,42
+LD01104,2026-05-08,Dhanmondi,Google Ads,Germany,IELTS Preparation,Priya,10-20 Lakh,5,New,2026-05-25,17
+LD01105,2026-02-17,Kalabagan,Facebook Ads,UK,IELTS Preparation,Rafi,5-10 Lakh,3,Lost,2026-04-13,55
+LD01106,2025-07-28,Uttara,Walk-in,Canada,Visa Processing,Arafat,5-10 Lakh,3,Contacted,2025-08-16,19
+LD01107,2025-03-06,Sylhet,Facebook Ads,Australia,IELTS Preparation,Rafi,<5 Lakh,6,Lost,2025-05-02,57
+LD01108,2025-10-25,Chattogram,Google Ads,UK,IELTS Preparation,Mim,10-20 Lakh,4,New,2025-11-01,7
+LD01109,2026-03-05,Uttara,Facebook Ads,UK,IELTS Preparation,Arafat,20+ Lakh,1,Application Submitted,2026-07-22,139
+LD01110,2025-08-02,Dhanmondi,Referral,UK,Study Abroad Consultation,Arafat,5-10 Lakh,1,Visa Approved,2025-10-18,77
+LD01111,2025-03-17,Uttara,Facebook Ads,Germany,Study Abroad Consultation,Shuvo,20+ Lakh,3,Contacted,2025-03-19,2
+LD01112,2025-10-13,Sylhet,Website Form,Germany,IELTS Preparation,Shuvo,20+ Lakh,1,New,2025-10-25,12
+LD01113,2025-11-11,Uttara,Google Ads,Australia,IELTS Preparation,Nusrat,5-10 Lakh,4,Contacted,2025-11-22,11
+LD01114,2025-01-22,Dhanmondi,Google Ads,UK,Language Course,Shuvo,20+ Lakh,3,Lost,2025-03-19,56
+LD01115,2025-02-22,Kalabagan,Facebook Ads,Australia,IELTS Preparation,Arafat,5-10 Lakh,0,New,2025-03-02,8
+LD01116,2026-01-07,Dhanmondi,Referral,Australia,Study Abroad Consultation,Nusrat,5-10 Lakh,2,Lost,2026-02-02,26
+LD01117,2025-12-04,Dhanmondi,Google Ads,Malaysia,Language Course,Rafi,10-20 Lakh,4,Contacted,2025-12-16,12
+LD01118,2025-06-24,Kalabagan,Referral,USA,Study Abroad Consultation,Nusrat,10-20 Lakh,2,Lost,2025-08-08,45
+LD01119,2025-03-19,Kalabagan,Website Form,Canada,Study Abroad Consultation,Tanvir,5-10 Lakh,3,Enrolled,2025-07-16,119
+LD01120,2025-04-03,Kalabagan,Referral,USA,Study Abroad Consultation,Rafi,10-20 Lakh,0,Lost,2025-04-18,15
+LD01121,2026-01-08,Chattogram,Google Ads,Canada,IELTS Preparation,Rafi,<5 Lakh,6,New,2026-01-26,18
+LD01122,2025-06-26,Dhanmondi,Facebook Ads,Australia,Study Abroad Consultation,Shuvo,20+ Lakh,2,Lost,2025-08-06,41
+LD01123,2025-03-26,Chattogram,Seminar/Event,Malaysia,Study Abroad Consultation,Priya,<5 Lakh,0,Lost,2025-04-29,34
+LD01124,2026-05-11,Chattogram,Google Ads,USA,Study Abroad Consultation,Mim,5-10 Lakh,4,Enrolled,2026-07-15,65
+LD01125,2025-06-15,Dhanmondi,Walk-in,Malaysia,Language Course,Priya,5-10 Lakh,1,New,2025-06-20,5
+LD01126,2025-07-15,Chattogram,Referral,Germany,Study Abroad Consultation,Mim,5-10 Lakh,6,Enrolled,2025-11-22,130
+LD01127,2025-10-20,Dhanmondi ,Facebook Ads,UK,Study Abroad Consultation,Priya,10-20 Lakh,3,Contacted,2025-10-21,1
+LD01128,2026-02-27,Uttara,Website Form,Malaysia,Visa Processing,Tanvir,20+ Lakh,1,Consultation Done,2026-02-28,1
+LD01129,2025-05-20,Kalabagan,Referral,Canada,Study Abroad Consultation,Nusrat,,4,Lost,2025-07-07,48
+LD01130,2025-06-05,Kalabagan,Referral,Australia,Study Abroad Consultation,Nusrat,20+ Lakh,3,Lost,2025-06-17,12
+LD01131,2026-04-14,Dhanmondi,Website Form,UK,IELTS Preparation,arafat,5-10 Lakh,3,Enrolled,2026-06-21,68
+LD01132,2026-04-06,Kalabagan,Referral,Germany,IELTS Preparation,Mim,5-10 Lakh,4,Enrolled,2026-04-27,21
+LD01133,2025-12-31,Kalabagan,Walk-in,Malaysia,Study Abroad Consultation,Rafi,10-20 Lakh,1,Lost,2026-02-26,57
+LD01134,2025-06-10,Kalabagan,Website Form,Malaysia,Study Abroad Consultation,shuvo,20+ Lakh,4,Lost,2025-07-07,27
+LD01135,2026-01-09,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Arafat,5-10 Lakh,2,Lost,2026-01-10,1
+LD01136,2026-04-05,Chattogram,Google Ads,Canada,Study Abroad Consultation,Priya,10-20 Lakh,3,Consultation Done,2026-04-15,10
+LD01137,2025-12-08,Kalabagan,Walk-in,Germany,Language Course,Arafat,<5 Lakh,2,Lost,2026-01-05,28
+LD01138,2025-12-03,Chattogram,Facebook Ads,Germany,Study Abroad Consultation,Nusrat,20+ Lakh,3,New,2025-12-03,0
+LD01139,2025-10-02,Kalabagan,Seminar/Event,UK,Language Course,Tanvir,<5 Lakh,3,Lost,2025-11-30,59
+LD01140,2025-04-14,Kalabagan,Walk-in,Malaysia,Visa Processing,Rafi,<5 Lakh,2,Lost,2025-05-06,22
+LD01141,2025-07-02,Sylhet,Seminar/Event,Australia,IELTS Preparation,Mim,10-20 Lakh,1,Consultation Done,2025-07-13,11
+LD01142,2025-03-09,Dhanmondi,Walk-in,Canada,Study Abroad Consultation,Priya,5-10 Lakh,3,Contacted,2025-03-16,7
+LD01143,2025-04-10,Kalabagan,Seminar/Event,UK,Study Abroad Consultation,Mim,10-20 Lakh,2,Enrolled,2025-05-31,51
+LD01144,2026-05-15,Sylhet,Website Form,UK,IELTS Preparation,Mim,<5 Lakh,4,Consultation Done,2026-05-18,3
+LD01145,2025-08-24,Kalabagan,Website Form,UK,Study Abroad Consultation,Mim,10-20 Lakh,2,New,2025-09-01,8
+LD01146,2025-08-20,Kalabagan,Website Form,Germany,IELTS Preparation,Priya,<5 Lakh,3,Application Submitted,2025-11-12,84
+LD01147,2026-03-13,Kalabagan,Facebook Ads,Canada,Visa Processing,Tanvir,10-20 Lakh,5,Lost,2026-05-06,54
+LD01148,2025-07-17,Kalabagan,Referral,USA,IELTS Preparation,Rafi,5-10 Lakh,2,Application Submitted,2025-08-01,15
+LD01149,2025-12-03,Uttara,Google Ads,UK,Study Abroad Consultation,Arafat,20+ Lakh,1,New,2025-12-22,19
+LD01150,2025-11-20,Dhanmondi,Facebook Ads,Malaysia,Study Abroad Consultation,Priya,20+ Lakh,2,Enrolled,2025-12-06,16
+LD01151,2025-12-28,Chattogram,Seminar/Event,Canada,Language Course,Mim,10-20 Lakh,3,Contacted,2026-01-04,7
+LD01152,2026-05-28,Sylhet,Facebook Ads,USA,Language Course,Priya,5-10 Lakh,3,Application Submitted,2026-06-26,29
+LD01153,2025-11-20,Chattogram,Seminar/Event,Australia,IELTS Preparation,Rafi,<5 Lakh,2,Lost,2025-11-26,6
+LD01154,2025-01-01,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Tanvir,<5 Lakh,7,Lost,2025-02-02,32
+LD01155,2025-11-15,Kalabagan,Referral,UK,Study Abroad Consultation,Arafat,5-10 Lakh,7,Contacted,2025-12-02,17
+LD01156,2026-06-20,Dhanmondi,Walk-in,Australia,Language Course,tanvir,5-10 Lakh,1,Lost,2026-07-23,33
+LD01157,2026-05-18,Kalabagan,Website Form,USA,Study Abroad Consultation,Priya,<5 Lakh,2,Lost,2026-06-26,39
+LD01158,2026-06-21,Kalabagan,Facebook Ads,Australia,Study Abroad Consultation,Rafi,10-20 Lakh,0,Contacted,2026-06-23,2
+LD01159,2025-08-23,Sylhet,Referral,UK,IELTS Preparation,Arafat,5-10 Lakh,1,Enrolled,2025-12-05,104
+LD01160,2025-07-10,Uttara,Facebook Ads,Germany,Study Abroad Consultation,priya,10-20 Lakh,4,Contacted,2025-07-14,4
+LD01161,2026-01-29,Kalabagan,Seminar/Event,USA,IELTS Preparation,Rafi,10-20 Lakh,2,New,2026-02-13,15
+LD01162,2025-12-27,Chattogram,Facebook Ads,Malaysia,Study Abroad Consultation,Nusrat,10-20 Lakh,5,Lost,2026-02-02,37
+LD01163,2026-01-03,Kalabagan,Referral,UK,IELTS Preparation,Arafat,10-20 Lakh,3,Visa Approved,2026-02-23,51
+LD01164,2026-06-15,Uttara,Seminar/Event,UK,IELTS Preparation,Shuvo,10-20 Lakh,3,New,2026-06-21,6
+LD01165,2026-02-11,Dhanmondi,Facebook Ads,Canada,Visa Processing,Nusrat,5-10 Lakh,4,Consultation Done,2026-02-16,5
+LD01166,2025-08-31,Kalabagan,Facebook Ads,UK,IELTS Preparation,Tanvir,<5 Lakh,4,Lost,2025-10-13,43
+LD01167,2025-04-21,Uttara,Facebook Ads,Canada,Study Abroad Consultation,priya,5-10 Lakh,1,Enrolled,2025-08-14,115
+LD01168,2026-05-23,Kalabagan,Website Form,Germany,IELTS Preparation,Rafi,5-10 Lakh,2,Contacted,2026-06-04,12
+LD01169,2026-03-16,Uttara,Website Form,UK,IELTS Preparation,Shuvo,5-10 Lakh,3,Consultation Done,2026-04-01,16
+LD01170,2026-05-09,Dhanmondi,Referral,UK,IELTS Preparation,Priya,5-10 Lakh,1,Enrolled,2026-07-31,137
+LD01171,2025-07-06,Kalabagan,Facebook Ads,Australia,Visa Processing,Nusrat,<5 Lakh,2,New,2025-07-13,7
+LD01172,2025-12-15,Kalabagan,Seminar/Event,UK,Study Abroad Consultation,Priya,10-20 Lakh,9,Consultation Done,2025-12-18,3
+LD01173,2025-07-30,Chattogram,Walk-in,Malaysia,Study Abroad Consultation,Arafat,20+ Lakh,1,Lost,2025-09-23,55
+LD01174,2025-07-11,Dhanmondi,Facebook Ads,Germany,Study Abroad Consultation,Mim,5-10 Lakh,2,Lost,2025-08-24,44
+LD01175,2025-06-29,Kalabagan,Google Ads,Canada,Study Abroad Consultation,Nusrat,10-20 Lakh,3,Contacted,2025-07-08,9
+LD01176,2026-05-05,Sylhet,Google Ads,Canada,Visa Processing,Shuvo,,3,Enrolled,2026-07-31,96
+LD01177,2026-03-23,Sylhet,Google Ads,USA,IELTS Preparation,Mim,5-10 Lakh,3,Contacted,2026-04-02,10
+LD01178,2025-11-10,Sylhet,Google Ads,Malaysia,Study Abroad Consultation,Nusrat,10-20 Lakh,3,New,2025-11-22,12
+LD01179,2025-11-12,Kalabagan,Seminar/Event,Malaysia,Study Abroad Consultation,Shuvo,5-10 Lakh,2,Consultation Done,2025-11-15,3
+LD01180,2025-03-12,Kalabagan,Walk-in,UK,Visa Processing,Priya,10-20 Lakh,5,New,2025-03-21,9
+LD01181,2025-10-03,Kalabagan,Facebook Ads,Australia,Study Abroad Consultation,Arafat,20+ Lakh,2,Lost,2025-11-10,38
+LD01182,2025-12-02,Uttara,Walk-in,UK,Visa Processing,Rafi,5-10 Lakh,1,Visa Approved,2026-01-22,51
+LD01183,2026-01-28,Kalabagan,Google Ads,UK,Visa Processing,Mim,<5 Lakh,1,Lost,2026-03-04,35
+LD01184,2025-03-22,Uttara,Facebook Ads,USA,IELTS Preparation,Shuvo,5-10 Lakh,3,New,2025-04-07,16
+LD01185,2025-12-10,Uttara,Website Form,Australia,IELTS Preparation,Mim,<5 Lakh,3,Lost,2026-01-07,28
+LD01186,2026-05-04,Uttara,Referral,Canada,IELTS Preparation,Rafi,5-10 Lakh,3,Application Submitted,2026-06-08,35
+LD01187,2025-10-20,Uttara,Walk-in,Canada,Language Course,Priya,<5 Lakh,1,Lost,2025-10-22,2
+LD01188,2026-01-03,Kalabagan,Walk-in,Australia,Study Abroad Consultation,Arafat,10-20 Lakh,1,Lost,2026-02-14,42
+LD01189,2025-01-01,Dhanmondi,Website Form,Germany,Visa Processing,Nusrat,5-10 Lakh,2,Enrolled,2025-04-09,98
+LD01190,2026-06-19,Kalabagan,Referral,UK,Study Abroad Consultation,Nusrat,10-20 Lakh,3,Consultation Done,2026-06-28,9
+LD01191,2026-07-16,Kalabagan,Website Form,Canada,Study Abroad Consultation,Arafat,5-10 Lakh,3,Contacted,2026-07-23,7
+LD01192,2026-03-11,Kalabagan,Seminar/Event,Canada,Study Abroad Consultation,Priya,5-10 Lakh,3,Contacted,2026-03-21,10
+LD01193,2025-08-16,Dhanmondi ,Website Form,Canada,Study Abroad Consultation,Arafat,<5 Lakh,3,Contacted,2025-08-28,12
+LD01194,2026-03-19,Kalabagan,Walk-in,Germany,Study Abroad Consultation,Rafi,<5 Lakh,4,New,2026-03-29,10
+LD01195,2025-08-28,Uttara,Seminar/Event,Canada,Visa Processing,Shuvo,5-10 Lakh,4,Contacted,2025-09-12,15
+LD01196,2025-06-01,Dhanmondi,Seminar/Event,Germany,Study Abroad Consultation,shuvo,5-10 Lakh,4,Application Submitted,2025-10-26,147
+LD01197,2026-01-07,Kalabagan,Facebook Ads,UK,IELTS Preparation,Shuvo,5-10 Lakh,2,Consultation Done,2026-01-22,15
+LD01198,2025-07-27,Uttara,Facebook Ads,UK,IELTS Preparation,Nusrat,5-10 Lakh,1,Consultation Done,2025-08-13,17
+LD01199,2025-06-11,Chattogram,Facebook Ads,Australia,Visa Processing,Arafat,20+ Lakh,3,Lost,2025-07-22,41
+LD01200,2026-07-15,Kalabagan,Referral,Australia,Visa Processing,Shuvo,<5 Lakh,4,Enrolled,2026-07-31,87
+LD00637,2025-06-01,Kalabagan,Referral,UK,IELTS Preparation,Priya,<5 Lakh,2,Enrolled,2025-08-24,84
+LD00684,2026-03-05,Dhanmondi,Website Form,Canada,Language Course,Shuvo,<5 Lakh,4,Consultation Done,2026-03-08,3
+LD01034,2025-06-08,Sylhet,Facebook Ads,Australia,Study Abroad Consultation,Arafat,<5 Lakh,3,Visa Approved,2025-07-03,25
+LD00191,2025-09-07,Kalabagan,Facebook Ads,UK,Study Abroad Consultation,Nusrat,5-10 Lakh,0,Visa Approved,2025-11-03,57
+LD01084,2025-10-27,Dhanmondi,Website Form,Germany,Language Course,Tanvir,20+ Lakh,4,New,2025-10-28,1
+LD00284,2026-01-31,Chattogram,Website Form,Malaysia,Study Abroad Consultation,Rafi,10-20 Lakh,1,Lost,2026-03-20,48
+LD00818,2026-01-24,Uttara,Website Form,Canada,Study Abroad Consultation,Rafi,5-10 Lakh,2,Visa Approved,2026-02-22,29
+LD00315,2026-03-19,Chattogram,Facebook Ads,Australia,Study Abroad Consultation,Tanvir,5-10 Lakh,5,Enrolled,2026-05-19,61
+LD00538,2026-02-09,Kalabagan,Walk-in,Germany,IELTS Preparation,Nusrat,5-10 Lakh,3,Lost,2026-02-23,14
+LD00665,2026-07-08,Kalabagan,Facebook Ads,Canada,Study Abroad Consultation,Mim,10-20 Lakh,2,Lost,2026-07-31,23
+LD00240,2025-05-11,Chattogram,Referral,USA,Study Abroad Consultation,Tanvir,5-10 Lakh,5,Lost,2025-05-21,10
+LD00136,2026-06-27,Kalabagan,Website Form,Australia,Language Course,arafat,<5 Lakh,2,Lost,2026-07-31,58
+LD00336,2025-05-22,Kalabagan,Seminar/Event,UK,Study Abroad Consultation,Mim,<5 Lakh,4,Enrolled,2025-08-20,90
+LD00190,2026-06-26,Uttara,Google Ads,Australia,Study Abroad Consultation,Mim,5-10 Lakh,2,New,2026-06-28,2
+LD00839,2026-01-07,Uttara,Google Ads,Canada,Study Abroad Consultation,Mim,20+ Lakh,1,Application Submitted,2026-02-18,42
